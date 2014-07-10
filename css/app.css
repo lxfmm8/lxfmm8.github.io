@@ -1,0 +1,74 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+/*  border-bottom: 0.1em solid gray;*/
+  margin-left: -40px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-right: 100px;
+  padding: 0 3 3em;
+}
+
+/*.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}*/
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+#allWrapper {
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 20pt;
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-right: 250px;
+};
+
+#homeIntro {
+  margin-right: 40px;
+};
+
+/*.projectImage {
+  height: 50%;
+  width: 50%;
+};*/
+
+.titleDescription {
+  font-weight: 400;
+};
+
+#titleLogo {
+  margin-bottom: 20px;
+};
+
+.descriptions {
+  margin-top: 30px;
+};
+
+/*.footer {
+  top: 85%;
+  position: absolute;
+  font-size: 8pt;
+  margin-top: 30px;
+  padding-top: 5px;
+  border-top: 0.1em solid gray;
+};*/

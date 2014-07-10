@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Xiaofeng Lin</title>
+  <meta name="description" content="xiaofeng lin design">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+  <!-- bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/app.css"/>
+  <!-- google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+
+  <style>
+    .ng-enter{
+      transition: 1.25s;
+      linear all;
+      opacity: 0;
+    }
+    .ng-enter-stagger{
+      transition-delay: 0.5s;
+    }
+    .ng-enter-active{
+      opacity: 1;
+    }
+/*    .ng-leave{
+      transition: 0.75s;
+      opacity: 1;
+    }
+    .ng-leave-stagger{
+      transition-delay: 0.1s;
+    }
+    .ng-leave-active{
+      opacity: 0;
+    }*/
+  </style>
+
+</head>
+
+
+<body>
+
+  <div id='allWrapper'>
+      <br/><br/>
+
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <br/><br/>
+    <div class="viewHolder" ng-view></div>
+    <div class="navBar" style="width: 100%; position: fixed; top: 5%; opacity: 0.7;">
+    <ul class="menu">
+      <div class="btn-group">
+        <a class="btn btn-default" href="#/view1" style="color: gray; text-decoration: none">0</a>
+        <a class="btn btn-default" href="#/view2" style="color: gray; text-decoration: none">1</a>
+        <a class="btn btn-default" href="#/view3" style="color: gray; text-decoration: none">2</a>
+        <a class="btn btn-default" href="#/view4" style="color: gray; text-decoration: none">3</a>
+        <a class="btn btn-default" href="#/view5" style="color: gray; text-decoration: none">4</a>
+        <a class="btn btn-default" href="#/view6" style="color: gray; text-decoration: none">5</a>
+        <a class="btn btn-default" href="#/view7" style="color: gray; text-decoration: none">6</a>
+      </div><!-- end btn-group -->
+    </ul>
+  </div><br/>
+
+  </div>
+
+  <div class="footer">
+    <!-- <p>This site is powered by:</p> -->
+      <a href="https://www.linkedin.com/profile/view?id=181876248"><img src="img/linkedinlogo.png" width="4%"></img></a>&nbsp;&nbsp;
+      <a href="https://www.facebook.com/xiaofeng1989"><img src="img/fblogo.png" width="4%"></img></a>&nbsp;&nbsp;
+      <a href="http://www.weibo.com/xiaofeng890710"><img src="img/weibologo.png" width="4%"></img></a>&nbsp;&nbsp;
+      <a href="https://twitter.com/TimXiaofengLin"><img src="img/twitterlogo.png" width="4%"></img></a>&nbsp;&nbsp;
+      <!-- <a href='http://www.angularjs.org'><img src='img/AngularJS_logo.png' width=7%'></img></a>&nbsp; -->
+      |&nbsp;&nbsp;<a href="http://www.angularjs.org/"><img src="img/angularjslogo.png" width="5%"></img></a>
+
+
+<!--       showing of 'interpolate' filter:
+    {{ 'Current version is v%VERSION%.' | interpolate }} -->
+    <span>&nbsp;&nbsp;Powered by AngularJS  &nbsp;&nbsp;|&nbsp;&nbsp;  ( Tim ) Xiaofeng Lin 2014</span>
+
+
+  </div>
+  <style>
+    .footer {
+      background-color: lightgray;
+      opacity: 0.7;
+      top: 88%;
+      position: fixed;
+      font-size: 10pt;
+      color: black;
+      margin-top: 30px;
+      padding-top: 15px;
+      padding-bottom: 20px;
+      padding-left: 51%;
+    }
+  </style>
+
+  <script src="https://code.angularjs.org/1.2.19/angular.js"></script>
+  <script src="https://code.angularjs.org/1.2.19/angular-route.js"></script>
+  <script src="https://code.angularjs.org/1.2.19/angular-animate.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+
+
+
+</body>
+</html>
