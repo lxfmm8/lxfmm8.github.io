@@ -53,53 +53,64 @@
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <br/><br/>
     <div class="viewHolder" ng-view></div>
     <div class="navBar" style="width: 100%; position: fixed; top: 5%; opacity: 0.7">
-    <ul class="menu">
-      <img src="img/whiff-logo06.png" width="263" style="margin-bottom: 15px"></img><br/>
-      <div class="btn-group">
-        <a class="btn btn-default" href="#/view1" style="color: gray; text-decoration: none">Home</a>
-        <a class="btn btn-default" href="#/view2" style="color: gray; text-decoration: none">1</a>
-        <a class="btn btn-default" href="#/view3" style="color: gray; text-decoration: none">2</a>
-        <a class="btn btn-default" href="#/view4" style="color: gray; text-decoration: none">3</a>
-        <a class="btn btn-default" href="#/view5" style="color: gray; text-decoration: none">4</a>
-        <a class="btn btn-default" href="#/view6" style="color: gray; text-decoration: none">5</a>
-        <a class="btn btn-default" href="#/view7" style="color: gray; text-decoration: none">6</a>
-      </div><!-- end btn-group -->
-    </ul>
+    <a href="#/view1"><img src="img/whiff-logo06.png" width="300" style="margin-bottom: 15px"></img></a><br/>
   </div><br/>
 
   </div>
 
   <div class="footer">
-    <!-- <p>This site is powered by:</p> -->
-      <a href="https://www.linkedin.com/profile/view?id=181876248"><img src="img/linkedinlogo.png" width="4%"></img></a>&nbsp;&nbsp;
-      <a href="https://www.facebook.com/xiaofeng1989"><img src="img/fblogo.png" width="4%"></img></a>&nbsp;&nbsp;
-      <a href="http://www.weibo.com/xiaofeng890710"><img src="img/weibologo.png" width="4%"></img></a>&nbsp;&nbsp;
-      <a href="https://twitter.com/TimXiaofengLin"><img src="img/twitterlogo.png" width="4%"></img></a>&nbsp;&nbsp;
-      <!-- <a href='http://www.angularjs.org'><img src='img/AngularJS_logo.png' width=7%'></img></a>&nbsp; -->
-      |&nbsp;&nbsp;<a href="http://www.angularjs.org/"><img src="img/angularjslogo.png" width="5%"></img></a>
 
+    <!-- <ul class="menu" style="position: fixed; top: 85%; opacity: 0.6">
+
+    </ul> -->
+    <div class="" style="font-size: 14pt; font-weight: 200">
+      <a href="#/view1" style="color: black; text-decoration: none">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#/view2" style="color: black; text-decoration: none">1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#/view3" style="color: black; text-decoration: none">2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#/view4" style="color: black; text-decoration: none">3</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#/view5" style="color: black; text-decoration: none">4</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#/view6" style="color: black; text-decoration: none">5</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#/view7" style="color: black; text-decoration: none">6</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <!-- end btn-group -->
+    &nbsp;&nbsp;
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+
+
+    <!-- <p>This site is powered by:</p> -->
+      <a href="https://www.linkedin.com/profile/view?id=181876248"><img src="img/linkedinlogo.png" width="30"></img></a>&nbsp;&nbsp;
+      <a href="https://www.facebook.com/xiaofeng1989"><img src="img/fblogo.png" width="30"></img></a>&nbsp;&nbsp;
+      <a href="http://www.weibo.com/xiaofeng890710"><img src="img/weibologo.png" width="30"></img></a>&nbsp;&nbsp;
+      <a href="https://twitter.com/TimXiaofengLin"><img src="img/twitterlogo.png" width="30"></img></a>&nbsp;&nbsp;
+      <!-- <a href='http://www.angularjs.org'><img src='img/AngularJS_logo.png' width=7%'></img></a>&nbsp; -->
+      <!-- |&nbsp;&nbsp;<a href="http://www.angularjs.org/"><img src="img/angularjslogo.png" width="35"></img></a> -->
 
 <!--       showing of 'interpolate' filter:
     {{ 'Current version is v%VERSION%.' | interpolate }} -->
-    <span>&nbsp;&nbsp;Powered by AngularJS  &nbsp;&nbsp;|&nbsp;&nbsp;  ( Tim ) Xiaofeng Lin 2014</span>
-
+    <!-- <span>Xiaofeng Lin 2014</span> -->
+    </div>
 
   </div>
   <style>
     .footer {
       background-color: lightgray;
       opacity: 0.7;
-      top: 88%;
+      top: 89%;
       position: fixed;
       font-size: 10pt;
       color: black;
       margin-top: 30px;
       padding-top: 15px;
-      padding-bottom: 20px;
-      padding-left: 51%;
+      padding-bottom: 15px;
+      padding-left: 5%;
+      width: 100%;
     }
   </style>
 
