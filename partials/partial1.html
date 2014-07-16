@@ -1,78 +1,88 @@
+<!-- <div class="row">
+
+    <div class="col-xs-8 col-sm-8">
+
+      <img ng-src='img/picView06_1.jpg' ng-class='projectImage' width='110%'></img>
+    </div>
 
 
-  <section class="">
-    <br/><br/>
-
-    <div class="row">
-
-        <div class="col-xs-8 col-sm-7 intro">
-          <span id='homeIntro'>
-            <p>Welcome to A Whiff of Design by <strong>Xiaofeng Lin</strong>, who is an New York City based interaction designer, illustrator, writer, and mixed-media artist.</p>
-            <p>I believe that the emerging of different media and technology shall be based on the purpose of reinforcing the delivery process of information; otherwise it will bring out the state of confusion along with the loss of pure and essential experience of enjoyment. Secondly, I have an absolute belief in craft. Craftsmanship of design reflects our social and moral responsibility of a designer.<br/></p>
-            <p>I believe that the emerging of different media and technology shall be based on the purpose of reinforcing the delivery process of information; otherwise it will bring out the state of confusion along with the loss of pure and essential experience of enjoyment. Secondly, I have an absolute belief in craft. Craftsmanship of design reflects our social and moral responsibility of a designer.<br/></p>
-          </span><br/>
-
-          <p>email me at: <strong> &nbsp;linx137@newschool.edu</strong></p><br/>
-
-        </div>
-        <!--<style>
-          .intro {
-            border-right: .5pt solid gray;
-          };
-
-        </style>-->
-
-        <div class="row rightPanel">
-          <div class="col-xs-12 col-sm-5">
-
-
-            <!-- <img ng-src='img/picView02.jpg' ng-class='projectImage' height='102%' width='102%'></img> -->
-
-
-            <!-- <div class="radio" ng-repeat="button in ['None', 'Table', 'List']">
-              <label>
-                  <input type="radio" ng-model="data.mode"
-                         value="{{button}}" ng-checked="$first" />
-                  {{button}}
-              </label>
-            </div>
-
-
-        <div ng-switch on="data.mode">
-
-            <div ng-switch-when="Table">
-                <table class="table">
-                    <thead>
-                        <tr><th>#</th><th>Action</th><th>Done</th></tr>
-                    </thead>
-                    <tr ng-repeat="item in todos" ng-class="$odd ? 'odd' : 'even'">
-                        <td>{{$index + 1}}</td>
-                        <td ng-repeat="prop in item">{{prop}}</td>
-                    </tr>
-                </table>
-            </div>
-
-            <div ng-switch-when="List">
-                <ol>
-                    <li ng-repeat="item in todos">
-                        {{item.action}}<span ng-if="item.complete"> (Done)</span>
-                    </li>
-                </ol>
-            </div>
-
-            <div ng-switch-default>
-                <img src="img/vecImage01.png" width="75%" height="75%"></img>
-            </div>
-
-        </div> -->
-
-
-
-      </div><!-- END col-xs-12 col-sm-5 -->
-
+    <div class="col-xs-12 col-sm-5" style="position: fixed; left: 55%">
+      <img src="img/bold-wire01.png" width="95%"></img>
+      <p>This BFA project is not only a celebration of my graduation, as BOLD is an ongoing experiment led by a series of paper typeface development tracing the idea of shape & color variation of forms, media combination, and cultural encounter/blending. The experiment contains ideas on language/wording, self/identity, and cultural differences of software using and exploration. The project itself acts as one demonstration on the topic of “software as a research tool” in a 2D/3D multimedia platform. Obscurity of the created typeface suggests that letters need each other to live, and so do colors, shapes, and cultural elements.</p>
 
     </div>
 
-    </div>
+</div> -->
 
-  </section>
+<br/><br/>
+<div class="columnsContainer">
+
+	<div class="leftColumn" style="opacity: 0.6">
+    <a href="#/view2"><img ng-src='img/blackout-nav.png' ng-class='projectImage' width='43%'></img></a>
+		<a href="#/view3"><img ng-src='img/timeline-nav.png' ng-class='projectImage' width='43%'></img></a><br/><br/>
+		<a href="#/view4"><img ng-src='img/package-nav.png' ng-class='projectImage' width='43%'></img></a>
+		<a href="#/view5"><img ng-src='img/extend-nav.png' ng-class='projectImage' width='43%'></img></a><br/><br/>
+		<a href="#/view6"><img ng-src='img/bold-nav.png' ng-class='projectImage' width='43%'></img></a>
+		<a href="#/view7"><img ng-src='img/block-nav.png' ng-class='projectImage' width='43%'></img></a>
+  </div>
+
+	<div class="rightColumn">
+		<p>Welcome to A Whiff of Design. This site is created and maintained by Tim Xiaofeng Lin, as BOLD is an ongoing experiment led by a series of paper typeface development tracing the idea of shape & color variation of forms, media combination, and cultural encounter/blending. The experiment contains ideas on language/wording, self/identity, and cultural differences of software using and exploration. The project itself acts as one demonstration on the topic of “software as a research tool” in a 2D/3D multimedia platform. Obscurity of the created typeface suggests that letters need each other to live, and so do colors, shapes, and cultural elements.</p>
+	</div>
+
+</div>
+
+
+
+<style>
+
+  *, *:before, *:after {
+
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+
+  }
+
+  .columnsContainer {
+
+    position: relative;
+    width: 105%;
+
+  }
+
+  .leftColumn {
+
+    margin-bottom: .5em;
+
+  }
+
+  /*.inline-items {
+    margin-top: 0;
+  }
+
+  .inline-items li {
+    margin-left: 0;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .inline-items li:first-child {
+    margin-left: 0;
+    border: none;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .inline-items li:last-child {
+    padding-right: 0;
+  }*/
+
+  /* MEDIA QUERIES */
+  @media screen and (min-width: 47.5em ) {
+
+    .leftColumn { margin-right: 20em; }
+
+  	.rightColumn { position: absolute; top: 0; right: 0; width: 35em; padding-left: 150px;}
+  }
+
+</style>
