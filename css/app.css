@@ -129,7 +129,7 @@ body { margin: 0; }
 }
 
 @media screen and (min-width: 47.5em ) {
-  .rightColumn { margin-left: 51em; min-width: 200px;}
+  .rightColumn { margin-left: 67%; min-width: 200px;}
 
-  .leftColumn { position: absolute; top: 0; left: 0; width: 50em;}
+  .leftColumn { position: absolute; top: 0; left: 0; width: 65%;}
 }
