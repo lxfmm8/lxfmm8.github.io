@@ -55,7 +55,8 @@
     <![endif]-->
     <div class="viewHolder" ng-view></div>
     <div class="navBar" style="width: 100%; position: fixed; top: 5%; opacity: 0.7">
-    <a href="#/view1"><img src="img/whiff-logo06.png" width="300" style="margin-bottom: 15px"></img></a><br/>
+    <a href="#/view1" ng-class="outerLink"><img src="img/whiff-logo06.png" width="300" style="margin-bottom: 15px" onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100"
+        onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"></img></a><br/>
   </div><br/>
 
   </div>
