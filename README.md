@@ -2,7 +2,7 @@ lxfmm8.github.io
 ================
 <strong>Migration from Angular Portfolio Project</strong>
 
-<em>personal site project with</em><dfn>AngularJS</dfn>
+<em>personal site project with</em> <dfn>AngularJS</dfn>
 
 <br/>
 <img src="https://angularjs.org/img/AngularJS-large.png"></img><br/><br/>
