@@ -1,10 +1,8 @@
 lxfmm8.github.io
 ================
-Migration from Angular Portfolio Project<br/>
+<strong>Migration from Angular Portfolio Project</strong>
 
 personalSite
-
-my site is now hosted on Github!<br/>
 
 <br/>
 <img src="https://angularjs.org/img/AngularJS-large.png"></img><br/><br/>
