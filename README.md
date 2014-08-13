@@ -55,4 +55,5 @@ Aug 04 2014 - added addtional images for Processing Project<br/>
 Aug 05 2014 - readings New Architecture<br/>
 Aug 06 2014 - readings New Architecture<br/>
 Aug 09 2014 - changed navigation hover images<br/>
+Aug 12 2014 - Python Basics<br/>
 
