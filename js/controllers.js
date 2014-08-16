@@ -53,6 +53,7 @@ angular.module('myApp.controllers', [])
   }])
   .controller('MyCtrl7', ['$scope', function($scope) {
     $scope.project7 = dataModel;
+  }])
   .controller('MyCtrl8', ['$scope', function($scope) {
     $scope.project8 = dataModel;
   }]);
