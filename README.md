@@ -56,4 +56,4 @@ Aug 05 2014 - readings New Architecture<br/>
 Aug 06 2014 - readings New Architecture<br/>
 Aug 09 2014 - changed navigation hover images<br/>
 Aug 12 2014 - Python Basics<br/>
-
+Aug 17 2014 - Added View9<br/>
