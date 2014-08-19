@@ -58,3 +58,4 @@ Aug 09 2014 - changed navigation hover images<br/>
 Aug 12 2014 - Python Basics<br/>
 Aug 17 2014 - Added View9<br/>
 Aug 18 2014 - MAJOR UPDATE: navigation menu change<br/>
+Aug 19 2014 - added two more navigation images<br/>
