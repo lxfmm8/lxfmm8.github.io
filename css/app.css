@@ -85,7 +85,7 @@ body { margin: 0; }
 .leftColumn { margin-bottom: .5em; }
 
 @media screen and (min-width: 47.5em ) {
-  .rightColumn { margin-left: 67%; min-width: 200px;}
+  .rightColumn { margin-left: 66%; min-width: 200px;}
 
   .leftColumn { position: absolute; top: 0; left: 0; width: 65%;}
 }
