@@ -61,3 +61,4 @@ Aug 18 2014 - MAJOR UPDATE: navigation menu change<br/>
 Aug 19 2014 - added two more navigation images<br/>
 Aug 20 2014 - nav image changes<br/>
 Aug 24 2014 - modified descriptions<br/>
+Aug 28 2014 - material research<br/>
