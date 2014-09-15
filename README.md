@@ -68,3 +68,4 @@ Sep 09 2014 - checkin<br/>
 Sep 10 2014 - checkin<br/>
 Sep 12 2014 - checkin<br/>
 Sep 14 2014 - Web Designer example code study<br/>
+Sep 15 2014 - Web Designer example code study<br/>
