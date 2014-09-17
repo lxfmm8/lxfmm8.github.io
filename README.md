@@ -70,3 +70,4 @@ Sep 12 2014 - checkin<br/>
 Sep 14 2014 - Web Designer example code study<br/>
 Sep 15 2014 - Web Designer example code study<br/>
 Sep 16 2014 - Worked on electronic geometrical forms<br/>
+Sep 17 2014 - added link for thesis project<br/>
