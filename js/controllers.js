@@ -8,12 +8,14 @@ angular.module('myApp.controllers', [])
     $scope.homePage = dataModel;
     $scope.data = {};
 
+/*
     $scope.todos = [
       { action: "Get groceries", complete: false },
       { action: "Call plumber", complete: false },
       { action: "Buy running shoes", complete: true },
       { action: "Buy flowers", complete: false },
       { action: "Call family", complete: false }];
+*/
   }])
 
   .controller('MyCtrl1', ['$scope', function($scope) {
