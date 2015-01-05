@@ -20,23 +20,6 @@ angular.module('myApp.controllers', [])
 
   .controller('MyCtrl1', ['$scope', function($scope) {
     $scope.project1 = dataModel;
-
-    // $scope.myInterval = 3000;
-    // var slides = $scope.slides = [];
-    // // slides.image = ['img/picView02.jpg',
-    // //                 'img/picView03.jpg',
-    // //                 'img/picView04.jpg'];
-    // $scope.addSlide = function() {
-    //   // var newWidth = 600 + slides.length;
-    //   slides.push({
-    //     image: ['img/picView02.jpg']
-    //     // text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' +
-    //     //   ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
-    //   });
-    // };
-    // for (var i=0; i<4; i++) {
-    //   $scope.addSlide();
-    // }
   }])
   .controller('MyCtrl2', ['$scope', function($scope) {
     $scope.project2 = dataModel;
@@ -60,5 +43,18 @@ angular.module('myApp.controllers', [])
     $scope.project8 = dataModel;
   }])
   .controller('MyCtrl9', ['$scope', function($scope) {
-    $scope.project9 = dataModel;
+      $scope.project9 = dataModel;
+    }])
+  .controller('MyCtrl10', ['$scope', function($scope) {
+      $scope.project10 = dataModel;
+    }])
+  .controller('MyCtrl11', ['$scope', function($scope) {
+      $scope.project11 = dataModel;
+    }])
+  .controller('MyCtrl12', ['$scope', function($scope) {
+      $scope.project12 = dataModel;
+    }])
+  .controller('MyCtrl_add', ['$scope', function($scope) {
+    $scope.project_add = dataModel;
+
   }]);
