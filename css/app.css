@@ -1,5 +1,15 @@
 /* app css stylesheet */
 
+h1 {
+  font-weight: 700;
+/*  color: #ea5cae;*/
+}
+
+/* JUSTIFIED TEXT */
+/*p {
+  text-align: justify;
+}*/
+
 a {
   text-decoration: none;
   color: #ea5cae;
@@ -44,7 +54,7 @@ li {
 }
 
 #allWrapper {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 20pt;
   margin-top: 0px;
