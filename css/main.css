@@ -17,17 +17,17 @@ a {
   color: #ea5cae;
 }
 
-/* line 23, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 #quotation {
   font-family: "Lora", serif;
 }
 
-/* line 27, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 li:hover {
   border-right: 3pt solid #ea5cae;
 }
 
-/* line 31, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 ul {
   list-style-type: none;
   display: none;
@@ -37,40 +37,40 @@ ul {
   font-size: 0.9em;
   border: 1pt solid #ea5cae;
 }
-/* line 40, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 ul li {
   list-style-type: none;
   line-height: 2em;
 }
 
-/* line 46, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 #titleLogo {
   margin-bottom: 20px;
 }
 
-/* line 50, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 .navBar {
   position: fixed;
   top: 4%;
 }
 
 /*------------------HTML Responsive Columns-------------------*/
-/* line 57, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 .columnsContainer {
   position: relative;
   margin: .5em;
 }
-/* line 61, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 .columnsContainer .leftColumn {
   margin-bottom: .5em;
 }
 @media screen and (min-width: 47.5em) {
-  /* line 66, ../sass/main.scss */
+  /* line 67, ../sass/main.scss */
   .columnsContainer .rightColumn {
     margin-left: 66%;
     min-width: 200px;
   }
-  /* line 68, ../sass/main.scss */
+  /* line 69, ../sass/main.scss */
   .columnsContainer .leftColumn {
     position: absolute;
     top: 0;
