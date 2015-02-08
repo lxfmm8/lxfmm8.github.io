@@ -9,7 +9,9 @@
   <title>Xiaofeng Lin - A Whiff of Design</title>
   <meta name="description" content="xiaofeng lin design">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/app.css"/>
+  <!-- Main Sass/CSS -->
+  <link rel="stylesheet" href="css/main.css"/>
+  <!-- Standard CSS -->
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
   <!-- Dropdown menu style -->
@@ -49,18 +51,21 @@
 
 <body>
 
-  <div id='allWrapper' class='wrap push'>
+  <div id='allWrapper'>
       <br/><br/><br/>
 
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="viewHolder" ng-view style="margin-top: 20px;"></div>
-    	<div id="logoHolder" class="navBar" style="position: fixed; top: 4%">
+      <div class="viewHolder" ng-view style="margin-top: 20px;"></div>
 
-			<a href="#/view1" ng-class="outerLink" style=""><img src="img/whiff-logo07.png" width="300" onmouseout="this.style.opacity=1; this.filters.alpha.opacity=100"
-        onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"></img></a>
+    	<div class="navBar">
+
+  			<a href="#/view1" ng-class="outerLink" style="">
+          <img src="img/whiff-logo07.png" width="300" onmouseout="this.style.opacity=1; this.filters.alpha.opacity=100"
+          onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"/>
+        </a>
 
         <!--  Slick menu  -->
         <ul id="menu" style="display: none; background-color: white; padding: 15px; opacity: 0.9; font-size: 0.9em; border: 1pt solid #ea5cae;">
@@ -74,13 +79,15 @@
           <li><a href="#/view8">Compress and Release</a></li>
           <li><a href="#/view9">Markers UI</a></li>
 
-    
+          <!-- Social Media Links -->
           <li style="opacity: 0.7">
             <a href="https://www.linkedin.com/profile/view?id=181876248"><img src="img/linkedinlogo.png" width="30"></img></a>&nbsp;&nbsp;
             <a href="https://www.facebook.com/xiaofeng1989"><img src="img/fblogo.png" width="30"></img></a>&nbsp;&nbsp;
             <a href="http://www.weibo.com/xiaofeng890710"><img src="img/weibologo.png" width="30"></img></a>&nbsp;&nbsp;
             <a href="https://twitter.com/TimXiaofengLin"><img src="img/twitterlogo.png" width="30"></img></a>&nbsp;&nbsp;
           </li>
+
+
           <hr/>
           <li><a href="#/view_add"><strong>Works In Progress</strong></a></li>
           <li><a href="test.html"><em>Playground</em></a></li>
@@ -92,29 +99,6 @@
   		</div>
 
   	</div>
-  	
-  	<style>
-		#empty .svg-wrapper {
-		  transform: translateY(-50%);
-		  margin: 0 auto;
-		  width: 320px;  
-		}
-		.shape {
-		  stroke-dasharray: 140 540;
-		  stroke-dashoffset: -474;
-		  stroke-width: 8px;
-		  fill: transparent;
-		  stroke: #19f6e8;
-		  border-bottom: 5px solid black;
-		  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-		}
-		.svg-wrapper:hover .shape {
-		  stroke-width: 2px;
-		  stroke-dashoffset: 0;
-		  stroke-dasharray: 760;
-		}
-  	</style>
-
 
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>

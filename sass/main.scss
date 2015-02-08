@@ -1,0 +1,73 @@
+$theme: #ea5cae;
+$serif_font: 'Lora', serif;
+$sans_serif_font: 'Open Sans', sans-serif;
+
+
+#allWrapper {
+  font: {
+    family: $sans_serif_font;
+    weight: 300;
+  }
+  line-height: 20pt;
+  margin: 0px 5% 10px 40px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: $theme;
+}
+#quotation {
+  font-family: $serif_font;
+}
+
+li:hover {
+  border-right: 3pt solid $theme;
+}
+
+ul {
+  list-style-type: none;
+  display: none; 
+  background-color: white; 
+  padding: 15px; 
+  opacity: 0.9; 
+  font-size: 0.9em; 
+  border: 1pt solid $theme;
+  
+  li {
+    list-style-type: none;
+    line-height: 2em;
+  }
+}
+
+#titleLogo {
+  margin-bottom: 20px;
+}
+
+.navBar {
+  position: fixed; 
+  top: 4%;
+}
+
+/*------------------HTML Responsive Columns-------------------*/
+
+.columnsContainer { 
+  position: relative; 
+  margin: .5em;
+
+  .leftColumn { 
+    margin-bottom: .5em; 
+  }
+
+  @media screen and (min-width: 47.5em ) {
+    .rightColumn { margin-left: 66%; min-width: 200px;}
+
+    .leftColumn { position: absolute; top: 0; left: 0; width: 65%;}
+  }
+}
+
+
+
