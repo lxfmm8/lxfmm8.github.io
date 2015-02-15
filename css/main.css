@@ -5,30 +5,26 @@
   line-height: 20pt;
   margin: 0px 5% 10px 40px;
 }
-
-/* line 15, ../sass/main.scss */
-h1 {
-  font-weight: 700;
-}
-
-/* line 19, ../sass/main.scss */
-a {
+/* line 16, ../sass/main.scss */
+#allWrapper a {
   text-decoration: none;
   color: #ea5cae;
 }
-
-/* line 24, ../sass/main.scss */
-#quotation {
+/* line 21, ../sass/main.scss */
+#allWrapper h1 {
+  font-weight: 700;
+}
+/* line 25, ../sass/main.scss */
+#allWrapper #quotation {
   font-family: "Lora", serif;
 }
-
-/* line 28, ../sass/main.scss */
-li:hover {
-  border-right: 3pt solid #ea5cae;
+/* line 29, ../sass/main.scss */
+#allWrapper header {
+  position: fixed;
+  top: 4%;
 }
-
-/* line 32, ../sass/main.scss */
-ul {
+/* line 33, ../sass/main.scss */
+#allWrapper header ul {
   list-style-type: none;
   display: none;
   background-color: white;
@@ -37,41 +33,32 @@ ul {
   font-size: 0.9em;
   border: 1pt solid #ea5cae;
 }
-/* line 41, ../sass/main.scss */
-ul li {
+/* line 42, ../sass/main.scss */
+#allWrapper header ul li {
   list-style-type: none;
   line-height: 2em;
 }
-
 /* line 47, ../sass/main.scss */
-#titleLogo {
-  margin-bottom: 20px;
+#allWrapper header ul li:hover {
+  border-right: 3pt solid #ea5cae;
 }
-
-/* line 51, ../sass/main.scss */
-.navBar {
-  position: fixed;
-  top: 4%;
-}
-
-/*------------------HTML Responsive Columns-------------------*/
-/* line 58, ../sass/main.scss */
-.columnsContainer {
+/* line 53, ../sass/main.scss */
+#allWrapper .columnsContainer {
   position: relative;
   margin: .5em;
 }
-/* line 62, ../sass/main.scss */
-.columnsContainer .leftColumn {
+/* line 57, ../sass/main.scss */
+#allWrapper .columnsContainer .leftColumn {
   margin-bottom: .5em;
 }
 @media screen and (min-width: 47.5em) {
-  /* line 67, ../sass/main.scss */
-  .columnsContainer .rightColumn {
+  /* line 62, ../sass/main.scss */
+  #allWrapper .columnsContainer .rightColumn {
     margin-left: 66%;
     min-width: 200px;
   }
-  /* line 69, ../sass/main.scss */
-  .columnsContainer .leftColumn {
+  /* line 67, ../sass/main.scss */
+  #allWrapper .columnsContainer .leftColumn {
     position: absolute;
     top: 0;
     left: 0;
