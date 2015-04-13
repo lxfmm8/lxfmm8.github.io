@@ -1,27 +1,19 @@
-/* line 6, ../sass/main.scss */
+/* line 5, ../sass/main.scss */
 main.allWrapper {
   line-height: 20pt;
+  width: 90%;
+  margin-top: 80px;
   margin-left: 5%;
   margin-right: 5%;
-  top: 60px;
-  position: absolute;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
-/* line 18, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 main.allWrapper a {
   text-decoration: none;
   color: black;
 }
-/* line 23, ../sass/main.scss */
-main.allWrapper h1 {
-  font-weight: 700;
-}
-/* line 27, ../sass/main.scss */
-main.allWrapper #quotation {
-  font-family: "Lora", serif;
-}
-/* line 30, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 main.allWrapper div.columnsContainer > div.info > h1 {
   font-size: 12em;
   font-weight: 900;
@@ -31,17 +23,17 @@ main.allWrapper div.columnsContainer > div.info > h1 {
   margin-top: 50px;
   margin-bottom: .3em;
 }
-/* line 39, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 main.allWrapper div.columnsContainer > div.info > strong {
   margin-bottom: 5em;
 }
-/* line 42, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 main.allWrapper div.columnsContainer > div.info > p {
   margin-bottom: 3em;
   max-width: 800px;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 header {
   position: fixed;
   top: 0%;
@@ -52,7 +44,7 @@ header {
   padding-top: 3em;
   padding-left: 5.5%;
 }
-/* line 58, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 header ul {
   list-style-type: none;
   display: none;
@@ -62,12 +54,12 @@ header ul {
   font-size: 0.9em;
   border: 1pt solid black;
 }
-/* line 67, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 header ul li {
   list-style-type: none;
   line-height: 2em;
 }
-/* line 72, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 header ul li:hover {
   border-right: 3pt solid black;
 }
