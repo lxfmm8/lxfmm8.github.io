@@ -15,7 +15,8 @@ main.allWrapper a {
 }
 /* line 21, ../sass/main.scss */
 main.allWrapper div.columnsContainer > div.info > h1 {
-  font-size: 12em;
+  width: 90%;
+  font-size: 9em;
   font-weight: 900;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -23,17 +24,17 @@ main.allWrapper div.columnsContainer > div.info > h1 {
   margin-top: 50px;
   margin-bottom: .3em;
 }
-/* line 30, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 main.allWrapper div.columnsContainer > div.info > strong {
   margin-bottom: 5em;
 }
-/* line 33, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 main.allWrapper div.columnsContainer > div.info > p {
   margin-bottom: 3em;
   max-width: 800px;
 }
 
-/* line 39, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 header {
   position: fixed;
   top: 0%;
@@ -44,7 +45,7 @@ header {
   padding-top: 3em;
   padding-left: 5.5%;
 }
-/* line 49, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 header ul {
   list-style-type: none;
   display: none;
@@ -54,12 +55,12 @@ header ul {
   font-size: 0.9em;
   border: 1pt solid black;
 }
-/* line 58, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 header ul li {
   list-style-type: none;
   line-height: 2em;
 }
-/* line 63, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 header ul li:hover {
   border-right: 3pt solid black;
 }
