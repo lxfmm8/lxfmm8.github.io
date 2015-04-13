@@ -41,6 +41,8 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view11', {templateUrl: 'partials/partial11.html', controller: 'MyCtrl10'});
   $routeProvider.when('/view12', {templateUrl: 'partials/partial12.html', controller: 'MyCtrl11'});
   $routeProvider.when('/view13', {templateUrl: 'partials/partial13.html', controller: 'MyCtrl12'});
+  $routeProvider.when('/view14', {templateUrl: 'partials/partial14.html', controller: 'MyCtrl13'});
+  $routeProvider.when('/view15', {templateUrl: 'partials/partial15.html', controller: 'MyCtrl14'});
   $routeProvider.when('/view_add', {templateUrl: 'partials/partial_add.html', controller: 'MyCtrl_add'});
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);

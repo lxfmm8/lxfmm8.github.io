@@ -1,67 +1,73 @@
 /* line 6, ../sass/main.scss */
-#allWrapper {
+main.allWrapper {
+  line-height: 20pt;
+  margin-left: 5%;
+  margin-right: 5%;
+  top: 60px;
+  position: absolute;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  line-height: 20pt;
-  margin: 0px 5% 10px 40px;
 }
-/* line 16, ../sass/main.scss */
-#allWrapper a {
+/* line 18, ../sass/main.scss */
+main.allWrapper a {
   text-decoration: none;
-  color: #ea5cae;
+  color: black;
 }
-/* line 21, ../sass/main.scss */
-#allWrapper h1 {
+/* line 23, ../sass/main.scss */
+main.allWrapper h1 {
   font-weight: 700;
 }
-/* line 25, ../sass/main.scss */
-#allWrapper #quotation {
+/* line 27, ../sass/main.scss */
+main.allWrapper #quotation {
   font-family: "Lora", serif;
 }
-/* line 29, ../sass/main.scss */
-#allWrapper header {
-  position: fixed;
-  top: 4%;
+/* line 30, ../sass/main.scss */
+main.allWrapper div.columnsContainer > div.info > h1 {
+  font-size: 12em;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  line-height: .75em;
+  margin-top: 50px;
+  margin-bottom: .3em;
 }
-/* line 33, ../sass/main.scss */
-#allWrapper header ul {
+/* line 39, ../sass/main.scss */
+main.allWrapper div.columnsContainer > div.info > strong {
+  margin-bottom: 5em;
+}
+/* line 42, ../sass/main.scss */
+main.allWrapper div.columnsContainer > div.info > p {
+  margin-bottom: 3em;
+  max-width: 800px;
+}
+
+/* line 48, ../sass/main.scss */
+header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  background-color: white;
+  height: 120px;
+  padding-top: 3em;
+  padding-left: 5.5%;
+}
+/* line 58, ../sass/main.scss */
+header ul {
   list-style-type: none;
   display: none;
   background-color: white;
   padding: 15px;
   opacity: 0.9;
   font-size: 0.9em;
-  border: 1pt solid #ea5cae;
+  border: 1pt solid black;
 }
-/* line 42, ../sass/main.scss */
-#allWrapper header ul li {
+/* line 67, ../sass/main.scss */
+header ul li {
   list-style-type: none;
   line-height: 2em;
 }
-/* line 47, ../sass/main.scss */
-#allWrapper header ul li:hover {
-  border-right: 3pt solid #ea5cae;
-}
-/* line 53, ../sass/main.scss */
-#allWrapper .columnsContainer {
-  position: relative;
-  margin: .5em;
-}
-/* line 57, ../sass/main.scss */
-#allWrapper .columnsContainer .leftColumn {
-  margin-bottom: .5em;
-}
-@media screen and (min-width: 47.5em) {
-  /* line 62, ../sass/main.scss */
-  #allWrapper .columnsContainer .rightColumn {
-    margin-left: 66%;
-    min-width: 200px;
-  }
-  /* line 67, ../sass/main.scss */
-  #allWrapper .columnsContainer .leftColumn {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 65%;
-  }
+/* line 72, ../sass/main.scss */
+header ul li:hover {
+  border-right: 3pt solid black;
 }
