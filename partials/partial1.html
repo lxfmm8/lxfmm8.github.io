@@ -7,32 +7,30 @@
 	section.home_page > div.row > div.col-md-9 > div:hover {
 		box-shadow: 5px 5px 5px gray;
 	}
-	section.home_page > div.row > div.col-md-9 > div > p {
-		display: none;
+	section.home_page > div.row > div.col-md-9 > div > div {
+		opacity: 0;
+		transition: .5s;
+	}
+	section.home_page > div.row > div.col-md-9 > div:hover > div {
+		opacity: 1;
+	}
+	section.home_page > div.row > div.col-md-9 > div > div.thumb_info > h4 {
 		width: 200px;
-		height: 63px;
+		height: 54px;
 		background-color: black;
 		position: absolute;
 		margin-top: -3em;
 		color: white;
-		font-size: 1.5em;
 		font-family: 'Raleway', sans-serif;
-		font-weight: 100;
+		font-weight: 200;
 		padding-left: .5em;
-		padding-top: .2em;
+		padding-top: .5em;
 	}
-	section.home_page > div.row > div.col-md-9 > div:hover > p {
-		display: block;
-	}
-	section.home_page > div.row > div.col-md-9 > div > span {
-		display: none;
+	section.home_page > div.row > div.col-md-9 > div > div > p {
 		position: absolute;
-		margin-top: -2.5em;
+		margin-top: -2em;
 		color: white;
 		padding-left: .8em;
-	}
-	section.home_page > div.row > div.col-md-9 > div:hover > span {
-		display: block;
 	}
 </style>
 <br><br>
@@ -44,74 +42,98 @@
 
 			<div>
 				<a href="#/view7"><img ng-src='img/square_photos/paper_thingy_thumb.jpg' width='200px' alt="paper thingy"/></a>
-				<p>Paper Thingy</p>
-				<br><span>toy design</span>
+				<div class="thumb_info">
+					<h4>Paper Thingy</h4>
+					<p>/ toy design</p>
+				</div>
 			</div>
 
 	    	<div>
 	    		<a href="#/view2"><img ng-src='img/square_photos/blackout_thumb.jpg' width='200px' alt="blackout 2003"/></a>
-	    		<p>Blackout</p>
-	    		<br><span>information design</span>
+	    		<div class="thumb_info">
+	    			<h4>Blackout</h4>
+	    			<p>/ information design</p>
+	    		</div>
 	    	</div>
 
 	    	<div>
 				<a href="#/view12"><img ng-src='img/square_photos/shift_thumb_2.jpg' width='200px' alt="shift"/></a>
-				<p>Shift</p>
-				<br><span>print</span>
+				<div class="thumb_info">
+					<h4>Shift</h4>
+					<p>/ print</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view14"><img ng-src='img/square_photos/type_lecture_thumb.jpg' width='200px' alt="type lecture posters"/></a>
-				<p>Lecture Posters</p>
-				<br><span>print</span>
+				<div class="thumb_info">
+					<h4>Lecture Posters</h4>
+					<p>/ print</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view15"><img ng-src='img/square_photos/stagflation_thumb.jpg' width='200px' alt="stagflation"/></a>
-				<p>Stagflation</p>
-				<br><span>data visualization</span>
+				<div class="thumb_info">
+					<h4>Stagflation</h4>
+					<p>/ data visualization</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view9"><img ng-src='img/square_photos/markers_thumb.jpg' width='200px' alt="markers ui"/></a>
-				<p>Markers UI</p>
-				<br><span>user interface</span>
+				<div class="thumb_info">
+					<h4>Markers UI</h4>
+					<p>/ user interface</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view4"><img ng-src='img/square_photos/animal_eraser_thumb.jpg' width='200px' alt="animal eraser box"/></a>
-				<p>Animal Eraser Box</p>
-				<br><span>packaging</span>
+				<div class="thumb_info">
+					<h4>Animal Eraser Box</h4>
+					<p>/ packaging</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view10"><img ng-src='img/square_photos/animal_blocks_thumb.jpg' width='200px' alt="balancing blocks"/></a>
-				<p>Balancing Blocks</p>
-				<br><span>toy design</span>
+				<div class="thumb_info">
+					<h4>Balancing Blocks</h4>
+					<p>/ toy design</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view5"><img ng-src='img/square_photos/extendables_thumb.jpg' width='200px' alt="the extendables"/></a>
-				<p>The Extendables</p>
-				<br><span>toy design</span>
+				<div class="thumb_info">
+					<h4>The Extendables</h4>
+					<p>/ toy design</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view6"><img ng-src='img/square_photos/bold_thumb.jpg' width='200px' alt="bold"/></a>
-				<p>The Bold</p>
-				<br><span>installation</span>
+				<div class="thumb_info">
+					<h4>The Bold</h4>
+					<p>/ installation</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view8"><img ng-src='img/square_photos/type_code_thumb.jpg' width='200px' alt="type and code"/></a>
-				<p>Type and Code</p>
-				<br><span>programming</span>
+				<div class="thumb_info">
+					<h4>Type and Code</h4>
+					<p>/ programming</p>
+				</div>
 			</div>
 
 			<div>
 				<a href="#/view3"><img ng-src='img/square_photos/type_timeline_thumb.jpg' width='200px' alt="typeface timeline"/></a>
-				<p>Type Timeline</p>
-				<br><span>information design</span>
+				<div class="thumb_info">
+					<h4>Type Timeline</h4>
+					<p>/ information design</p>
+				</div>
 			</div>
 
 			<!-- Sample Hover Effect -->
@@ -134,12 +156,15 @@
 			
 			<p>Welcome to A Whiff of Design. This site is created by <strong>Tim Xiaofeng Lin</strong> <a href="files/resume_2015.pdf">[resume]</a>, an interaction designer, information architect, and toy maker. He has a BFA in visual communication design from the School of the Art Institute of Chicago, and he is currently working on his MFA at Parsons the New School for Design, Design and Technology program. He embraces all forms of art and design and try to re-construct them in various ways. He strongly believes in function, concept, and social meaning.</p>
 
+			<p>Email: linx137@newschool.edu</p>
+
 			<div>
 	            <a href="https://www.linkedin.com/profile/view?id=181876248"><img src="img/linkedinlogo.png" width="30" alt="linkedin"/></a>&nbsp;&nbsp;
 	            <a href="https://www.facebook.com/xiaofeng1989"><img src="img/fblogo.png" width="30" alt="facebook"/></a>&nbsp;&nbsp;
 	            <a href="http://www.weibo.com/xiaofeng890710"><img src="img/weibologo.png" width="30" alt="weibo"/></a>&nbsp;&nbsp;
 	            <a href="https://twitter.com/TimXiaofengLin"><img src="img/twitterlogo.png" width="30" alt="tweeter"/></a>
       		</div>
+      		<br><br>
 		</div>
 
 	</div>
