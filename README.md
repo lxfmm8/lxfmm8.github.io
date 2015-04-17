@@ -13,12 +13,7 @@ This is my first <a href="https://github.com/angular/angular-seed">Angular Seed<
 $ cd /your/directory<br/>
 $ python -m SimpleHTTPServer<br/><br/>
 
-OR<br/><br/>
-
-change the folder's name to "app" and nest it in an Angular Seed folder and<br/>
-
-$cd /your/directory<br/>
-$ npm start<br/><br/>
+or use your Apache/MAMP server
 
 Journal
 ===============
