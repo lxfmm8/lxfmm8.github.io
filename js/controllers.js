@@ -66,6 +66,9 @@ angular.module('myApp.controllers', [])
   .controller('MyCtrl16', ['$scope', function($scope) {
       $scope.project12 = dataModel;
     }])
+  .controller('MyCtrl17', ['$scope', function($scope) {
+        $scope.project12 = dataModel;
+      }])
   .controller('MyCtrl_add', ['$scope', function($scope) {
     $scope.project_add = dataModel;
 
