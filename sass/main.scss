@@ -1,12 +1,11 @@
 $theme: black;
 $sans_serif_font: 'Open Sans', sans-serif;
 
-
 main.allWrapper {
-  line-height: 20pt;
-  width: 90%;
-  margin: {
-    top: 80px;
+    line-height: 20pt;
+    width: 90%;
+    margin: {
+    top: 100px;
     left: 5%;
     right: 5%;
   }
@@ -42,15 +41,14 @@ header {
     top: 0%;
     left:0%;
     width: 100%;
-    background-color: white;
-    height: 120px;
-    padding-top: 3em;
+    background-color: #f2f2f2;
+    height: 140px;
+    padding-top: 2em;
     padding-left: 5.5%;
     
     ul {
       list-style-type: none;
-      display: none; 
-      background-color: white; 
+      display: none;  
       padding: 15px; 
       opacity: 0.9; 
       font-size: 0.9em; 
