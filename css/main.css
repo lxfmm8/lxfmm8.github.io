@@ -35,9 +35,10 @@ header {
   left: 0%;
   width: 100%;
   background-color: #f2f2f2;
-  height: 140px;
+  height: 180px;
   padding-top: 2em;
   padding-left: 5.5%;
+  padding-bottom: 2em;
 }
 header ul {
   list-style-type: none;
