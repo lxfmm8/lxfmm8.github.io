@@ -54,3 +54,12 @@ header ul li {
 header ul li:hover {
   border-right: 3pt solid black;
 }
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

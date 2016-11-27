@@ -1,21 +1,21 @@
 <style>
-	section.home_page > div.row > div.col-md-9 > div {
+	section.home_page > div.row > div.col-md-4 > div {
 		display: inline-block;
-		margin: .5em .5em .8em .5em;
-		width: 330px;
+		margin: .5em .5em 1.5em .5em;
+		width: 100%;
 	}
-	section.home_page > div.row > div.col-md-9 > div:hover {
+	section.home_page > div.row > div.col-md-4 > div:hover {
 		box-shadow: 5px 5px 5px gray;
 	}
-	section.home_page > div.row > div.col-md-9 > div > div {
+	section.home_page > div.row > div.col-md-4 > div > div {
 		opacity: 0;
 		transition: .5s;
 	}
-	section.home_page > div.row > div.col-md-9 > div:hover > div.thumb_info {
+	section.home_page > div.row > div.col-md-4 > div:hover > div.thumb_info {
 		opacity: 1;
 	}
-	section.home_page > div.row > div.col-md-9 > div > div.thumb_info > h4 {
-		width: 330px;
+	section.home_page > div.row > div.col-md-4 > div > div.thumb_info > h4 {
+		width: 65%;
 		height: 54px;
 		background-color: black;
 		position: absolute;
@@ -26,13 +26,19 @@
 		padding-left: .5em;
 		padding-top: .5em;
 	}
-	section.home_page > div.row > div.col-md-9 > div > div > p {
+	section.home_page > div.row > div.col-md-4 > div > div > p {
 		position: absolute;
 		margin-top: -2em;
 		color: white;
 		padding-left: .8em;
 	}
-	section.home_page > div.row > div.col-md-3 > nav {
+
+	section.home_page > div.row {
+		margin-bottom: 2em;
+	}
+
+
+	/*section.home_page > div.row > div.col-md-3 > nav {
 		position: fixed;
 		margin-top: 0.5em;
 	}
@@ -54,7 +60,7 @@
   		.allWrapper {
 		    margin-left: 0 auto;
 		}
-	}
+	}*/
 </style>
 
 
@@ -63,10 +69,10 @@
 <section class="home_page">
 	<div class="row">
 
-		<div class="col-md-9" id="imageList">
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="imageList">
 
 			<div>
-				<a href="#/view14"><img id="lecture_posters_thumb" ng-src='img/square_photos/stats_thumb.png' width='330px' alt="type lecture posters"/></a>
+				<a href="#/view14"><img id="lecture_posters_thumb" ng-src='img/square_photos/stats_thumb.png' width='100%' alt="type lecture posters"/></a>
 				<div class="thumb_info">
 					<h4>Stats Visualization</h4>
 					<p>/ user interface</p>
@@ -74,36 +80,30 @@
 			</div>
 
 			<div>
-				<a href="#/view7"><img id="paperthingy_thumb" ng-src='img/square_photos/paper_thingy_thumb.jpg' width='330px' alt="paper thingy"/></a>
+				<a href="#/view7"><img id="paperthingy_thumb" ng-src='img/square_photos/paper_thingy_thumb.jpg' width='100%' alt="paper thingy"/></a>
 				<div class="thumb_info">
 					<h4>Paper Thingy</h4>
 					<p>/ product design</p>
 				</div>
 			</div>
 
-			
-
-	    	<div>
-	    		<a href="#/view2"><img id="blackout_thumb" ng-src='img/square_photos/blackout_thumb-1.png' width='330px' alt="blackout 2003"/></a>
-	    		<div class="thumb_info">
-	    			<h4>Blackout 2003</h4>
-	    			<p>/ information design</p>
-	    		</div>
-	    	</div>
-
-	    	<div>
-				<a href="#/view17"><img id="sanctuary_branding_thumb" ng-src='img/square_photos/sanctuary_thumb.png' width='330px' alt="sanctuary branding"/></a>
+			<div>
+				<a href="#/view8"><img id="type_and_code_thumb" ng-src='img/square_photos/type_code_thumb.png' width='100%' alt="type and code"/></a>
 				<div class="thumb_info">
-					<h4>Sanctuary Branding</h4>
-					<p>/ branding</p>
+					<h4>Type and Code</h4>
+					<p>/ generative typography</p>
 				</div>
 			</div>
+	  </div>
 
-	    	
-	    	
+
+
+
+
+	  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="imageList">
 
 			<div>
-				<a href="#/view9"><img id="markers_ui_thumb" ng-src='img/square_photos/markers_thumb.png' width='330px' alt="markers ui"/></a>
+				<a href="#/view9"><img id="markers_ui_thumb" ng-src='img/square_photos/markers_thumb.png' width='100%' alt="markers ui"/></a>
 				<div class="thumb_info">
 					<h4>Markers</h4>
 					<p>/ user interface</p>
@@ -111,35 +111,50 @@
 			</div>
 
 			<div>
-				<a href="#/view12"><img id="chain_thumb" ng-src='img/square_photos/chain-of-thought-th-1.png' width='330px' alt="shift"/></a>
+				<a href="#/view12"><img id="chain_thumb" ng-src='img/square_photos/chain-of-thought-th-1.png' width='100%' alt="shift"/></a>
 				<div class="thumb_info">
 					<h4>Chain of Thought</h4>
 					<p>/ illustration</p>
 				</div>
 			</div>
 
-			
-
 			<div>
-				<a href="#/view8"><img id="type_and_code_thumb" ng-src='img/square_photos/type_code_thumb.png' width='330px' alt="type and code"/></a>
-				<div class="thumb_info">
-					<h4>Type and Code</h4>
-					<p>/ generative typography</p>
-				</div>
+				<a href="#/view15"><img id="stagflation_thumb" ng-src='img/square_photos/layout.png' width='100%' alt="stagflation"/></a>
+
 			</div>
+	  </div>
+
+
+
+	  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="imageList">
 
 			<div>
-				<a href="#/view3"><img id="type_timeline_thumb" ng-src='img/box-type-label/box-type-thumb.jpg' width='330px' alt="typeface timeline"/></a>
+	    		<a href="#/view2"><img id="blackout_thumb" ng-src='img/square_photos/blackout_thumb-1.png' width='100%' alt="blackout 2003"/></a>
+	    		<div class="thumb_info">
+	    			<h4>Blackout 2003</h4>
+	    			<p>/ information design</p>
+	    		</div>
+	    	</div>
+
+	    	<div>
+				<a href="#/view17"><img id="sanctuary_branding_thumb" ng-src='img/square_photos/sanctuary_thumb.png' width='100%' alt="sanctuary branding"/></a>
 				<div class="thumb_info">
-					<h4>Boxes / Type / Labels</h4>
+					<h4>Sanctuary Branding</h4>
 					<p>/ branding</p>
 				</div>
 			</div>
 
-			
+						<div>
+				<a href="#/view10"><img id="balancing_blocks_thumb" ng-src='img/square_photos/toy.png' width='100%' alt="balancing blocks"/></a>
+
+			</div>
+	  </div>
+
+
+	  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="imageList">
 
 			<div>
-				<a href="#/view4"><img id="animal_eraser_box_thumb" ng-src='img/square_photos/yuhua-stone-th-1.png' width='330px' alt="animal eraser box"/></a>
+				<a href="#/view4"><img id="animal_eraser_box_thumb" ng-src='img/square_photos/yuhua-stone-th-1.png' width='100%' alt="animal eraser box"/></a>
 				<div class="thumb_info">
 					<h4>Yuhua Agate Web</h4>
 					<p>/ user interface</p>
@@ -147,91 +162,33 @@
 			</div>
 
 			<div>
-				<a href="#/view15"><img id="stagflation_thumb" ng-src='img/square_photos/layout.png' width='330px' alt="stagflation"/></a>
-
-			</div>
-
-
-			<div>
-				<a href="#/view10"><img id="balancing_blocks_thumb" ng-src='img/square_photos/toy.png' width='330px' alt="balancing blocks"/></a>
-
-			</div>
-			
-			<div>
-				<a href="#/view11"><img id="100_birds_thumb" ng-src='img/square_photos/drawing.png' width='330px' alt="100 birds"/></a>
-
-			</div>
-<!--
-			
-			
-
-			
-
-			
-
-			<div>
-				<a href="#/view5"><img id="the_extendables_thumb" ng-src='img/square_photos/extendables_thumb.jpg' width='330px' alt="the extendables"/></a>
+				<a href="#/view3"><img id="type_timeline_thumb" ng-src='img/box-type-label/box-type-thumb.jpg' width='100%' alt="typeface timeline"/></a>
 				<div class="thumb_info">
-					<h4>The Extendables</h4>
-					<p>/ toy design</p>
+					<h4>Boxes / Type / Labels</h4>
+					<p>/ branding</p>
 				</div>
 			</div>
-
-			<div>
-				<a href="#/view6"><img id="the_bold_thumb" ng-src='img/square_photos/bold_thumb.jpg' width='330px' alt="bold"/></a>
-				<div class="thumb_info">
-					<h4>The Bold</h4>
-					<p>/ installation</p>
-				</div>
-			</div>
-
 			
-
 			<div>
-				<a href="#/view16"><img id="saverist_thumb" ng-src='img/square_photos/saverist_thumb.jpg' width='330px' alt="$averist"/></a>
-				<div class="thumb_info">
-					<h4>$averist</h4>
-					<p>/ user interface</p>
-				</div>
-			</div>
+				<a href="#/view11"><img id="100_birds_thumb" ng-src='img/square_photos/drawing.png' width='100%' alt="100 birds"/></a>
 
-
-			<div>
-				<a href="#/view18"><img id="graphis_thumb" ng-src='img/square_photos/graphis_thumb.jpg' width='330px' alt="graphis index"/></a>
-				<div class="thumb_info">
-					<h4>Graphis Index</h4>
-					<p>/ typography</p>
-				</div>
 			</div>
-			<div>
-				<a href="#/view19"><img id="thingy_poster_thumb" ng-src='img/square_photos/thingy_poster_thumb.jpg' width='330px' alt="graphis index"/></a>
-				<div class="thumb_info">
-					<h4>PT Promotion</h4>
-					<p>/ graphic design</p>
-				</div>
-			</div>
-
-			-->
-			<br><br><br>
-			<footer>Copyright 2015-2016 Xiaofeng Lin</footer><br />
 	  </div>
 
-		<div class="col-md-3">
+		<!--div class="col-md-3">
 
-			<!-- <p>Welcome to A Whiff of Design. This AngularJS site is created by Tim Xiaofeng Lin, an interaction designer, information architect, and toy maker.</p> -->
 			<nav>
 				<ul>
 					
 					<li><a href="#/view13"><h5><strong style="background-color: black; color: white; padding: .5em;">ABOUT ME</strong></h5></a></li>
 					<br />
-					<!--h5>linx137@newschool.edu</h5><br-->
 
-					<!-- <a href="https://www.linkedin.com/profile/view?id=181876248"><img src="img/linkedinlogo.png" width="30px" alt="linkedin"/></a>&nbsp;
+					<a href="https://www.linkedin.com/profile/view?id=181876248"><img src="img/linkedinlogo.png" width="30px" alt="linkedin"/></a>&nbsp;
 	        		<a href="https://www.facebook.com/xiaofeng1989"><img src="img/fblogo.png" width="30px" alt="facebook"/></a>&nbsp;
 	        		<a href="http://www.weibo.com/xiaofeng890710"><img src="img/weibologo.png" width="30px" alt="weibo"/></a>&nbsp;
-	        		<a href="https://twitter.com/TimXiaofengLin"><img src="img/twitterlogo.png" width="30px" alt="tweeter"/></a> -->
+	        		<a href="https://twitter.com/TimXiaofengLin"><img src="img/twitterlogo.png" width="30px" alt="tweeter"/></a>
 
-					<!-- <li class="home_menu_title">Toy Design</li>
+					<li class="home_menu_title">Toy Design</li>
 					<li class="home_menu_item" id ="menu_item_paper_thingy"><a href="#/view7">Paper Thingy</a></li>
 					<li class="home_menu_item" id ="menu_item_balancing_blocks"><a href="#/view10">Balancing Blocks</a></li>
 					<li class="home_menu_item" id ="menu_item_the_extendables"><a href="#/view5">The Extendables</a></li>
@@ -254,7 +211,7 @@
 					<li class="home_menu_item" id ="menu_item_the_bold"><a href="#/view6">The Bold</a></li>
 					<li class="home_menu_item" id ="menu_item_type_and_code"><a href="#/view8">Type and Code</a></li>
 					<li class="home_menu_item" id ="menu_item_100_birds"><a href="#/view11">100 Birds</a></li>
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view17">Sanctuary Branding</a></li> -->
+					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view17">Sanctuary Branding</a></li>
 
 					<li class="home_menu_item" id ="menu_item_stagflation"><a href="#/view14">Stats Viz. System</a></li>
 					<li class="home_menu_item" id ="menu_item_animal_eraser_box"><a href="#/view7">Paper Thingy</a></li>
@@ -281,7 +238,7 @@
 
       		</div>
       		<br><br>
-		</div>
+		</div-->
 
 	</div>
 
