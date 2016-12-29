@@ -111,8 +111,3 @@ section.home_page > div.row {
   margin-bottom: 2em;
   margin-top: 2em;
 }
-
-/*----- project page styles -----*/
-div.columnsContainer > div.project_photos > div {
-  margin: 0 1em 0 1em;
-}
