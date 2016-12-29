@@ -1,72 +1,7 @@
-<style>
-	section.home_page > div.row > div.col-md-4 > div {
-		display: inline-block;
-		margin: .5em .5em 1.5em .5em;
-		width: 100%;
-	}
-	section.home_page > div.row > div.col-md-4 > div:hover {
-		box-shadow: 5px 5px 5px gray;
-	}
-	section.home_page > div.row > div.col-md-4 > div > div {
-		opacity: 0;
-		transition: .5s;
-	}
-	section.home_page > div.row > div.col-md-4 > div:hover > div.thumb_info {
-		opacity: 1;
-	}
-	section.home_page > div.row > div.col-md-4 > div > div.thumb_info > h4 {
-		width: 65%;
-		height: 54px;
-		background-color: black;
-		position: absolute;
-		margin-top: -3em;
-		color: white;
-		font-family: 'Raleway', sans-serif;
-		font-weight: 200;
-		padding-left: .5em;
-		padding-top: .5em;
-	}
-	section.home_page > div.row > div.col-md-4 > div > div > p {
-		position: absolute;
-		margin-top: -2em;
-		color: white;
-		padding-left: .8em;
-	}
-
-	section.home_page > div.row {
-		margin-bottom: 2em;
-	}
-
-
-	/*section.home_page > div.row > div.col-md-3 > nav {
-		position: fixed;
-		margin-top: 0.5em;
-	}
-	section.home_page > div.row > div.col-md-3 > nav > ul {
-		list-style: none;
-		text-indent: 0;
-		padding-left: 0;
-	}
-	section.home_page > div.row > div.col-md-3 > nav > ul > li.home_menu_title {
-		border-bottom: 1pt solid lightgray;
-		margin-top: .5em;
-		font-weight: 600;
-	}
-	section.home_page > div.row > div.col-md-3 > nav > ul > li.home_menu_item:hover {
-		font-weight: 400;
-	}
-
-	@media all and (max-width: 494px) {
-  		.allWrapper {
-		    margin-left: 0 auto;
-		}
-	}*/
-</style>
-
-
 
 <br><br>
 <section class="home_page">
+
 	<div class="row">
 
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="imageList">
@@ -94,6 +29,10 @@
 					<p>/ generative typography</p>
 				</div>
 			</div>
+
+			<div>
+				<a href="#/view15"><img id="stagflation_thumb" ng-src='img/square_photos/layout.png' width='100%' alt="stagflation"/></a>
+			</div>
 	  </div>
 
 
@@ -102,10 +41,10 @@
 
 	  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="imageList">
 
-			<div>
-				<a href="#/view9"><img id="markers_ui_thumb" ng-src='img/square_photos/markers_thumb.png' width='100%' alt="markers ui"/></a>
+		  <div>
+				<a href="#/view19"><img id="bpds_thumb" ng-src='img/square_photos/BPDS_thumb.png' width='100%' alt="brookfield"/></a>
 				<div class="thumb_info">
-					<h4>Markers</h4>
+					<h4>Brookfield</h4>
 					<p>/ user interface</p>
 				</div>
 			</div>
@@ -119,14 +58,31 @@
 			</div>
 
 			<div>
-				<a href="#/view15"><img id="stagflation_thumb" ng-src='img/square_photos/layout.png' width='100%' alt="stagflation"/></a>
+				<a href="#/view20"><img id="selfpromo_thumb" ng-src='img/square_photos/selfpromo_thumb-1.png' width='100%' alt="shift"/></a>
+				<div class="thumb_info">
+					<h4>Self Identity</h4>
+					<p>/ branding</p>
+				</div>
+			</div>
+
+			<div>
+				<a href="#/view10"><img id="balancing_blocks_thumb" ng-src='img/square_photos/toy.png' width='100%' alt="balancing blocks"/></a>
 
 			</div>
+
 	  </div>
 
 
 
 	  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="imageList">
+
+		  <div>
+				<a href="#/view9"><img id="markers_ui_thumb" ng-src='img/square_photos/markers_thumb.png' width='100%' alt="markers ui"/></a>
+				<div class="thumb_info">
+					<h4>Markers</h4>
+					<p>/ user interface</p>
+				</div>
+			</div>
 
 			<div>
 	    		<a href="#/view2"><img id="blackout_thumb" ng-src='img/square_photos/blackout_thumb-1.png' width='100%' alt="blackout 2003"/></a>
@@ -144,7 +100,7 @@
 				</div>
 			</div>
 
-						<div>
+			<div>
 				<a href="#/view10"><img id="balancing_blocks_thumb" ng-src='img/square_photos/toy.png' width='100%' alt="balancing blocks"/></a>
 
 			</div>
@@ -168,6 +124,14 @@
 					<p>/ branding</p>
 				</div>
 			</div>
+
+			<div>
+				<a href="#/view18"><img id="confirmit_thumb" ng-src='img/square_photos/confirmit_thumb.png' width='100%' alt="confirmit"/></a>
+				<div class="thumb_info">
+					<h4>Confirmit</h4>
+					<p>/ branding</p>
+				</div>
+			</div>
 			
 			<div>
 				<a href="#/view11"><img id="100_birds_thumb" ng-src='img/square_photos/drawing.png' width='100%' alt="100 birds"/></a>
@@ -175,70 +139,6 @@
 			</div>
 	  </div>
 
-		<!--div class="col-md-3">
-
-			<nav>
-				<ul>
-					
-					<li><a href="#/view13"><h5><strong style="background-color: black; color: white; padding: .5em;">ABOUT ME</strong></h5></a></li>
-					<br />
-
-					<a href="https://www.linkedin.com/profile/view?id=181876248"><img src="img/linkedinlogo.png" width="30px" alt="linkedin"/></a>&nbsp;
-	        		<a href="https://www.facebook.com/xiaofeng1989"><img src="img/fblogo.png" width="30px" alt="facebook"/></a>&nbsp;
-	        		<a href="http://www.weibo.com/xiaofeng890710"><img src="img/weibologo.png" width="30px" alt="weibo"/></a>&nbsp;
-	        		<a href="https://twitter.com/TimXiaofengLin"><img src="img/twitterlogo.png" width="30px" alt="tweeter"/></a>
-
-					<li class="home_menu_title">Toy Design</li>
-					<li class="home_menu_item" id ="menu_item_paper_thingy"><a href="#/view7">Paper Thingy</a></li>
-					<li class="home_menu_item" id ="menu_item_balancing_blocks"><a href="#/view10">Balancing Blocks</a></li>
-					<li class="home_menu_item" id ="menu_item_the_extendables"><a href="#/view5">The Extendables</a></li>
-
-					<li class="home_menu_title">Information Design</li>
-					<li class="home_menu_item" id ="menu_item_blackout"><a href="#/view2">Blackout 2003</a></li>
-					<li class="home_menu_item" id ="menu_item_type_timeline"><a href="#/view3">Type Timeline</a></li>
-
-					<li class="home_menu_title">Print</li>
-					<li class="home_menu_item" id ="menu_item_lecture_posters"><a href="#/view14">Lecture Posters</a></li>
-					<li class="home_menu_item" id ="menu_item_shift"><a href="#/view12">Shift</a></li>
-
-					<li class="home_menu_title">User Interface</li>
-					<li class="home_menu_item" id ="menu_item_markers_ui"><a href="#/view9">Markers UI</a></li>
-					<li class="home_menu_item" id ="menu_item_saverist"><a href="#/view16">$averist</a></li>
-
-					<li class="home_menu_title">Misc.</li>
-					<li class="home_menu_item" id ="menu_item_stagflation"><a href="#/view15">Stagflation</a></li>
-					<li class="home_menu_item" id ="menu_item_animal_eraser_box"><a href="#/view4">Animal Eraser Box</a></li>
-					<li class="home_menu_item" id ="menu_item_the_bold"><a href="#/view6">The Bold</a></li>
-					<li class="home_menu_item" id ="menu_item_type_and_code"><a href="#/view8">Type and Code</a></li>
-					<li class="home_menu_item" id ="menu_item_100_birds"><a href="#/view11">100 Birds</a></li>
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view17">Sanctuary Branding</a></li>
-
-					<li class="home_menu_item" id ="menu_item_stagflation"><a href="#/view14">Stats Viz. System</a></li>
-					<li class="home_menu_item" id ="menu_item_animal_eraser_box"><a href="#/view7">Paper Thingy</a></li>
-					<li class="home_menu_item" id ="menu_item_the_bold"><a href="#/view2">Blackout 2003</a></li>
-					<li class="home_menu_item" id ="menu_item_type_and_code"><a href="#/view17">Sanctuary Branding</a></li>
-					<li class="home_menu_item" id ="menu_item_100_birds"><a href="#/view9">Markers</a></li>
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view12">Chain of Thought</a>
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view8">Type &amp; Code</a>
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view3">Boxes, Type, Labels</a>
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view4">Yuhua Agate Web</a>
-
-					<br><br>
-
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view15">/ LAYOUT COLLECTION</a>
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view10">/ TOY COLLECTION</a>
-					<li class="home_menu_item" id ="menu_item_sanctuary_branding"><a href="#/view11">/ DRAWING COLLECTION</a>
-
-					<br>
-				</ul>
-				<img src="img/angular-info-2.png" width="350px" />
-			</nav>
-
-			<div>
-
-      		</div>
-      		<br><br>
-		</div-->
 
 	</div>
 

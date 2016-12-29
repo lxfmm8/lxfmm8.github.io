@@ -1,11 +1,12 @@
 main.allWrapper {
-  line-height: 20pt;
+  line-height: 22pt;
   width: 90%;
   margin-top: 100px;
   margin-left: 5%;
   margin-right: 5%;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  font-size: 1.2em;
 }
 main.allWrapper a {
   text-decoration: none;
@@ -13,11 +14,11 @@ main.allWrapper a {
 }
 main.allWrapper div.columnsContainer > div.info > h1 {
   width: 90%;
-  font-size: 8em;
+  font-size: calc(1em + 10vmin);
   font-weight: 900;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  line-height: .75em;
+  line-height: .85em;
   margin-top: 50px;
   margin-bottom: .3em;
 }
@@ -26,7 +27,7 @@ main.allWrapper div.columnsContainer > div.info > strong {
 }
 main.allWrapper div.columnsContainer > div.info > p {
   margin-bottom: 3em;
-  max-width: 800px;
+  max-width: 75%;
 }
 
 header {
@@ -63,4 +64,55 @@ img {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+/*----- home page styles -----*/
+section.home_page > div.row > div.col-md-4 > div {
+  display: inline-block;
+  margin: .5em .5em 1.5em .5em;
+  width: 100%;
+  line-height: 28pt;
+}
+
+section.home_page > div.row > div.col-md-4 > div:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+section.home_page > div.row > div.col-md-4 > div > div {
+  opacity: 0;
+  transition: .5s;
+}
+
+section.home_page > div.row > div.col-md-4 > div:hover > div.thumb_info {
+  opacity: 1;
+}
+
+section.home_page > div.row > div.col-md-4 > div > div.thumb_info > h4 {
+  width: 65%;
+  height: 54px;
+  background-color: black;
+  position: absolute;
+  margin-top: -3em;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  padding-left: .5em;
+  padding-top: .5em;
+}
+
+section.home_page > div.row > div.col-md-4 > div > div > p {
+  position: absolute;
+  margin-top: -2em;
+  color: white;
+  padding-left: .8em;
+}
+
+section.home_page > div.row {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+/*----- project page styles -----*/
+div.columnsContainer > div.project_photos > div {
+  margin: 0 1em 0 1em;
 }
