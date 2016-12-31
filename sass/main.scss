@@ -79,43 +79,50 @@ img {
 
 
 /*----- home page styles -----*/
-section.home_page > div.row > div.col-md-4 > div {
-		display: inline-block;
-		margin: .5em .5em 1.5em .5em;
-		height: 100%;
-    line-height: 28pt;
-	}
-	section.home_page > div.row > div.col-md-4 > div:hover {
-		box-shadow: 7px 7px 7px gray;
-	}
-	section.home_page > div.row > div.col-md-4 > div > div {
-		opacity: 0;
-		transition: .5s;
-	}
-	section.home_page > div.row > div.col-md-4 > div:hover > div.thumb_info {
-		opacity: 1;
-	}
-	section.home_page > div.row > div.col-md-4 > div > div.thumb_info > h4 {
-		width: 65%;
-		height: 54px;
-		background-color: black;
-		position: absolute;
-		margin-top: -3em;
-		color: white;
-		font-family: 'Raleway', sans-serif;
-		font-weight: 200;
-		padding-left: .5em;
-		padding-top: .5em;
-	}
-	section.home_page > div.row > div.col-md-4 > div > div > p {
-		position: absolute;
-		margin-top: -2em;
-		color: white;
-		padding-left: .8em;
-	}
+section.home_page {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  padding: 0;
+}
 
-	section.home_page > div.row {
-		margin-bottom: 2em;
-		margin-top: 2em;
-	}
+section.home_page > div.col-md-4 {
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+section.home_page > div.col-md-4 > div.list_group {
+  display: inline-block;
+  margin: .5em .5em 1.5em .5em;
+  width: 100%;
+    line-height: 28pt;
+}
+section.home_page > div.col-md-4 > div:hover {
+  box-shadow: 7px 7px 7px gray;
+}
+section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
+  opacity: 0;
+  transition: .5s;
+}
+section.home_page > div.col-md-4 > div:hover > div.thumb_info {
+  opacity: 1;
+}
+section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
+  width: 65%;
+  height: 55px;
+  background-color: black;
+  position: absolute;
+  margin-top: -3em;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  padding-left: .5em;
+  padding-top: .5em;
+}
+section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
+  position: absolute;
+  margin-top: -2em;
+  color: white;
+  padding-left: .8em;
+}
 
