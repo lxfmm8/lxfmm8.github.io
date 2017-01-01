@@ -1,3 +1,9 @@
+<style>
+	div.columnsContainer > div.project_photos > div {
+    	margin: 1em 0 1em 0;
+		padding-left: 0;
+  	}
+</style>
 
 <br/><br/><br/>
 <div class="columnsContainer">
@@ -14,13 +20,26 @@
 	</div>
 
 	<div class="project_photos" style="opacity: 0.9">
-		<img src='img/picView04.jpg' ng-class='projectImage' width='100%' style='min-width: 200px'></img><br><br>
-		<img src='img/typeCode-cover02.png' width='49%' style='min-width=200px' />&nbsp;
-		<img src='img/typeCode-cover01.png' width='49%' style='min-width=200px' /><br><br>
-		<img src='img/typeCode-cover03.png' width='49%' style='min-width=200px' />&nbsp;
-		<img src='img/typeCode-cover04.png' width='49%' style='min-width=200px' /><br><br>
+		<img src='img/picView04.jpg' ng-class='projectImage' width='100%' style='min-width: 200px' />
+		<img ng-src='img/blank-divider.png' ng-class='projectImage' width='100%' />
+
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<img ng-src='img/typeCode-cover01.png' width='100%' />
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<img ng-src='img/typeCode-cover02.png' width='100%' />
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<img ng-src='img/typeCode-cover03.png' width='100%' />
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<img ng-src='img/typeCode-cover04.png' width='100%' />
+		</div>
+		
+		<img ng-src='img/blank-divider.png' ng-class='projectImage' width='100%' />
 		<div><p>Published on "Type on Screen (2014)" edited by Ellen Lupton</p></div>
-		<img ng-src='img/typeonscreen2.jpg' ng-class='projectImage' width='100%' style='min-width: 200px'></img><br><br>
+		<img ng-src='img/typeonscreen2.jpg' ng-class='projectImage' width='100%' />
 	</div>
 	<div>&larr; <a href="#/view3">Previous Project</a> | <a href="#/view20">Layout Collection</a> &rarr;</div>
 
