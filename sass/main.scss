@@ -1,6 +1,19 @@
 $theme: black;
 $sans_serif_font: 'Open Sans', sans-serif;
 
+body {
+  background: #f2f2f2;
+}
+
+img {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 main.allWrapper {
     line-height: 22pt;
     width: 90%;
@@ -67,18 +80,11 @@ header {
     }
 }
 
-img {
-  user-drag: none; 
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
 
 
 
-/*----- home page styles -----*/
+/*----- Home Page CSS -----*/
+
 section.home_page {
   margin-bottom: 2em;
   margin-top: 1em;
@@ -126,3 +132,53 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   padding-left: .8em;
 }
 
+
+/*---- Project Page CSS----*/
+div.columnsContainer > div.project_photos > div {
+  margin: 1em 0 1em 0;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.description-highlight {
+	border-left: 10px solid lightgray;
+	padding: 0 0 0 20px;
+}
+
+.hints {
+  color: orangered;
+}
+
+.light-slash {
+  font-weight: 100;
+}
+
+
+
+/*---- Resume Page CSS ----*/
+div.columnsContainer > div.col-md-10 > div#resume {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 5em;
+}
+div.columnsContainer > div.col-md-10 > div#resume > h1, h3 {
+  font-weight: 200;
+}
+div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul {
+  list-style: none;
+}
+div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul.time {
+  float: left;
+  width: 300px;
+}
+div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul.time > li > p.empty{
+  opacity: 0;
+}
+div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul > li > p + p {
+  margin-top: -15px;
+}
+div#resume a {
+  font-size: 35px;
+  letter-spacing: .5em;
+}
