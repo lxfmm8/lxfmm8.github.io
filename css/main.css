@@ -38,13 +38,14 @@ main.allWrapper div.columnsContainer > div.info > h1 {
   line-height: 1.15em;
   letter-spacing: 0px;
   margin-top: 50px;
-  margin-bottom: 0.2em;
+  margin-bottom: 0em;
 }
 main.allWrapper div.columnsContainer > div.info > strong {
+  font-size: .85em;
   margin-bottom: 5em;
 }
 main.allWrapper div.columnsContainer > div.info > p {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   max-width: 75%;
 }
 
@@ -184,7 +185,10 @@ h3 {
   font-size: 1.2em;
 }
 
-sup {
-  font-weight: lighter;
-  font-size: .5em;
+.project-sub-title {
+  font-size: 1em;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  margin-bottom: .5em;
 }
