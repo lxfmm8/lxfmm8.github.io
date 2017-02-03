@@ -17,23 +17,27 @@ main.allWrapper {
   margin-top: 100px;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.2em;
 }
 main.allWrapper a {
   text-decoration: none;
-  color: black;
+  color: #333;
+}
+main.allWrapper div.columnsContainer > div.info {
+  font-size: 1.15em;
 }
 main.allWrapper div.columnsContainer > div.info > h1 {
   width: 90%;
-  font-size: calc(1em + 10vmin);
-  font-weight: 900;
-  font-family: 'Raleway', sans-serif;
+  font-size: calc(1em + 7vmin);
+  font-weight: 400;
+  font-family: "Oswald", Helvetica, sans-serif;
   text-transform: uppercase;
-  line-height: .85em;
+  line-height: 1.25em;
+  letter-spacing: 0px;
   margin-top: 50px;
-  margin-bottom: .3em;
+  margin-bottom: 0.2em;
 }
 main.allWrapper div.columnsContainer > div.info > strong {
   margin-bottom: 5em;
@@ -60,14 +64,14 @@ header ul {
   padding: 15px;
   opacity: 0.9;
   font-size: 0.9em;
-  border: 1pt solid black;
+  border: 1pt solid #333;
 }
 header ul li {
   list-style-type: none;
   line-height: 2em;
 }
 header ul li:hover {
-  border-right: 3pt solid black;
+  border-right: 3pt solid #333;
 }
 
 /*----- Home Page CSS -----*/
@@ -110,7 +114,7 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   position: absolute;
   margin-top: -3em;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 200;
   padding-left: .5em;
   padding-top: .5em;
@@ -123,31 +127,9 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   padding-left: .8em;
 }
 
-/*---- Project Page CSS----*/
-div.columnsContainer > div.project_photos > div {
-  margin: 1em 0 1em 0;
-}
-
-h3 {
-  font-weight: bold;
-}
-
-.description-highlight {
-  border-left: 10px solid lightgray;
-  padding: 0 0 0 20px;
-}
-
-.hints {
-  color: orangered;
-}
-
-.light-slash {
-  font-weight: 100;
-}
-
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div.col-md-10 > div#resume {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   margin-bottom: 5em;
 }
 
@@ -175,4 +157,26 @@ div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul > li > 
 div#resume a {
   font-size: 35px;
   letter-spacing: .3em;
+}
+
+/*---- Project Page CSS----*/
+div.columnsContainer > div.project_photos > div {
+  margin: 1em 0 1em 0;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.description-highlight {
+  border-left: 10px solid lightgray;
+  padding: 0 0 0 20px;
+}
+
+.hints {
+  color: orangered;
+}
+
+.light-slash {
+  font-weight: 100;
 }
