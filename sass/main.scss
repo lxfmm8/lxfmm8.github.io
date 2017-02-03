@@ -41,7 +41,7 @@ main.allWrapper {
     font-weight: 400;
     font-family: $project_title_font;
     text-transform: uppercase;
-    line-height: 1.25em;
+    line-height: 1.15em;
     letter-spacing: 0px;
     margin-top: 50px;
     margin-bottom: 0.2em;
@@ -189,5 +189,12 @@ h3 {
 }
 
 .light-slash {
+  font-family: Helvetica, Arial， sans-serif;
   font-weight: 100;
+  font-size: 1.2em;
+}
+
+sup {
+  font-weight: lighter;
+  font-size: .5em;
 }
