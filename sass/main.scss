@@ -7,7 +7,7 @@ body {
 }
 
 img {
-  user-drag: none; 
+  user-drag: none;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
@@ -57,7 +57,7 @@ main.allWrapper {
 }
 
 header {
-    position: fixed; 
+    position: fixed;
     top: 0%;
     left:0%;
     width: 100%;
@@ -66,20 +66,20 @@ header {
     padding-top: 2em;
     padding-left: 5.5%;
     padding-bottom: 2em;
-    
+
     ul {
       list-style-type: none;
-      display: none;  
-      padding: 15px; 
-      opacity: 0.9; 
-      font-size: 0.9em; 
+      display: none;
+      padding: 15px;
+      opacity: 0.9;
+      font-size: 0.9em;
       border: 1pt solid $theme;
-      
+
       li {
         list-style-type: none;
         line-height: 2em;
       }
-      
+
       li:hover {
         border-right: 3pt solid $theme;
       }
@@ -172,6 +172,7 @@ div#resume a {
 /*---- Project Page CSS----*/
 div.columnsContainer > div.project_photos > div {
   margin: 1em 0 1em 0;
+  padding-left: 0;
 }
 
 h3 {
@@ -197,6 +198,6 @@ h3 {
   font-size: 1em;
   font-family: 'Open Sans';
   text-transform: uppercase;
-  letter-spacing: 1em;
+  letter-spacing: .5em;
   margin-bottom: .5em;
 }
