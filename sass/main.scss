@@ -52,7 +52,7 @@ main.allWrapper {
   }
   div.columnsContainer > div.info > p {
     margin-bottom: 2em;
-    max-width: 75%;
+    max-width: 1400px;
   }
 }
 
@@ -182,6 +182,8 @@ h3 {
 .description-highlight {
 	border-left: 10px solid lightgray;
 	padding: 0 0 0 20px;
+  max-width: 1200px;
+  font-size: 1.15em;
 }
 
 .hints {
