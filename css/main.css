@@ -194,3 +194,7 @@ h3 {
   letter-spacing: .5em;
   margin-bottom: .5em;
 }
+
+img.framer {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
