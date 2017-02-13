@@ -107,7 +107,7 @@ section.home_page > div.col-md-4 > div.list_group {
   display: inline-block;
   margin: .5em .5em 1.5em .5em;
   width: 100%;
-    line-height: 28pt;
+  line-height: 28pt;
 }
 section.home_page > div.col-md-4 > div:hover {
   box-shadow: 7px 7px 7px gray;
@@ -175,8 +175,13 @@ div.columnsContainer > div.project_photos > div {
   padding-left: 0;
 }
 
+div.columnsContainer img {
+  border-radius: 5px;
+}
+
 h3 {
-	font-weight: bold;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
 .description-highlight {
