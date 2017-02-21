@@ -180,6 +180,15 @@ h3 {
   border-left: 10px solid lightgray;
   padding: 0 0 0 20px;
   max-width: 1200px;
+  transition: border .5s;
+}
+
+.description-highlight:hover {
+  border-left: 10px solid orangered;
+}
+
+.description-highlight:hover em {
+  color: orangered;
 }
 
 .hints {
