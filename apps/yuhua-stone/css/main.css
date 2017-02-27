@@ -1,0 +1,138 @@
+
+@font-face {
+  font-family: stagSans;
+  src: url(../fonts/STAGSANS-LIGHT.OTF);
+}
+
+html {
+  background: url(../img/bg-02.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: gray;
+  font-family: stagSans;
+}
+
+.allWrapper {
+  background: none;
+  color: white;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+.navbar-default .navbar-nav li a{
+  color: white;
+}
+
+#bs-example-navbar-collapse-1 ul.nav {
+  width: 98%;
+  padding-left: 4%;
+}
+
+.jumbotron {
+  float: left;
+  background: none;
+  color: white;
+  padding-left: 25%;
+  padding-top: 100px;
+}
+
+.jumbotron h3 {
+  background-color: white;
+  color: #A3A893;
+  padding: 7px 10px;
+  width: 100px;
+}
+
+.jumbotron h1 {
+  font-size: 8em;
+  line-height: .8em;
+}
+
+.jumbotron p {
+  width: 100%;
+  font-size: 1.25em;
+  line-height: 2em;
+}
+
+.jumbotron p a.btn {
+  padding-left: 0;
+  padding-top: 40%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.left-info {
+  float: left;
+  width: 30%;
+  max-height: 700px;
+}
+
+.right-image {
+  margin-top: -200px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.navbar-default {
+  width: 100%;
+  float: left;
+  border: none;
+  box-shadow: none;
+  background: none;
+  color: white;
+}
+
+.navbar-toggle {
+  border: none;
+  background-color: white;
+}
+
+.btn-group-vertical {
+  float: left;
+  width: 150px;
+  left: 8%;
+  top: 35%;
+  border-radius: 0;
+  position: fixed;
+}
+
+.btn-group-vertical button {
+  background: none;
+  border: 1pt solid white;
+  border-radius: 0;
+  color: white;
+  text-shadow: none;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-radius: none;
+  transition: background 1s;
+}
+
+.btn-group-vertical button:hover {
+  background-color: white;
+  color: #A3A893;
+}
+
+.btn-group-vertical > p {
+  font-size: 10em;
+  font-weight: bold;
+  padding-top: 153%;
+}
+
+.btn-group-vertical>.btn:first-child:not(:last-child) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-group-vertical>.btn:last-child:not(:first-child) {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
