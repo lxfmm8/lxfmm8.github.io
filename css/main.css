@@ -226,14 +226,12 @@ button.launch {
   background-color: #fff;
   border-radius: 0px;
   transition: background-color, .25s;
-  transition: border-radius, .25s;
   font-family: "Open Sans", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #333;
 }
 
 button.launch:hover {
-  border-radius: 25px;
   background-color: #333;
   color: #fff;
 }
