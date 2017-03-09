@@ -12,6 +12,12 @@ img {
   -ms-user-select: none;
 }
 
+button.btn:focus {
+  outline: none;
+  background-color: #fff;
+  border: 1pt solid #333;
+}
+
 main.allWrapper {
   line-height: 22pt;
   width: 90%;
@@ -211,4 +217,19 @@ h3 {
 
 img.framer {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+button.launch {
+  box-shadow: 3px 3px 3px #d8d8d8;
+  background-color: #fff;
+  border-radius: 0px;
+  transition: background-color, .25s;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif, sans-serif;
+  font-weight: 400;
+  border: 1pt solid #333;
+}
+
+button.launch:hover {
+  background-color: #333;
+  color: #fff;
 }

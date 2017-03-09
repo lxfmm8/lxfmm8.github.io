@@ -1,3 +1,8 @@
+// @font-face {
+//   font-family: Harriet;
+//   src: url(../fonts/Harriet-Text-Regular.otf);
+// }
+
 $theme: #333;
 $sans_serif_font: 'Open Sans', Helvetica, Arial, sans-serif;
 $project_title_font: 'Oswald', Helvetica, sans-serif;
@@ -13,6 +18,12 @@ img {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+button.btn:focus {
+  outline: none;
+  background-color: #fff;
+  border: 1pt solid #333;
 }
 
 main.allWrapper {
@@ -218,4 +229,19 @@ h3 {
 }
 img.framer {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+}
+
+button.launch {
+  box-shadow: 3px 3px 3px #d8d8d8;
+  background-color: #fff;
+  border-radius: 0px;
+  transition: background-color, .25s;
+  font-family: $sans_serif_font, sans-serif;
+  font-weight: 400;
+  border: 1pt solid #333;
+}
+
+button.launch:hover {
+  background-color: #333;
+  color: #fff;
 }
