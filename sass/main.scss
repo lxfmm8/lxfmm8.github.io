@@ -122,7 +122,12 @@ section.home_page > div.col-md-4 > div.list_group {
   line-height: 28pt;
 }
 section.home_page > div.col-md-4 > div:hover {
-  box-shadow: 7px 7px 7px gray;
+  transition: all .25s;
+}
+section.home_page > div.col-md-4 > div:hover {
+  -webkit-box-shadow: 5px 5px 7px 2px #919191;
+  -moz-box-shadow:    5px 5px 7px 2px #919191;
+  box-shadow:         5px 5px 7px 2px #919191;
 }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
   opacity: 0;
