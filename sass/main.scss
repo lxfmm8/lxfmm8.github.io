@@ -121,13 +121,15 @@ section.home_page > div.col-md-4 > div.list_group {
   width: 100%;
   line-height: 28pt;
 }
-section.home_page > div.col-md-4 > div:hover {
-  transition: all .25s;
+section.home_page > div.col-md-4 > div {
+  transition: all .1s;
+  border: 1pt solid transparent;
 }
 section.home_page > div.col-md-4 > div:hover {
-  -webkit-box-shadow: 4px 4px 8px 2px #919191;
-  -moz-box-shadow:    4px 4px 8px 2px #919191;
-  box-shadow:         4px 4px 8px 2px #919191;
+  -webkit-box-shadow:  4px 4px 5px 0px #919191;
+  -moz-box-shadow:     4px 4px 5px 0px #919191;
+  box-shadow:          4px 4px 5px 0px #919191;
+  border: 1pt solid $theme;
 }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
   opacity: 0;
@@ -139,7 +141,7 @@ section.home_page > div.col-md-4 > div:hover > div.thumb_info {
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   width: 65%;
   height: 54px;
-  background-color: black;
+  background-color: $theme;
   position: absolute;
   margin-top: -3em;
   color: white;
@@ -153,6 +155,42 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -2em;
   color: white;
   padding-left: .8em;
+}
+div#float-nav {
+  margin-top: -20px;
+}
+button.nav-button {
+  border-radius: 0px;
+  transition: background-color, .25s;
+  font-family: $sans_serif_font, sans-serif;
+  font-weight: 400;
+  border: 1pt solid $theme;
+  background-color: $theme;
+  color: #fff;
+}
+button.nav-button:hover {
+  -webkit-box-shadow: 3px 3px 3px #d8d8d8;
+  -moz-box-shadow:    3px 3px 3px #d8d8d8;
+  box-shadow:         3px 3px 3px #d8d8d8;
+  border-radius: 0px;
+  transition: background-color, .25s;
+  font-family: $sans_serif_font, sans-serif;
+  font-weight: 400;
+  border: 1pt solid $theme;
+  background-color: $theme;
+  color: #999;
+}
+button.nav-button:focus {
+  -webkit-box-shadow: 3px 3px 3px #d8d8d8;
+  -moz-box-shadow:    3px 3px 3px #d8d8d8;
+  box-shadow:         3px 3px 3px #d8d8d8;
+  border-radius: 0px;
+  transition: background-color, .25s;
+  font-family: $sans_serif_font, sans-serif;
+  font-weight: 400;
+  border: 1pt solid $theme;
+  background-color: $theme;
+  color: #fff;
 }
 
 
