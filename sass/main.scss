@@ -23,7 +23,7 @@ img {
 button.btn:focus {
   outline: none;
   background-color: #fff;
-  border: 1pt solid #333;
+  border: 1pt solid $theme;
 }
 
 main.allWrapper {
@@ -41,7 +41,7 @@ main.allWrapper {
   }
   a {
     text-decoration: none;
-    color: #333;
+    color: $theme;
   }
   div.columnsContainer > div.info {
     font-size: 1.15em;
@@ -125,9 +125,9 @@ section.home_page > div.col-md-4 > div:hover {
   transition: all .25s;
 }
 section.home_page > div.col-md-4 > div:hover {
-  -webkit-box-shadow: 4px 4px 6px 2px #919191;
-  -moz-box-shadow:    4px 4px 6px 2px #919191;
-  box-shadow:         4px 4px 6px 2px #919191;
+  -webkit-box-shadow: 4px 4px 8px 2px #919191;
+  -moz-box-shadow:    4px 4px 8px 2px #919191;
+  box-shadow:         4px 4px 8px 2px #919191;
 }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
   opacity: 0;
@@ -246,11 +246,11 @@ button.launch {
   // transition: border-radius, .25s;
   font-family: $sans_serif_font, sans-serif;
   font-weight: 400;
-  border: 1pt solid #333;
+  border: 1pt solid $theme;
 }
 
 button.launch:hover {
   // border-radius: 25px;
-  background-color: #333;
+  background-color: $theme;
   color: #fff;
 }
