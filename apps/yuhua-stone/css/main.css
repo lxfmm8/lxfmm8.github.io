@@ -3,9 +3,41 @@
   font-family: stagSans;
   src: url(../fonts/STAGSANS-LIGHT.OTF);
 }
-
 html {
+  transition: background, .5s;
+}
+
+.htmlDefault {
+  background: url(../img/bg-01.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.selectedHome {
   background: url(../img/bg-02.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.selectedHistory {
+  background: url(../img/bg-03.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.selectedDiscern {
+  background: url(../img/bg-04.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.selectedStore {
+  background: url(../img/bg-05.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,7 +84,7 @@ body {
 
 .jumbotron h1 {
   font-size: 8em;
-  line-height: .8em;
+  line-height: .9em;
 }
 
 .jumbotron p {
