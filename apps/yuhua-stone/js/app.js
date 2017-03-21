@@ -6,6 +6,7 @@ var buttonStore = document.querySelector(".btnStore");
 var pageTitleChinese = document.querySelector("#pageTitleCN");
 var pageTitleEnglish = document.querySelector("#pageTitleEN");
 var pageNum = document.querySelector("#pageNumber");
+var rightImage = document.querySelector(".right-image");
 
 
 buttonClear = function() {
@@ -13,6 +14,7 @@ buttonClear = function() {
 	htmlBody.classList.remove("selectedHistory");
 	htmlBody.classList.remove("selectedDiscern");
 	htmlBody.classList.remove("selectedStore");
+	rightImage.classList.remove("hide-image");
 };
 
 buttonHome.addEventListener ("click", function(){
@@ -29,6 +31,7 @@ buttonHistory.addEventListener ("click", function(){
 	pageTitleCN.textContent = "历史";
 	pageTitleEN.textContent = "Yuhua History";
 	pageNum.textContent = "02";
+	rightImage.classList.add("hide-image");
 });
 
 buttonDiscern.addEventListener ("click", function(){

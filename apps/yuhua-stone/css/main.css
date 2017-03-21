@@ -9,10 +9,10 @@ html {
 
 /*-- Preloading Backgrounds--*/
 #preload-bg-1 { background: url(../img/bg-01.jpg) no-repeat -9999px -9999px; }
-#preload-bg-2 { background: url(../img/bg-01.jpg) no-repeat -9999px -9999px; }
-#preload-bg-3 { background: url(../img/bg-01.jpg) no-repeat -9999px -9999px; }
-#preload-bg-4 { background: url(../img/bg-01.jpg) no-repeat -9999px -9999px; }
-#preload-bg-5 { background: url(../img/bg-01.jpg) no-repeat -9999px -9999px; }
+#preload-bg-2 { background: url(../img/bg-02.jpg) no-repeat -9999px -9999px; }
+#preload-bg-3 { background: url(../img/bg-03-map-1.jpg) no-repeat -9999px -9999px; }
+#preload-bg-4 { background: url(../img/bg-04.jpg) no-repeat -9999px -9999px; }
+#preload-bg-5 { background: url(../img/bg-05.jpg) no-repeat -9999px -9999px; }
 
 
 .htmlDefault {
@@ -31,7 +31,7 @@ html {
   background-size: cover;
 }
 .selectedHistory {
-  background: url(../img/bg-03.jpg) no-repeat center center fixed;
+  background: url(../img/bg-03-map-1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -119,6 +119,10 @@ body {
   margin-top: -200px;
   margin-right: 20px;
   padding: 0;
+}
+
+.hide-image {
+  opacity: 0;
 }
 
 .navbar-default {
