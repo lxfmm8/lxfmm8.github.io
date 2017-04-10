@@ -51,11 +51,11 @@
 
       
 
-    	<header class="header">
+    	<header style="display: block; float: none; margin: auto;">
   			<a id="main-logo" href="#/view1">
 <!--           <img src="img/whiff_logo-5.png" width="300" onmouseout="this.style.opacity=1; this.filters.alpha opacity=100" onmouseover="this.style.opacity=0.85;this.filters.alpha.opacity=80" alt="main logo"/> -->
         <h1>Xiaofeng Lin</h1>
-        <em>information + interaction craftsman</em>
+        <em>interaction + branding + illustration</em>
         </a>
 
 <!-- RIGHT NAV BUTTONS -->
@@ -68,7 +68,7 @@
           <div class="navbar-collapse collapse" style="height: 200px;">
           <ul class="nav navbar-nav">
               <li><a style="text-decoration: none" href="#/view13"><em>About Me</em></a></li>
-              <li><a style="text-decoration: none" href="#/view16"><em>Archive</em></a></li>
+<!--               <li><a style="text-decoration: none" href="#/view16"><em>Archive</em></a></li> -->
               </ul>
           </div>
         </div>
@@ -80,6 +80,7 @@
       <main class="allWrapper" ng-view autoscroll></main>
 
   <script src="js/jquery-2.1.1.min.js"></script>
+
   <script src="js/bootstrap.min.js"></script>
   <script src="bower_components/angular/angular.min.js"></script>
   <script src="bower_components/angular-route/angular-route.min.js"></script>
@@ -100,16 +101,16 @@
     ga('send', 'pageview');
 
 
-    var header = $('.header');
-    $(window).scroll(function(e){
-        if(header.offset().top !== 0){
-            if(!header.hasClass('shadow')){
-                header.addClass('shadow');
-            }
-        }else{
-            header.removeClass('shadow');
-        }
-    });
+    // var header = $('.header');
+    // $(window).scroll(function(e){
+    //     if(header.offset().top !== 0){
+    //         if(!header.hasClass('shadow')){
+    //             header.addClass('shadow');
+    //         }
+    //     }else{
+    //         header.removeClass('shadow');
+    //     }
+    // });
 </script>
 
 </body>

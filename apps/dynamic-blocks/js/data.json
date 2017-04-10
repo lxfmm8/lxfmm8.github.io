@@ -1,0 +1,56 @@
+[
+  {
+    "name":"Augmented Sphenocorona",
+    "shortname":"Augmented_Sphenocorona",
+    "reknown":"Johnson Solid.",
+    "bio":"Johnson Solid."
+  },
+  {
+    "name":"Augmented Hexagonal Prism",
+    "shortname":"Augmented_Hexagonal_Prism",
+    "reknown":"Johnson Solid.",
+    "bio":"Johnson Solid."
+  },
+  {
+    "name":"Cube",
+    "shortname":"Cube",
+    "reknown":"Johnson Solid.",
+    "bio":"Plane cube."
+  },
+  {
+    "name":"Cube 2-Compound",
+    "shortname":"Cube_2-Compound",
+    "reknown":"A polyhedron compound of two cubes.",
+    "bio":"A polyhedron compound of two cubes. The compound at left (also called the double cube) is obtained by allowing two cubes to share opposite polyhedron vertices, then rotating one a sixth of a turn about a C_3 axis (Holden 1991, p. 34). The compound at right combines two cubes, one rotated 45 degrees with respect to the other along a C_4 axis, producing an octagrammic prism."
+  },
+  {
+    "name":"Cube 3-Compound",
+    "shortname":"Cube_3-Compound",
+    "reknown":"There are several compounds of three cubes.",
+    "bio":"There are several compounds of three cubes. The illustrations above show 3-compounds produced by rotating cubes about a C_3 axis (left figure), a C_4 axis producing a dodecagrammic prism (middle figure), and with the symmetry of the cube which arises by joining three cubes such that each shares two C_2 axes (Holden 1991, p. 35; right figure). The latter solid is depicted atop the left pedestal in M. C. Escher's woodcut Waterfall (Bool et al. 1982, p. 323)."
+  },
+  {
+    "name":"Pentagonal Icositetrahedron",
+    "shortname":"Pentagonal_Icositetrahedron",
+    "reknown":"The pentagonal icositetrahedron is the 24-faced dual polyhedron of the snub cube A_7.",
+    "bio":"The pentagonal icositetrahedron is the 24-faced dual polyhedron of the snub cube A_7 and Wenninger dual W_(17). The mineral cuprite (Cu_2O) forms in pentagonal icositetrahedral crystals (Steinhaus 1999, pp. 207 and 209)."
+  },
+  {
+    "name":"Tetragonal Trapezohedron",
+    "shortname":"Tetragonal_Trapezohedron",
+    "reknown":"Constance received the Fullerton-Brighton-Norwell Award for Modern Art for her mixed-media image of a tree of life.",
+    "bio":"Constance received the Fullerton-Brighton-Norwell Award for Modern Art for her mixed-media image of a tree of life, with jewel-adorned branches depicting the arms of humanity, and precious gemstone-decorated leaves representing the spouting buds of togetherness. The daughter of a New York jeweler, Constance has been salvaging the discarded remnants of her father's jewelry-making since she was five years old, and won the New York State Fair grand prize at the age of 8 years old for a gem-adorned painting of the Manhattan Bridge."
+  },
+  {
+    "name":"Biaugmented Pentagonal Prism",
+    "shortname":"Biaugmented_Pentagonal_Prism",
+    "reknown":"Johnson Solid.Johnson Solid.",
+    "bio":"Johnson Solid."
+  },
+  {
+    "name":"Biaugmented Triangular Prism",
+    "shortname":"Biaugmented_Triangular_Prism",
+    "reknown":"Johnson Solid.",
+    "bio":"Johnson Solid."
+  }
+]

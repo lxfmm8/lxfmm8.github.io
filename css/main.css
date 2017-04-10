@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+  font-family: Harriet;
+  src: url(../fonts/Harriet-Display-Black.otf);
+}
+@font-face {
+  font-family: Harriet Reg;
+  src: url(../fonts/Harriet-Text-Regular.otf);
+}
 body {
   background: #f2f2f2;
 }
@@ -19,12 +27,11 @@ button.btn:focus {
 }
 
 main.allWrapper {
+  z-index: -10;
   line-height: 22pt;
   width: 90%;
-  margin-top: 80px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-z-index: -10;
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.2em;
@@ -33,17 +40,25 @@ main.allWrapper a {
   text-decoration: none;
   color: #333;
 }
+main.allWrapper .col-md-8 {
+  margin: auto;
+  float: none;
+}
+main.allWrapper div.columnsContainer {
+  margin: auto;
+  float: none;
+  display: block;
+}
 main.allWrapper div.columnsContainer > div.info {
   font-size: 1.15em;
+  margin-top: 0;
 }
 main.allWrapper div.columnsContainer > div.info > h1 {
-  width: 90%;
-  font-size: calc(1em + 7vmin);
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: calc(1em + 4vmin);
+  font-family: Harriet, "Oswald", Helvetica, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1.15em;
-  letter-spacing: 0px;
+  text-align: center;
+  letter-spacing: 1px;
   margin-top: 50px;
   margin-bottom: 0em;
 }
@@ -52,22 +67,55 @@ main.allWrapper div.columnsContainer > div.info > strong {
   margin-bottom: 5em;
 }
 main.allWrapper div.columnsContainer > div.info > p.project-sub-title {
-  margin-bottom: 2em;
+  margin: 1em auto 3em auto;
   max-width: 1400px;
-  font-weight: 500;
+  font-size: .75em;
+  font-weight: 300;
   opacity: .75;
+  text-align: center;
+}
+main.allWrapper div.columnsContainer > div.info > div.project-nav {
+  text-align: center;
+  font-size: 14px;
+  opacity: .5;
+}
+main.allWrapper div.columnsContainer > div.info > h3.proj-sm-col {
+  margin: 1em auto 0 auto;
+  max-width: 600px;
+  font-size: 24px;
+}
+main.allWrapper div.columnsContainer > div.info > h4.proj-sm-col {
+  margin: 1em auto 0 auto;
+  max-width: 600px;
+  font-size: 18px;
+}
+main.allWrapper div.columnsContainer > div.info > p.proj-sm-col {
+  margin: 1em auto 3em auto;
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 32px;
+}
+main.allWrapper div.columnsContainer > div.info > ul.proj-sm-col {
+  margin: 1em auto 3em auto;
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 32px;
+}
+main.allWrapper div.columnsContainer > div.info > p.prototype-button {
+  margin: 1em auto 3em auto;
+  text-align: center;
+}
+main.allWrapper div.columnsContainer > div.info > table {
+  font-size: 16px;
 }
 
 header {
-  position: fixed;
-  top: 0%;
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
   background-color: #f2f2f2;
   height: 150px;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding: 2em .5em;
   z-index: 1;
 }
 
@@ -76,13 +124,12 @@ header > a#main-logo {
   text-decoration: none;
   float: left;
   position: relative;
-  margin-left: 5.2%;
 }
 
 header > a > h1 {
   font-family: "Oswald", Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #333;
 }
 
@@ -98,8 +145,7 @@ header > a > em {
 
 header > div#float-nav {
   float: right;
-  top: 55px;
-  right: 5%;
+  top: 49px;
   position: relative;
 }
 header > div#float-nav a {
@@ -113,8 +159,6 @@ header > div#float-nav div.navbar-collapse {
 }
 
 section.home_page {
-  margin-bottom: 2em;
-  margin-top: 1em;
   padding: 0;
 }
 
@@ -122,6 +166,7 @@ section.home_page > div.col-md-4 {
   padding-left: 0;
   padding-top: 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 section.home_page > div.col-md-4 > div.list_group {
@@ -133,18 +178,16 @@ section.home_page > div.col-md-4 > div.list_group {
 
 section.home_page > div.col-md-4 > div {
   transition: all .1s;
-  border: 1pt solid transparent;
 }
 
-section.home_page > div.col-md-4 > div:hover {
+section.home_page > div.col-md-4 > div > a > img:hover {
   -webkit-box-shadow: 4px 4px 5px 0px #919191;
   -moz-box-shadow: 4px 4px 5px 0px #919191;
   box-shadow: 4px 4px 5px 0px #919191;
-  border: 1pt solid #333;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
-  opacity: 0;
+  opacity: 1;
   transition: .5s;
 }
 
@@ -153,23 +196,47 @@ section.home_page > div.col-md-4 > div:hover > div.thumb_info {
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
-  width: 65%;
-  height: 54px;
-  background-color: #333;
-  position: absolute;
-  margin-top: -3em;
-  color: white;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: 200;
-  padding-left: .5em;
-  padding-top: .5em;
+  color: #333;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-kerning: normal;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
+  margin-top: -5px;
+  color: #333;
+  font-size: 14px;
+  font-kerning: normal;
+}
+
+section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
+  background-color: #333;
   position: absolute;
-  margin-top: -2em;
+  top: 9px;
   color: white;
-  padding-left: .8em;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: .6em;
+  font-weight: 500;
+  letter-spacing: .25em;
+  padding: 0 10px;
+}
+section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_info {
+  background-color: #FFCE1A;
+}
+section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_app {
+  background-color: #6EE84C;
+}
+section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_web {
+  background-color: #6DF7FF;
+}
+section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_toy {
+  background-color: #E271FF;
+}
+section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
+  background-color: #E86E49;
 }
 
 button.nav-button {
@@ -211,6 +278,7 @@ button.nav-button:focus {
 @media (max-width: 767px) {
   header {
     position: relative;
+    height: 300px;
   }
 
   header > a#main-logo {
@@ -219,7 +287,6 @@ button.nav-button:focus {
     text-decoration: none;
     float: none;
     text-align: center;
-    right: 5%;
   }
 
   header > a#main-logo > {
@@ -230,10 +297,11 @@ button.nav-button:focus {
   header > div#float-nav {
     float: none;
     text-align: center;
-    width: 90%;
+    width: 100%;
+    margin: auto;
+    padding: 0 1.25em;
     display: block;
-    top: 10px;
-    left: 5%;
+    top: 5px;
   }
 
   header > div#float-nav a {
@@ -244,8 +312,6 @@ button.nav-button:focus {
 
   header > div#float-nav > div.collapse {
     display: block;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   header > div#float-nav > div.collapse > ul > li {
@@ -258,30 +324,20 @@ button.nav-button:focus {
   }
 }
 /*---- Resume Page CSS ----*/
-div.columnsContainer > div.col-md-10 > div#resume {
+div.columnsContainer > div > div#resume {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   margin-bottom: 5em;
 }
 
-div.columnsContainer > div.col-md-10 > div#resume > h1, h3 {
+div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
+  padding: 10px 40px 40px 7px;
+}
+
+div.columnsContainer > div > div#resume > div.about-header > div > h3 {
+  font-family: Harriet, "Oswald", Helvetica, sans-serif;
   font-weight: 200;
-}
-
-div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul {
-  list-style: none;
-}
-
-div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul.time {
-  float: left;
-  width: 300px;
-}
-
-div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul.time > li > p.empty {
-  opacity: 0;
-}
-
-div.columnsContainer > div.col-md-10 > div#resume > div#resume_main > ul > li > p + p {
-  margin-top: -15px;
+  font-size: 3em;
+  text-transform: none;
 }
 
 div#resume a {
@@ -295,29 +351,10 @@ div.columnsContainer > div.project_photos > div {
   padding-left: 0;
 }
 
-div.columnsContainer img {
-  border-radius: 5px;
-}
-
 h3 {
   font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-}
-
-.description-highlight {
-  border-left: 10px solid lightgray;
-  padding: 0 0 0 20px;
-  max-width: 1200px;
-  transition: border .5s;
-}
-
-.description-highlight:hover {
-  border-left: 10px solid orangered;
-}
-
-.description-highlight:hover em {
-  color: orangered;
 }
 
 .hints {
@@ -325,7 +362,7 @@ h3 {
 }
 
 .light-slash {
-  font-family: Helvetica, Arial， sans-serif;
+  font-family: Helvetica, Arial，sans-serif;
   font-weight: 100;
   font-size: 1.2em;
 }

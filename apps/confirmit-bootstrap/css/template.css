@@ -1,0 +1,13 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  margin-top: -5px;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+.navbar {
+  height: 60px;
+  padding: 5px;
+}
