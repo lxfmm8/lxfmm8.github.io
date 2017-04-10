@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f818f2f1-2379-4ab6-9467-d425b8c30e99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/BPDS/DC-charts.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/BPDS/NY-maps.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picView04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stats-system/9bdc8230232413.56de52c0e5ec4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stats-system/ff0a1d30232413.56de52c0e59a5.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ea034888c6d9aeff2cb139c8159154922d113eec/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ea034888c6d9aeff2cb139c8159154922d113eec/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/MRKRS-UI-1-1-1.png" afterPath="$PROJECT_DIR$/img/MRKRS-UI-1-1-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/MRKRS-UI-1-1.png" afterPath="$PROJECT_DIR$/img/MRKRS-UI-1-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial1.html" afterPath="$PROJECT_DIR$/partials/partial1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial10.html" afterPath="$PROJECT_DIR$/partials/partial10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial11.html" afterPath="$PROJECT_DIR$/partials/partial11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial12.html" afterPath="$PROJECT_DIR$/partials/partial12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial13.html" afterPath="$PROJECT_DIR$/partials/partial13.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial14.html" afterPath="$PROJECT_DIR$/partials/partial14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial15.html" afterPath="$PROJECT_DIR$/partials/partial15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial17.html" afterPath="$PROJECT_DIR$/partials/partial17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial18.html" afterPath="$PROJECT_DIR$/partials/partial18.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial19.html" afterPath="$PROJECT_DIR$/partials/partial19.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial2.html" afterPath="$PROJECT_DIR$/partials/partial2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial20.html" afterPath="$PROJECT_DIR$/partials/partial20.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial3.html" afterPath="$PROJECT_DIR$/partials/partial3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial4.html" afterPath="$PROJECT_DIR$/partials/partial4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial7.html" afterPath="$PROJECT_DIR$/partials/partial7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial8.html" afterPath="$PROJECT_DIR$/partials/partial8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial9.html" afterPath="$PROJECT_DIR$/partials/partial9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
     </list>
     <ignored path="lxfmm8.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="partial13.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="partial13.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/partial13.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="74">
+              <caret line="8" column="84" lean-forward="true" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partial14.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partials/partial14.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -87,6 +70,7 @@
         <option value="$PROJECT_DIR$/partials/partial7.html" />
         <option value="$PROJECT_DIR$/partials/partial2.html" />
         <option value="$PROJECT_DIR$/partials/partial13.html" />
+        <option value="$PROJECT_DIR$/partials/partial14.html" />
       </list>
     </option>
   </component>
@@ -552,12 +536,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491795661316</updated>
       <workItem from="1491795664588" duration="427000" />
-      <workItem from="1491796187381" duration="2609000" />
+      <workItem from="1491796187381" duration="3578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3036000" />
+    <option name="totallyTimeSpent" value="4005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,7 +553,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="23" width="1742" height="1038" extended-state="0" />
+    <frame x="133" y="23" width="1742" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -677,8 +661,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/partial13.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="74">
+          <caret line="8" column="84" lean-forward="true" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/partial14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
           <folding />
         </state>
       </provider>
