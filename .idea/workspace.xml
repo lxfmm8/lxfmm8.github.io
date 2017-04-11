@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f818f2f1-2379-4ab6-9467-d425b8c30e99" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial14.html" afterPath="$PROJECT_DIR$/partials/partial14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partial19.html" afterPath="$PROJECT_DIR$/partials/partial19.html" />
     </list>
     <ignored path="lxfmm8.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,21 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="partial13.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/partial13.html">
+      <file leaf-file-name="partial19.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partials/partial19.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="8" column="84" lean-forward="true" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+            <state relative-caret-position="410">
+              <caret line="89" column="47" lean-forward="true" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partial14.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="partial14.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/partial14.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+            <state relative-caret-position="178">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,13 +64,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/partials/partial19.html" />
         <option value="$PROJECT_DIR$/partials/partial9.html" />
         <option value="$PROJECT_DIR$/partials/partial4.html" />
         <option value="$PROJECT_DIR$/partials/partial7.html" />
         <option value="$PROJECT_DIR$/partials/partial2.html" />
         <option value="$PROJECT_DIR$/partials/partial13.html" />
         <option value="$PROJECT_DIR$/partials/partial14.html" />
+        <option value="$PROJECT_DIR$/partials/partial19.html" />
       </list>
     </option>
   </component>
@@ -81,10 +81,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
+    <option name="x" value="173" />
     <option name="y" value="23" />
     <option name="width" value="1742" />
-    <option name="height" value="1038" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -536,12 +536,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491795661316</updated>
       <workItem from="1491795664588" duration="427000" />
-      <workItem from="1491796187381" duration="3578000" />
+      <workItem from="1491796187381" duration="6648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4005000" />
+    <option name="totallyTimeSpent" value="7075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,7 +553,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="23" width="1742" height="1038" extended-state="1" />
+    <frame x="173" y="23" width="1742" height="984" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -635,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/partial19.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="522" lean-forward="false" selection-start-line="57" selection-start-column="522" selection-end-line="57" selection-end-column="522" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/partial7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -669,8 +661,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/partial14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+        <state relative-caret-position="178">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/partial19.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="89" column="47" lean-forward="true" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
           <folding />
         </state>
       </provider>
