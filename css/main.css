@@ -326,7 +326,13 @@ button.nav-button:focus {
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
   margin-bottom: 5em;
+}
+
+div.columnsContainer > div > div#resume > div#resume_main {
+  font-size: 12px;
 }
 
 div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
