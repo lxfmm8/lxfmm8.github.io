@@ -30,7 +30,7 @@ main.allWrapper {
   z-index: -10;
   line-height: 22pt;
   width: 90%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto 50px auto;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -112,7 +112,7 @@ main.allWrapper div.columnsContainer > div.info > table {
 header {
   width: 90%;
   margin: auto;
-  max-width: 1000px;
+  max-width: 1100px;
   background-color: #f2f2f2;
   height: 150px;
   padding: 2em .5em;
@@ -215,7 +215,7 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
   background-color: #333;
   position: absolute;
-  top: 9px;
+  top: 25px;
   color: white;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: .6em;
@@ -227,10 +227,10 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_info {
   background-color: #FFCE1A;
 }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_app {
-  background-color: #6EE84C;
+  background-color: #0EB89C;
 }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_web {
-  background-color: #6DF7FF;
+  background-color: #9322FF;
 }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_toy {
   background-color: #E271FF;
@@ -278,7 +278,7 @@ button.nav-button:focus {
 @media (max-width: 767px) {
   header {
     position: relative;
-    height: 300px;
+    height: 350px;
   }
 
   header > a#main-logo {
@@ -301,7 +301,7 @@ button.nav-button:focus {
     margin: auto;
     padding: 0 1.25em;
     display: block;
-    top: 5px;
+    top: 0;
   }
 
   header > div#float-nav a {
