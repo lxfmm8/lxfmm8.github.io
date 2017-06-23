@@ -1,14 +1,22 @@
 @font-face {
-  font-family: Harriet;
-  src: url(../fonts/Harriet-Display-Black.otf);
+  font-family: Popins;
+  src: url(../fonts/Poppins-Bold.ttf);
 }
 @font-face {
-  font-family: Harriet Reg;
-  src: url(../fonts/Harriet-Text-Regular.otf);
+  font-family: Playfair Reg;
+  src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: Rubik Reg;
+  src: url(../fonts/Rubik-Light.ttf);
+}
+@font-face {
+  font-family: Rubik Bold;
+  src: url(../fonts/Rubik-Bold.ttf);
 }
 
 $theme: #333;
-$sans_serif_font: 'Open Sans', Helvetica, Arial, sans-serif;
+$sans_serif_font: Rubik Reg, Helvetica, Arial, sans-serif;
 $project_title_font: 'Oswald', Helvetica, sans-serif;
 
 body {
@@ -60,13 +68,13 @@ main.allWrapper {
     margin-top: 0;
   }
   div.columnsContainer > div.info > h1 {
-    font-size: calc(1em + 4vmin);
-    font-family: Harriet, $project_title_font;
+    font-size: calc(1em + 6vmin);
+    font-family: Popins, $project_title_font;
     font-weight: 700;
     text-align: center;
-    // text-transform: uppercase;
+    font-kerning: normal;
+    letter-spacing: -1px;
     // line-height: 1.15em;
-    letter-spacing: 1px;
     margin-top: 50px;
     margin-bottom: 0em;
   }
@@ -368,7 +376,7 @@ div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
   padding: 10px 40px 40px 7px;
 }
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: Harriet, $project_title_font;
+  font-family: Popins, $project_title_font;
   font-weight: 200;
   font-size: 3em;
   text-transform: none;
@@ -392,7 +400,7 @@ div.columnsContainer > div.project_photos > div {
 // }
 
 h3 {
-  font-family: $project_title_font;
+  font-family: Rubik Bold, $project_title_font;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -410,7 +418,7 @@ h3 {
 
 .project-sub-title {
   font-size: 1em;
-  font-family: 'Open Sans';
+  font-family: 'Rubik Reg';
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: .5em;
