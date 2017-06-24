@@ -1,22 +1,28 @@
 @charset "UTF-8";
 @font-face {
-  font-family: Popins;
+  font-family: Popins Bold;
   src: url(../fonts/Poppins-Bold.ttf);
 }
 @font-face {
-  font-family: Playfair Reg;
-  src: url(../fonts/PlayfairDisplay-Bold.ttf);
+  font-family: Popins Medium;
+  src: url(../fonts/Poppins-Medium.ttf);
 }
 @font-face {
-  font-family: Rubik Reg;
-  src: url(../fonts/Rubik-Light.ttf);
+  font-family: Popins SemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
 }
 @font-face {
-  font-family: Rubik Bold;
-  src: url(../fonts/Rubik-Bold.ttf);
+  font-family: Roboto Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
 }
 body {
-  background: #f2f2f2;
+  background: #ebebeb;
+  color: #202020;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
 img {
@@ -31,7 +37,7 @@ img {
 button.btn:focus {
   outline: none;
   background-color: #fff;
-  border: 1pt solid #333;
+  border: 1pt solid #202020;
 }
 
 main.allWrapper {
@@ -40,13 +46,13 @@ main.allWrapper {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto 50px auto;
-  font-family: Rubik Reg, Helvetica, Arial, sans-serif;
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.2em;
 }
 main.allWrapper a {
   text-decoration: none;
-  color: #333;
+  color: #202020;
 }
 main.allWrapper .col-md-8 {
   margin: auto;
@@ -62,13 +68,13 @@ main.allWrapper div.columnsContainer > div.info {
   margin-top: 0;
 }
 main.allWrapper div.columnsContainer > div.info > h1 {
-  font-size: calc(1em + 6vmin);
-  font-family: Popins, "Oswald", Helvetica, sans-serif;
+  font-size: calc(1em + 5vmin);
+  font-family: Popins Bold, Helvetica, sans-serif;
   font-weight: 700;
+  color: #202020;
   text-align: center;
   font-kerning: normal;
   letter-spacing: -1px;
-  margin-top: 50px;
   margin-bottom: 0em;
 }
 main.allWrapper div.columnsContainer > div.info > strong {
@@ -76,7 +82,7 @@ main.allWrapper div.columnsContainer > div.info > strong {
   margin-bottom: 5em;
 }
 main.allWrapper div.columnsContainer > div.info > p.project-sub-title {
-  margin: 1em auto 3em auto;
+  margin: .5em auto 3em auto;
   max-width: 1400px;
   font-size: .75em;
   font-weight: 300;
@@ -90,25 +96,25 @@ main.allWrapper div.columnsContainer > div.info > div.project-nav {
 }
 main.allWrapper div.columnsContainer > div.info > h3.proj-sm-col {
   margin: 1em auto 0 auto;
-  max-width: 600px;
+  max-width: 500px;
   font-size: 24px;
 }
 main.allWrapper div.columnsContainer > div.info > h4.proj-sm-col {
   margin: 1em auto 0 auto;
-  max-width: 600px;
+  max-width: 500px;
   font-size: 18px;
 }
 main.allWrapper div.columnsContainer > div.info > p.proj-sm-col {
   margin: 1em auto 3em auto;
-  max-width: 600px;
+  max-width: 500px;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 1.6;
 }
 main.allWrapper div.columnsContainer > div.info > ul.proj-sm-col {
   margin: 1em auto 3em auto;
-  max-width: 600px;
+  max-width: 500px;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 1.6;
 }
 main.allWrapper div.columnsContainer > div.info > p.prototype-button {
   margin: 1em auto 3em auto;
@@ -122,7 +128,7 @@ header {
   width: 90%;
   margin: auto;
   max-width: 1100px;
-  background-color: #f2f2f2;
+  background-color: #ebebeb;
   height: 150px;
   padding: 2em .5em;
   z-index: 1;
@@ -136,19 +142,21 @@ header > a#main-logo {
 }
 
 header > a > h1 {
-  font-family: "Oswald", Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-size: 2.5em;
-  color: #333;
+  font-family: Popins Bold, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  color: #202020;
 }
 
 header > a > h1:hover {
   opacity: .85;
 }
 
-header > a > em {
-  font-family: Rubik Reg, Helvetica, Arial, sans-serif;
-  color: #333;
+header > a > p {
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif;
+  font-size: .9em;
+  color: #202020;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   opacity: .75;
 }
 
@@ -160,7 +168,7 @@ header > div#float-nav {
 header > div#float-nav a {
   margin-left: 20px;
   padding-right: 0;
-  color: #333;
+  color: #202020;
   background-color: transparent;
 }
 header > div#float-nav div.navbar-collapse {
@@ -205,28 +213,30 @@ section.home_page > div.col-md-4 > div:hover > div.thumb_info {
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
-  color: #333;
-  font-family: "Oswald", Helvetica, sans-serif;
+  color: #202020;
+  font-family: Popins SemiBold, Helvetica, sans-serif;
   font-weight: 500;
+  font-size: 1.1em;
   margin-bottom: 0;
   font-kerning: normal;
-  letter-spacing: .5px;
-  text-transform: uppercase;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -5px;
-  color: #333;
-  font-size: 14px;
+  color: #202020;
+  font-size: .8em;
   font-kerning: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.5;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
-  background-color: #333;
+  background-color: #202020;
   position: absolute;
   top: 25px;
   color: white;
-  font-family: Rubik Reg, Helvetica, Arial, sans-serif;
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif;
   font-size: .6em;
   font-weight: 500;
   letter-spacing: .25em;
@@ -251,10 +261,10 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
 button.nav-button {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: Rubik Reg, Helvetica, Arial, sans-serif, sans-serif;
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #333;
-  background-color: #333;
+  border: 1pt solid #202020;
+  background-color: #202020;
   color: #fff;
 }
 
@@ -264,10 +274,10 @@ button.nav-button:hover {
   box-shadow: 3px 3px 3px #d8d8d8;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: Rubik Reg, Helvetica, Arial, sans-serif, sans-serif;
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #333;
-  background-color: #333;
+  border: 1pt solid #202020;
+  background-color: #202020;
   color: #999;
 }
 
@@ -277,10 +287,10 @@ button.nav-button:focus {
   box-shadow: 3px 3px 3px #d8d8d8;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: Rubik Reg, Helvetica, Arial, sans-serif, sans-serif;
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #333;
-  background-color: #333;
+  border: 1pt solid #202020;
+  background-color: #202020;
   color: #fff;
 }
 
@@ -316,7 +326,7 @@ button.nav-button:focus {
   header > div#float-nav a {
     margin-left: 0;
     font-size: 1.25em;
-    border-bottom: 1pt solid #333;
+    border-bottom: 1pt solid #202020;
   }
 
   header > div#float-nav > div.collapse {
@@ -334,9 +344,9 @@ button.nav-button:focus {
 }
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
-  font-family: Rubik Reg, Helvetica, Arial, sans-serif;
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 2em;
+  line-height: 1.6;
   margin-bottom: 5em;
 }
 
@@ -349,7 +359,7 @@ div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
 }
 
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: Popins, "Oswald", Helvetica, sans-serif;
+  font-family: Popins Bold, Helvetica, sans-serif;
   font-weight: 200;
   font-size: 3em;
   text-transform: none;
@@ -366,10 +376,17 @@ div.columnsContainer > div.project_photos > div {
   padding-left: 0;
 }
 
+div.columnsContainer img {
+  border-radius: 5px;
+}
+
 h3 {
-  font-family: Rubik Bold, "Oswald", Helvetica, sans-serif;
+  font-family: Popins Bold, Helvetica, sans-serif;
   font-weight: 500;
-  text-transform: uppercase;
+}
+
+.table-bordered > tbody > tr > td {
+  border: 0.5px solid #202020;
 }
 
 .hints {
@@ -384,7 +401,7 @@ h3 {
 
 .project-sub-title {
   font-size: 1em;
-  font-family: 'Rubik Reg';
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: .5em;
@@ -399,13 +416,13 @@ button.launch {
   background-color: #fff;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: Rubik Reg, Helvetica, Arial, sans-serif, sans-serif;
+  font-family: Roboto Regular, Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #333;
+  border: 1pt solid #202020;
 }
 
 button.launch:hover {
-  background-color: #333;
+  background-color: #202020;
   color: #fff;
 }
 
@@ -421,7 +438,7 @@ div.design-purpose > div.col-md-4 div.thumbnail > img {
 }
 div.design-purpose > div.col-md-4 div.thumbnail h4 {
   text-align: center;
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: Popins Bold, Helvetica, sans-serif;
   font-size: 2em;
   font-weight: 300;
   margin-top: -5px;
