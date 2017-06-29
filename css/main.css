@@ -385,6 +385,10 @@ h3 {
   font-weight: 500;
 }
 
+.table {
+  margin-top: 20px;
+}
+
 .table-bordered > tbody > tr > td {
   border: 0.5px solid #202020;
 }
