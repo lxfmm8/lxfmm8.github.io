@@ -468,5 +468,8 @@ div.columnsContainer > div.project_photos .collection {
   text-align: center;
 }
 div.columnsContainer > div.project_photos h3 {
-  margin-bottom: 0;
+  margin-bottom: 5px;
+}
+div.columnsContainer > div.project_photos p {
+  line-height: 1.25em;
 }
