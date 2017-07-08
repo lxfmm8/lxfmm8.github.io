@@ -463,3 +463,8 @@ div.design-purpose > div.col-md-4 div.thumbnail div.modal-body img {
   width: 75%;
   border: 1pt solid #333333;
 }
+
+div.columnsContainer > div.project_photos .collection {
+  text-align: center;
+  line-height: 0.75em;
+}
