@@ -516,7 +516,9 @@ div.design-purpose > div.col-md-4 {
 div.columnsContainer > div.project_photos {
   .collection {
     text-align: center;
-    line-height: 0.75em;
+  }
+  h3 {
+    margin-bottom: 0;
   }
 }
 
