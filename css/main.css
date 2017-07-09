@@ -62,6 +62,7 @@ main.allWrapper div.columnsContainer {
   margin: auto;
   float: none;
   display: block;
+  padding: 0 5px;
 }
 main.allWrapper div.columnsContainer > div.info {
   font-size: 1.15em;
@@ -465,12 +466,13 @@ div.design-purpose > div.col-md-4 div.thumbnail div.modal-body img {
   border: 1pt solid #333333;
 }
 
-div.columnsContainer > div.project_photos .collection {
+div.columnsContainer .collection {
   text-align: center;
 }
-div.columnsContainer > div.project_photos h3 {
+div.columnsContainer h3 {
   margin-bottom: 5px;
 }
-div.columnsContainer > div.project_photos p {
+div.columnsContainer p {
   line-height: 1.25em;
+  margin-bottom: 20px;
 }

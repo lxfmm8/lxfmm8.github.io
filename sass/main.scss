@@ -72,6 +72,7 @@ main.allWrapper {
     margin: auto;
     float: none;
     display: block;
+    padding: 0 5px;
   }
   div.columnsContainer > div.info {
     font-size: 1.15em;
@@ -514,7 +515,7 @@ div.design-purpose > div.col-md-4 {
 }
 
 
-div.columnsContainer > div.project_photos {
+div.columnsContainer {
   .collection {
     text-align: center;
   }
@@ -523,6 +524,7 @@ div.columnsContainer > div.project_photos {
   }
   p {
     line-height: 1.25em;
+    margin-bottom: 20px;
   }
 }
 
