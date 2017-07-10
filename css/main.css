@@ -142,6 +142,18 @@ header > a#main-logo {
   position: relative;
 }
 
+header > a#main-logo p.update-time {
+  margin-top: -10px;
+  opacity: 0;
+}
+
+header > a#main-logo:hover p.update-time {
+  opacity: .25;
+}
+header > a#main-logo:hover img {
+  opacity: .75;
+}
+
 header > a > h1 {
   font-family: Popins Bold, Helvetica, Arial, sans-serif;
   font-size: 3em;

@@ -156,7 +156,20 @@ header > a#main-logo {
   float: left;
   position: relative;
 }
-
+header > a#main-logo {
+  p.update-time {
+    margin-top: -10px;
+    opacity: 0;
+  }
+}
+header > a#main-logo:hover {
+  p.update-time {
+    opacity: .25;
+  }
+  img {
+    opacity: .75;
+  }
+}
 header > a > h1 {
   font-family: $logo_type;
   // text-transform: uppercase;
