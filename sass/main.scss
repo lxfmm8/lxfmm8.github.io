@@ -1,16 +1,4 @@
 @font-face {
-  font-family: Popins Bold;
-  src: url(../fonts/Poppins-Bold.ttf);
-}
-@font-face {
-  font-family: Popins Medium;
-  src: url(../fonts/Poppins-Medium.ttf);
-}
-@font-face {
-  font-family: Popins SemiBold;
-  src: url(../fonts/Poppins-SemiBold.ttf);
-}
-@font-face {
   font-family: Roboto Regular;
   src: url(../fonts/Roboto-Regular.ttf);
 }
@@ -19,9 +7,9 @@ $theme: #202020;
 $title_font_color: #202020;
 $background-color: #ebebeb;
 $sans_serif_font: Roboto Regular, Helvetica, Arial, sans-serif;
-$project_title_font: Popins Bold, Helvetica, sans-serif;
-$project_title_font_light: Popins SemiBold, Helvetica, sans-serif;
-$logo_type: Popins Bold, Helvetica, Arial, sans-serif;
+$project_title_font: 'Montserrat', Helvetica, sans-serif;
+$project_title_font_light: 'Montserrat', Helvetica, sans-serif;
+$logo_type: 'Montserrat', Helvetica, Arial, sans-serif;
 
 body {
   background: $background-color;
@@ -79,7 +67,7 @@ main.allWrapper {
     margin-top: 0;
   }
   div.columnsContainer > div.info > h1 {
-    font-size: calc(1em + 5vmin);
+    font-size: 10rem;
     font-family: $project_title_font;
     font-weight: 700;
     color: $title_font_color;
@@ -96,10 +84,12 @@ main.allWrapper {
   div.columnsContainer > div.info > p.project-sub-title {
     margin: .5em auto 3em auto;
     max-width: 1400px;
-    font-size: .75em;
-    font-weight: 300;
+    font-size: 14px;
     opacity: .75;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 175%;
   }
   div.columnsContainer > div.info > div.project-nav {
     text-align: center;
@@ -134,6 +124,9 @@ main.allWrapper {
   }
   div.columnsContainer > div.info > table {
     font-size: 16px;
+  }
+  div.columnsContainer > div.info > ul.p-list {
+    margin-top: -35px;
   }
 }
 
@@ -396,7 +389,6 @@ button.nav-button:focus {
 div.columnsContainer > div > div#resume {
   font-family: $sans_serif_font;
   font-size: 16px;
-  line-height: 1.6;
   margin-bottom: 5em;
 }
 div.columnsContainer > div > div#resume > div#resume_main {
@@ -405,6 +397,9 @@ div.columnsContainer > div > div#resume > div#resume_main {
 }
 div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
   padding: 10px 40px 40px 7px;
+  p {
+    line-height: 200%;
+  }
 }
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
   font-family: $project_title_font;
@@ -456,13 +451,6 @@ h3 {
   font-size: 1.2em;
 }
 
-.project-sub-title {
-  font-size: 1em;
-  font-family: $sans_serif_font;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  margin-bottom: .5em;
-}
 img.framer {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
 }

@@ -1,17 +1,5 @@
 @charset "UTF-8";
 @font-face {
-  font-family: Popins Bold;
-  src: url(../fonts/Poppins-Bold.ttf);
-}
-@font-face {
-  font-family: Popins Medium;
-  src: url(../fonts/Poppins-Medium.ttf);
-}
-@font-face {
-  font-family: Popins SemiBold;
-  src: url(../fonts/Poppins-SemiBold.ttf);
-}
-@font-face {
   font-family: Roboto Regular;
   src: url(../fonts/Roboto-Regular.ttf);
 }
@@ -69,8 +57,8 @@ main.allWrapper div.columnsContainer > div.info {
   margin-top: 0;
 }
 main.allWrapper div.columnsContainer > div.info > h1 {
-  font-size: calc(1em + 5vmin);
-  font-family: Popins Bold, Helvetica, sans-serif;
+  font-size: 10rem;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 700;
   color: #202020;
   text-align: center;
@@ -85,10 +73,12 @@ main.allWrapper div.columnsContainer > div.info > strong {
 main.allWrapper div.columnsContainer > div.info > p.project-sub-title {
   margin: .5em auto 3em auto;
   max-width: 1400px;
-  font-size: .75em;
-  font-weight: 300;
+  font-size: 14px;
   opacity: .75;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 175%;
 }
 main.allWrapper div.columnsContainer > div.info > div.project-nav {
   text-align: center;
@@ -124,6 +114,9 @@ main.allWrapper div.columnsContainer > div.info > p.prototype-button {
 main.allWrapper div.columnsContainer > div.info > table {
   font-size: 16px;
 }
+main.allWrapper div.columnsContainer > div.info > ul.p-list {
+  margin-top: -35px;
+}
 
 header {
   width: 90%;
@@ -155,7 +148,7 @@ header > a#main-logo:hover img {
 }
 
 header > a > h1 {
-  font-family: Popins Bold, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 3em;
   color: #202020;
 }
@@ -227,7 +220,7 @@ section.home_page > div.col-md-4 > div:hover > div.thumb_info {
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   color: #202020;
-  font-family: Popins SemiBold, Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.1em;
   margin-bottom: 0;
@@ -360,7 +353,6 @@ button.nav-button:focus {
 div.columnsContainer > div > div#resume {
   font-family: Roboto Regular, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.6;
   margin-bottom: 5em;
 }
 
@@ -371,9 +363,12 @@ div.columnsContainer > div > div#resume > div#resume_main {
 div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
   padding: 10px 40px 40px 7px;
 }
+div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 p {
+  line-height: 200%;
+}
 
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: Popins Bold, Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 200;
   font-size: 3em;
   text-transform: none;
@@ -395,7 +390,7 @@ div.columnsContainer img {
 }
 
 h3 {
-  font-family: Popins Bold, Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 500;
 }
 
@@ -415,14 +410,6 @@ h3 {
   font-family: Helvetica, Arial，sans-serif;
   font-weight: 100;
   font-size: 1.2em;
-}
-
-.project-sub-title {
-  font-size: 1em;
-  font-family: Roboto Regular, Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  margin-bottom: .5em;
 }
 
 img.framer {
@@ -456,7 +443,7 @@ div.design-purpose > div.col-md-4 div.thumbnail > img {
 }
 div.design-purpose > div.col-md-4 div.thumbnail h4 {
   text-align: center;
-  font-family: Popins Bold, Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 2em;
   font-weight: 300;
   margin-top: -5px;
