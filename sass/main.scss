@@ -6,14 +6,14 @@
 $theme: #202020;
 $title_font_color: #202020;
 $background-color: #ebebeb;
-$sans_serif_font: Roboto Regular, Helvetica, Arial, sans-serif;
+$sans_serif_font: 'Sorts Mill Goudy', Helvetica, Arial, sans-serif;
 $project_title_font: 'Montserrat', Helvetica, sans-serif;
 $project_title_font_light: 'Montserrat', Helvetica, sans-serif;
 $logo_type: 'Montserrat', Helvetica, Arial, sans-serif;
 
 body {
   background: $background-color;
-  color: $theme;
+  color: black;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -67,15 +67,17 @@ main.allWrapper {
     margin-top: 0;
   }
   div.columnsContainer > div.info > h1 {
-    font-size: 10rem;
+    font-size: 5em;
     font-family: $project_title_font;
     font-weight: 700;
     color: $title_font_color;
     text-align: center;
     font-kerning: normal;
-    letter-spacing: -1px;
-    // margin-top: 50px;
+    letter-spacing: 1px;
+    margin-top: 40px;
     margin-bottom: 0em;
+    // text-transform: uppercase;
+    font-kerning: normal;
   }
   div.columnsContainer > div.info > strong {
     font-size: .85em;
@@ -84,37 +86,40 @@ main.allWrapper {
   div.columnsContainer > div.info > p.project-sub-title {
     margin: .5em auto 3em auto;
     max-width: 1400px;
-    font-size: 14px;
-    opacity: .75;
+    font-size: 20px;
     text-align: center;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     letter-spacing: 1px;
-    line-height: 175%;
+    line-height: 150%;
   }
   div.columnsContainer > div.info > div.project-nav {
+    font-family: $project_title_font_light;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+  }
+  div.columnsContainer > div.info > div.project-nav > a {
+    opacity: 1;
+  }
+  div.columnsContainer > div.info > div.project-nav > a:hover {
     opacity: .5;
   }
   div.columnsContainer > div.info > h3.proj-sm-col {
-    margin: 1em auto 0 auto;
-    max-width: 500px;
+    font-family: $sans_serif_font;
+    margin: 1em auto -5px auto;
+    max-width: 800px;
     font-size: 24px;
-  }
-   div.columnsContainer > div.info > h4.proj-sm-col {
-    margin: 1em auto 0 auto;
-    max-width: 500px;
-    font-size: 18px;
   }
   div.columnsContainer > div.info > p.proj-sm-col {
     margin: 1em auto 3em auto;
-    max-width: 500px;
+    max-width: 800px;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 150%;
   }
   div.columnsContainer > div.info > ul.proj-sm-col {
     margin: 1em auto 3em auto;
-    max-width: 500px;
+    max-width: 800px;
     font-size: 16px;
     line-height: 1.6;
   }
@@ -163,11 +168,13 @@ header > a#main-logo:hover {
     opacity: .75;
   }
 }
-header > a > h1 {
+header > a > h1#logo-type {
   font-family: $logo_type;
+  font-weight: 700;
   // text-transform: uppercase;
   font-size: 3em;
   color: $theme;
+  margin-bottom: 5px;
 }
 
 header > a > h1:hover {
@@ -176,22 +183,24 @@ header > a > h1:hover {
 
 header > a > p {
   font-family: $sans_serif_font;
-  font-size: .9em;
+  font-size: 16px;
   color: $theme;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  opacity: .75;
+  // text-transform: uppercase;
 }
 
 header > div#float-nav {
   float: right;
   top: 49px;
   position: relative;
+  text-transform: uppercase;
+  font-family: $project_title_font_light;
+  font-size: .8em;
+  letter-spacing: 1px;
 
   a {
     margin-left: 20px;
     padding-right: 0;
-    color: $theme;
+    color: black;
     background-color: transparent;
   }
   div.navbar-collapse {
@@ -241,9 +250,9 @@ section.home_page > div.col-md-4 > div:hover > div.thumb_info {
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 
   color: $theme;
-  font-family: $project_title_font_light;
+  font-family: $project_title_font;
   font-weight: 500;
-  font-size: 1.1em;
+  font-size: 1.35em;
   margin-bottom: 0;
   font-kerning: normal;
   // letter-spacing: .5px;
@@ -252,12 +261,9 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -5px;
-  color: $theme;
-  font-size: .8em;
+  font-size: 1em;
   font-kerning: normal;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  opacity: 0.5;
+  // text-transform: uppercase;
 }
 
 // Project Thumbnail Tags
