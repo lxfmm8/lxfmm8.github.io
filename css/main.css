@@ -1,10 +1,6 @@
 @charset "UTF-8";
-@font-face {
-  font-family: Roboto Regular;
-  src: url(../fonts/Roboto-Regular.ttf);
-}
 body {
-  background: #ebebeb;
+  background: #b5b5b6;
   color: black;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -25,7 +21,7 @@ img {
 button.btn:focus {
   outline: none;
   background-color: #fff;
-  border: 1pt solid #202020;
+  border: 1pt solid #e5e084;
 }
 
 main.allWrapper {
@@ -34,13 +30,13 @@ main.allWrapper {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto 50px auto;
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.2em;
 }
 main.allWrapper a {
   text-decoration: none;
-  color: #202020;
+  color: #e5e084;
 }
 main.allWrapper .col-md-8 {
   margin: auto;
@@ -57,13 +53,13 @@ main.allWrapper div.columnsContainer > div.info {
   margin-top: 0;
 }
 main.allWrapper div.columnsContainer > div.info > h1 {
-  font-size: 5em;
-  font-family: "Montserrat", Helvetica, sans-serif;
-  font-weight: 700;
-  color: #202020;
+  font-size: 6em;
+  font-family: "Spectral", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #e5e084;
   text-align: center;
   font-kerning: normal;
-  letter-spacing: 1px;
+  letter-spacing: -3px;
   margin-top: 40px;
   margin-bottom: 0em;
   font-kerning: normal;
@@ -73,12 +69,12 @@ main.allWrapper div.columnsContainer > div.info > strong {
   margin-bottom: 5em;
 }
 main.allWrapper div.columnsContainer > div.info > p.project-sub-title {
-  margin: .5em auto 3em auto;
+  margin: .1em auto 3em auto;
   max-width: 1400px;
+  font-family: "Spectral", Helvetica, sans-serif;
   font-size: 20px;
   text-align: center;
-  letter-spacing: 1px;
-  line-height: 150%;
+  line-height: 135%;
 }
 main.allWrapper div.columnsContainer > div.info > div.project-nav {
   font-family: "Montserrat", Helvetica, sans-serif;
@@ -89,12 +85,13 @@ main.allWrapper div.columnsContainer > div.info > div.project-nav {
 }
 main.allWrapper div.columnsContainer > div.info > div.project-nav > a {
   opacity: 1;
+  color: #0d0103;
 }
 main.allWrapper div.columnsContainer > div.info > div.project-nav > a:hover {
   opacity: .5;
 }
 main.allWrapper div.columnsContainer > div.info > h3.proj-sm-col {
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   margin: 1em auto -5px auto;
   max-width: 800px;
   font-size: 24px;
@@ -126,7 +123,7 @@ header {
   width: 90%;
   margin: auto;
   max-width: 1100px;
-  background-color: #ebebeb;
+  background-color: #b5b5b6;
   height: 150px;
   padding: 2em .5em;
   z-index: 1;
@@ -152,11 +149,15 @@ header > a#main-logo:hover img {
 }
 
 header > a > h1#logo-type {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 3em;
-  color: #202020;
-  margin-bottom: 5px;
+  font-family: "Spectral", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #f9f9fc;
+  margin-top: 35px;
+  margin-bottom: 3px;
+  letter-spacing: 1px;
+  font-kern: normal;
 }
 
 header > a > h1:hover {
@@ -164,14 +165,17 @@ header > a > h1:hover {
 }
 
 header > a > p {
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #202020;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #e5e084;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 header > div#float-nav {
   float: right;
-  top: 49px;
+  top: 50px;
   position: relative;
   text-transform: uppercase;
   font-family: "Montserrat", Helvetica, sans-serif;
@@ -181,11 +185,13 @@ header > div#float-nav {
 header > div#float-nav a {
   margin-left: 20px;
   padding-right: 0;
-  color: black;
+  color: #fffef7;
   background-color: transparent;
 }
 header > div#float-nav div.navbar-collapse {
   padding: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 section.home_page {
@@ -210,42 +216,53 @@ section.home_page > div.col-md-4 > div {
   transition: all .1s;
 }
 
-section.home_page > div.col-md-4 > div > a > img:hover {
+section.home_page > div.col-md-4 > div > a > img.thumb:hover {
   -webkit-box-shadow: 4px 4px 5px 0px #919191;
   -moz-box-shadow: 4px 4px 5px 0px #919191;
   box-shadow: 4px 4px 5px 0px #919191;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
+  height: 80px;
+  width: 352px;
+  top: -25px;
+  padding-left: 20px;
+  position: absolute;
+  z-index: 10;
   opacity: 1;
-  transition: .5s;
 }
 
-section.home_page > div.col-md-4 > div:hover > div.thumb_info {
+section.home_page > div.col-md-4 > div.list_group:hover div.thumb_info {
   opacity: 1;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
-  color: #202020;
-  font-family: "Montserrat", Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1.35em;
+  color: #e5e084;
+  font-family: "Spectral", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.75em;
+  margin-top: 15px;
   margin-bottom: 0;
   font-kerning: normal;
+  opacity: 0;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
-  margin-top: -5px;
-  font-size: 1em;
+  color: #f9f9fc;
+  margin-top: -10px;
+  font-size: .65em;
   font-kerning: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
-  background-color: #202020;
+  background-color: #e5e084;
   position: absolute;
   top: 25px;
   color: white;
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: .6em;
   font-weight: 500;
   letter-spacing: .25em;
@@ -270,10 +287,10 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
 button.nav-button {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #202020;
-  background-color: #202020;
+  border: 1pt solid #e5e084;
+  background-color: #e5e084;
   color: #fff;
 }
 
@@ -283,10 +300,10 @@ button.nav-button:hover {
   box-shadow: 3px 3px 3px #d8d8d8;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #202020;
-  background-color: #202020;
+  border: 1pt solid #e5e084;
+  background-color: #e5e084;
   color: #999;
 }
 
@@ -296,10 +313,10 @@ button.nav-button:focus {
   box-shadow: 3px 3px 3px #d8d8d8;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #202020;
-  background-color: #202020;
+  border: 1pt solid #e5e084;
+  background-color: #e5e084;
   color: #fff;
 }
 
@@ -335,7 +352,7 @@ button.nav-button:focus {
   header > div#float-nav a {
     margin-left: 0;
     font-size: 1.25em;
-    border-bottom: 1pt solid #202020;
+    border-bottom: 1pt solid #e5e084;
     padding-right: 15px;
   }
 
@@ -354,7 +371,7 @@ button.nav-button:focus {
 }
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin-bottom: 5em;
 }
@@ -371,7 +388,7 @@ div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 p {
 }
 
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Spectral", Helvetica, sans-serif;
   font-weight: 200;
   font-size: 3em;
   text-transform: none;
@@ -393,7 +410,7 @@ div.columnsContainer img {
 }
 
 h3 {
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Spectral", Helvetica, sans-serif;
   font-weight: 500;
 }
 
@@ -402,7 +419,7 @@ h3 {
 }
 
 .table-bordered > tbody > tr > td {
-  border: 0.5px solid #202020;
+  border: 0.5px solid #e5e084;
 }
 
 .hints {
@@ -415,22 +432,18 @@ h3 {
   font-size: 1.2em;
 }
 
-img.framer {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-}
-
 button.launch {
   box-shadow: 3px 3px 3px #d8d8d8;
   background-color: #fff;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Sorts Mill Goudy", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #202020;
+  border: 1pt solid #e5e084;
 }
 
 button.launch:hover {
-  background-color: #202020;
+  background-color: #e5e084;
   color: #fff;
 }
 
@@ -446,7 +459,7 @@ div.design-purpose > div.col-md-4 div.thumbnail > img {
 }
 div.design-purpose > div.col-md-4 div.thumbnail h4 {
   text-align: center;
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Spectral", Helvetica, sans-serif;
   font-size: 2em;
   font-weight: 300;
   margin-top: -5px;
