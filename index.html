@@ -12,10 +12,9 @@
         <link rel="stylesheet" href="css/main.css"/>
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- google fonts -->
-<!--         <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Spectral:300,400,400i,500,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,400i,500,600,700" rel="stylesheet">
 
 
         <style>
@@ -32,7 +31,7 @@
           }
 /*          .header.shadow {
             box-shadow:0px 5px 5px rgba(0,0,0,.25);
-            opacity: .8;
+            opacity: .95;
           }*/
 
           #float-nav {
@@ -73,35 +72,36 @@
 
       
 
-    	<header style="display: block; float: none; margin: auto;">
+    	<header class="header" style="display: block; float: none; margin: auto;">
+        <div class="header-wrapper">
   			<a id="main-logo" href="#/view1">
 <!--           <img src="img/whiff_logo-5.png" width="300" onmouseout="this.style.opacity=1; this.filters.alpha opacity=100" onmouseover="this.style.opacity=0.85;this.filters.alpha.opacity=80" alt="main logo"/> -->
-        <h1 id="logo-type">A Whiff of Design</h1>
+        <h1 id="logo-type">Xiaofeng Lin</h1>
         <!-- <img src="logo-2.svg" style="margin-top: 10px; margin-bottom: 5px; max-width: 300px;"/> -->
-        <p class="logo-sub">Interactive Design / Branding / Illustration</p>
+<!--         <p class="logo-sub">Xiaofeng Lin - Digital Design / Branding / Crafts</p> -->
         <!-- <p class="update-time">Last time updated: 07/09/2017</p> -->
         </a>
 
-<!-- RIGHT NAV BUTTONS -->
 
-        <div id="float-nav">
+<!-- RIGHT NAV BUTTONS -->
+            <div id="float-nav">
 <!--           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar" style="font-size: 2em;"></span>
           </button> -->
 
-          <div class="navbar-collapse collapse" style="height: 200px;">
-            <ul class="nav navbar-nav">
-              <li><a style="text-decoration: none" href="#/view15">Prints</a></li>
-              <li><a style="text-decoration: none" href="#/view10">Toys</a></li>
-              <li><a style="text-decoration: none" href="#/view11">Drawings</a></li>
-              <li><a style="text-decoration: none" href="#/view13">About</a></li>
-              
-            </ul>
-          </div>
-        </div>
+              <div class="navbar-collapse collapse" style="height: 200px;">
+                <ul class="nav navbar-nav">
+                  <li><a style="text-decoration: none" href="#/view15">Prints</a></li>
+                  <li><a style="text-decoration: none" href="#/view10">Toys</a></li>
+                  <li><a style="text-decoration: none" href="#/view11">Drawings</a></li>
+                  <li><a style="text-decoration: none" href="#/view13">About</a></li>
+                  
+                </ul>
+              </div>
+            </div>
 
           <!--span style="margin-right: 1em; float: right;"><a style="text-decoration: none" href="#/view5"><span style="background-color: black; color: white; padding: .5em;">Blog</span></a></span-->
-
+        </div>
   		</header>
 
       <main class="allWrapper" ng-view autoscroll></main>

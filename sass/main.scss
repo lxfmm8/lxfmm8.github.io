@@ -1,16 +1,22 @@
 
-$theme-sub: #e5e084;
-$theme: #e5e084;
-$title_font_color: #e5e084;
-$background-color: #b5b5b6; // fixed
+$theme-sub: #e37560;
+$theme: #16395e;
+$logo-color: #f9f9fc;
+$float-nav-color: #f9f9fc;
+$header: #0363a6;
+$title_font_color: #16395e;
+$subtitle_font_color: #e37560;
+$thumbnail-highlight-color: #ffec00;
+$background-color: #f9f9fc;
+$background-color-2: #b5b5b6; // fixed
 $sans_serif_font: 'Montserrat', Helvetica, Arial, sans-serif;
-$project_title_font: 'Spectral', Helvetica, sans-serif;
+$project_title_font: 'Cormorant Garamond', Helvetica, sans-serif;
 $project_title_font_light: 'Montserrat', Helvetica, sans-serif;
 $logo_type: 'Spectral', Helvetica, Arial, sans-serif;
 
 body {
   background: $background-color;
-  color: black;
+  color: $theme;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -41,8 +47,8 @@ main.allWrapper {
     z-index: -10;
     line-height: 22pt;
     width: 90%;
-    max-width: 1100px;
-    margin: 0 auto 50px auto;
+    // max-width: 1100px;
+    margin: 0 auto 40px auto;
 
   font: {
     family: $sans_serif_font;
@@ -61,69 +67,70 @@ main.allWrapper {
     margin: auto;
     float: none;
     display: block;
-    padding: 0 5px;
   }
   div.columnsContainer > div.info {
     font-size: 1.15em;
-    margin-top: 0;
+    margin-top: 130px;
   }
-  div.columnsContainer > div.info > h1 {
-    font-size: 6em;
+  div.columnsContainer > div.info > div.project-header {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  div.columnsContainer > div.info > div.project-header > h1 {
+    font-size: 3em;
     font-family: $project_title_font;
     font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 90%;
     color: $title_font_color;
-    text-align: center;
-    font-kerning: normal;
-    letter-spacing: -3px;
-    margin-top: 40px;
-    margin-bottom: 0em;
-    // text-transform: uppercase;
-    font-kerning: normal;
   }
-  div.columnsContainer > div.info > strong {
-    font-size: .85em;
-    margin-bottom: 5em;
-  }
-  div.columnsContainer > div.info > p.project-sub-title {
-    margin: .1em auto 3em auto;
+
+  div.columnsContainer > div.info > div.project-header > p.project-sub-title {
+    margin-top: 10px;
+    margin-bottom: 40px;
     max-width: 1400px;
     font-family: $project_title_font;
-    font-size: 20px;
-    text-align: center;
-    // text-transform: uppercase;
+    font-size: .9em;
     line-height: 135%;
+    font-style: italic;
+    color: $subtitle_font_color;
   }
-  div.columnsContainer > div.info > div.project-nav {
+  div.columnsContainer > div.info > div.project-header > div.project-nav {
     font-family: $project_title_font_light;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     font-size: 12px;
+    float: right;
   }
-  div.columnsContainer > div.info > div.project-nav > a {
+  div.columnsContainer > div.info > div.project-header > div.project-nav > a {
     opacity: 1;
-    color: #0d0103;
+    // color: #0d0103;
   }
-  div.columnsContainer > div.info > div.project-nav > a:hover {
+  div.columnsContainer > div.info > div.project-header > div.project-nav > a:hover {
     opacity: .5;
   }
-  div.columnsContainer > div.info > h3.proj-sm-col {
-    font-family: $sans_serif_font;
+  div.columnsContainer > div.info > h3 {
+    font-family: $project_title_font;
     margin: 1em auto -5px auto;
+    width: 95%;
     max-width: 800px;
-    font-size: 24px;
+    font-size: 2em;
   }
   div.columnsContainer > div.info > p.proj-sm-col {
     margin: 1em auto 3em auto;
+    width: 95%;
     max-width: 800px;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 175%;
   }
   div.columnsContainer > div.info > ul.proj-sm-col {
-    margin: 1em auto 3em auto;
+    margin: 1.5em auto 3em auto;
+    width: 95%;
     max-width: 800px;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 175%;
   }
   div.columnsContainer > div.info > p.prototype-button {
     margin: 1em auto 3em auto;
@@ -138,31 +145,33 @@ main.allWrapper {
 }
 
 header {
-    width: 90%;
+  top: 0;
+    z-index: 1000;
+    width: 100%;
     margin: auto;
-    max-width: 1100px;
-    background-color: $background-color;
-    height: 150px;
-    padding: 2em .5em;
+    background-color: $header;
+    height: 80px;
     z-index: 1;
+    position: fixed;
+    // border-bottom: 1pt solid lightgray;
+    .header-wrapper {
+      margin: auto;
+      max-width: 1100px;
+      padding: 10px;
+    }
 }
 
 
 
 /*----- Home Page CSS -----*/
 
-header > a#main-logo {
+header > div.header-wrapper > a#main-logo {
   text-decoration: none;
   float: left;
   position: relative;
 }
-header > a#main-logo {
-  p.update-time {
-    margin-top: -10px;
-    opacity: 0;
-  }
-}
-header > a#main-logo:hover {
+
+header > div.header-wrapper > a#main-logo:hover {
   p.update-time {
     opacity: .25;
   }
@@ -170,44 +179,45 @@ header > a#main-logo:hover {
     opacity: .75;
   }
 }
-header > a > h1#logo-type {
+header > div.header-wrapper > a > h1#logo-type {
   font-family: $logo_type;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 3rem;
-  color: #f9f9fc;
-  margin-top: 35px;
+  font-size: 2rem;
+  color: $logo-color;
+  margin-top: 20px;
   margin-bottom: 3px;
   letter-spacing: 1px;
   font-kern: normal;
 }
 
-header > a > h1:hover {
+header > div.header-wrapper > a > h1:hover {
   opacity: .85;
 }
 
-header > a > p {
+header > div.header-wrapper > a > p {
   font-family: $sans_serif_font;
   font-weight: 400;
-  font-size: 11px;
-  color: $theme-sub;
+  font-size: 10px;
+  color: #2b9cb6;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-header > div#float-nav {
+header > div.header-wrapper > div#float-nav {
   float: right;
-  top: 50px;
+  top: 6px;
   position: relative;
   text-transform: uppercase;
   font-family: $project_title_font_light;
   font-size: .8em;
+  font-weight: 300;
   letter-spacing: 1px;
 
   a {
     margin-left: 20px;
     padding-right: 0;
-    color: #fffef7;
+    color: $float-nav-color;
     background-color: transparent;
   }
   div.navbar-collapse {
@@ -219,6 +229,19 @@ header > div#float-nav {
 
 section.home_page {
   padding: 0;
+  margin: auto;
+  margin-top: 100px;
+  max-width: 90%;
+}
+
+section.home_page > h2 {
+  font-family: $project_title_font;
+  font-size: 2em;
+  line-height: 135%;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 5px 40px 5px;
 }
 
 section.home_page > div.col-md-4 {
@@ -239,24 +262,23 @@ section.home_page > div.col-md-4 > div {
   // border: 1pt solid white;
 }
 
-// section.home_page > div.col-md-4 > div > a > img {
-//   border: .25pt solid $theme;
+section.home_page > div.col-md-4 > div > a > img {
+  border-bottom: 5pt solid transparent;
+}
+
+section.home_page > div.col-md-4 > div > a > img:hover {
+  border-bottom: 5pt solid $thumbnail-highlight-color;
+}
+
+// section.home_page > div.col-md-4 > div > a > img.thumb:hover {
+//   -webkit-box-shadow:  4px 4px 5px 0px #919191;
+//   -moz-box-shadow:     4px 4px 5px 0px #919191;
+//   box-shadow:          4px 4px 5px 0px #919191;
 // }
 
-section.home_page > div.col-md-4 > div > a > img.thumb:hover {
-  -webkit-box-shadow:  4px 4px 5px 0px #919191;
-  -moz-box-shadow:     4px 4px 5px 0px #919191;
-  box-shadow:          4px 4px 5px 0px #919191;
-  // border: 1pt solid $theme;
-}
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
   height: 80px;
   width: 352px;
-  top: -25px;
-  padding-left: 20px;
-  position: absolute;
-  z-index: 10;
-  opacity: 1;
 }
 
 section.home_page > div.col-md-4 > div.list_group:hover {
@@ -267,26 +289,27 @@ section.home_page > div.col-md-4 > div.list_group:hover {
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 
-  color: $theme-sub;
+  // color: $theme-sub;
   font-family: $project_title_font;
   font-weight: 300;
   font-size: 1.75em;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 0;
   font-kerning: normal;
   // letter-spacing: .5px;
   // text-transform: uppercase;
-  opacity: 0;
+
 
 }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
-  color: #f9f9fc;
+  // color: #f9f9fc;
   margin-top: -10px;
   font-size: .65em;
   font-kerning: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  color: $subtitle_font_color;
 }
 
 // Project Thumbnail Tags
@@ -362,9 +385,9 @@ button.nav-button:focus {
 @media (max-width: 767px) {
   header {
     position: relative;
-    height: 350px;
+    height: 250px;
   }
-  header > a#main-logo {
+  header > div.header-wrapper > a#main-logo {
     display: block;
     width: 100%;
     text-decoration: none;
@@ -372,38 +395,59 @@ button.nav-button:focus {
     text-align: center;
   }
 
-  header > a#main-logo > {
+  header > div.header-wrapper > a#main-logo > {
     text-decoration: none;
     float: none;
   }
 
-  header > div#float-nav {
+  header > div.header-wrapper > div#float-nav {
     float: none;
     text-align: center;
     width: 100%;
     margin: auto;
+    margin-top: 20px;
     padding: 0 1.25em;
     display: block;
     top: 0;
+    border-top: 1pt solid $float-nav-color;
   }
 
-    header > div#float-nav a {
+    header > div.header-wrapper > div#float-nav a {
       margin-left: 0;
       font-size: 1.25em;
-      border-bottom: 1pt solid $theme;
+      // border-bottom: 1pt solid $theme;
       padding-right: 15px;
     }
 
-  header > div#float-nav > div.collapse {
+  header > div.header-wrapper > div#float-nav > div.collapse {
     display: block;
 
   }
-  header > div#float-nav > div.collapse > ul > li {
+  header > div.header-wrapper > div#float-nav > div.collapse > ul > li {
     text-align: center;
   }
-  header > div#float-nav > button.navbar-toggle {
+  header > div.header-wrapper > div#float-nav > button.navbar-toggle {
     float: none;
     height: 0;
+  }
+
+  section.home_page {
+    margin-top: 5px;
+    h2 {
+      text-align: center;
+      font-size: 1.25em;
+    }
+  }
+
+  main.allWrapper > div.columnsContainer > div.info {
+    margin-top: 0;
+    div.project-header {
+      div.project-nav {
+        float: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
   }
 
 }
@@ -449,14 +493,6 @@ div#resume a {
 
 
 /*---- Project Page CSS----*/
-div.columnsContainer > div.project_photos > div {
-  margin: 1em 0 1em 0;
-  padding-left: 0;
-}
-
-div.columnsContainer img {
-  border-radius: 5px;
-}
 
 h3 {
   font-family: $project_title_font;
@@ -464,10 +500,13 @@ h3 {
   // text-transform: uppercase;
 }
 .table {
+  margin: auto;
   margin-top: 20px;
+  width: 95%;
+  max-width: 1100px;
 }
 .table-bordered>tbody>tr>td {
-  border: .5px solid $theme;
+  border: .5px solid $theme-sub;
 }
 
 .hints {
@@ -553,4 +592,5 @@ div.columnsContainer {
     margin-bottom: 20px;
   }
 }
+
 
