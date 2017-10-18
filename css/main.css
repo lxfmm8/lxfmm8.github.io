@@ -7,8 +7,8 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: #f3f3fc;
-  background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+  background-color: #e5e5e6;
+  background-image: linear-gradient(white 1px, transparent 1px), linear-gradient(90deg, white 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
@@ -64,7 +64,6 @@ main.allWrapper div.columnsContainer > div.info > div.project-header > h1 {
   font-weight: 400;
   letter-spacing: -1px;
   line-height: 90%;
-  color: #16395e;
 }
 main.allWrapper div.columnsContainer > div.info > div.project-header > p.project-sub-title {
   margin-top: 10px;
@@ -127,7 +126,7 @@ header {
   z-index: 1000;
   width: 100%;
   margin: auto;
-  background-color: #0363a6;
+  background-color: #e37560;
   height: 80px;
   z-index: 1;
   position: fixed;
@@ -214,6 +213,7 @@ section.home_page > h2 {
   max-width: 1100px;
   margin: auto;
   padding: 40px 5px 40px 5px;
+  color: #457fbc;
 }
 
 section.home_page > div.col-md-4 {
@@ -308,9 +308,6 @@ button.nav-button {
 }
 
 button.nav-button:hover {
-  -webkit-box-shadow: 3px 3px 3px #d8d8d8;
-  -moz-box-shadow: 3px 3px 3px #d8d8d8;
-  box-shadow: 3px 3px 3px #d8d8d8;
   border-radius: 0px;
   transition: background-color, .25s;
   font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
@@ -321,9 +318,6 @@ button.nav-button:hover {
 }
 
 button.nav-button:focus {
-  -webkit-box-shadow: 3px 3px 3px #d8d8d8;
-  -moz-box-shadow: 3px 3px 3px #d8d8d8;
-  box-shadow: 3px 3px 3px #d8d8d8;
   border-radius: 0px;
   transition: background-color, .25s;
   font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
@@ -410,6 +404,12 @@ div.columnsContainer > div > div#resume {
 div.columnsContainer > div > div#resume > div#resume_main {
   font-size: 12px;
 }
+div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th {
+  border-top: 1px solid #e37560;
+  border-bottom: 1px solid #e37560;
+  background-color: transparent;
+  color: #e37560;
+}
 
 div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
   padding: 10px 40px 40px 7px;
@@ -447,6 +447,10 @@ h3 {
   border: 0.5px solid #e37560;
 }
 
+.table-bordered > tbody > tr > td:first-child {
+  color: #e37560;
+}
+
 .hints {
   color: orangered;
 }
@@ -458,7 +462,6 @@ h3 {
 }
 
 button.launch {
-  box-shadow: 3px 3px 3px #d8d8d8;
   background-color: #fff;
   border-radius: 0px;
   transition: background-color, .25s;
