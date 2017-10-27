@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   background: #f9f9fc;
-  color: #16395e;
+  color: #6b6a70;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -25,7 +25,7 @@ img {
 button.btn:focus {
   outline: none;
   background-color: #fff;
-  border: 1pt solid #16395e;
+  border: 1pt solid #6b6a70;
 }
 
 main.allWrapper {
@@ -39,7 +39,7 @@ main.allWrapper {
 }
 main.allWrapper a {
   text-decoration: none;
-  color: #16395e;
+  color: #6b6a70;
 }
 main.allWrapper .col-md-8 {
   margin: auto;
@@ -213,7 +213,7 @@ section.home_page > h2 {
   max-width: 1100px;
   margin: auto;
   padding: 40px 5px 40px 5px;
-  color: #457fbc;
+  color: #6b6a70;
 }
 
 section.home_page > div.col-md-4 {
@@ -271,7 +271,7 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
-  background-color: #16395e;
+  background-color: #6b6a70;
   position: absolute;
   top: 25px;
   color: white;
@@ -302,8 +302,8 @@ button.nav-button {
   transition: background-color, .25s;
   font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #16395e;
-  background-color: #16395e;
+  border: 1pt solid #6b6a70;
+  background-color: #6b6a70;
   color: #fff;
 }
 
@@ -312,8 +312,8 @@ button.nav-button:hover {
   transition: background-color, .25s;
   font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #16395e;
-  background-color: #16395e;
+  border: 1pt solid #6b6a70;
+  background-color: #6b6a70;
   color: #999;
 }
 
@@ -322,8 +322,8 @@ button.nav-button:focus {
   transition: background-color, .25s;
   font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #16395e;
-  background-color: #16395e;
+  border: 1pt solid #6b6a70;
+  background-color: #6b6a70;
   color: #fff;
 }
 
@@ -467,11 +467,11 @@ button.launch {
   transition: background-color, .25s;
   font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #16395e;
+  border: 1pt solid #6b6a70;
 }
 
 button.launch:hover {
-  background-color: #16395e;
+  background-color: #6b6a70;
   color: #fff;
 }
 
@@ -513,9 +513,11 @@ div.columnsContainer .collection {
   text-align: center;
 }
 div.columnsContainer h3 {
+  font-size: 2em;
   margin-bottom: 5px;
 }
-div.columnsContainer p {
+div.columnsContainer p.collection {
   line-height: 1.25em;
   margin-bottom: 20px;
+  opacity: .75;
 }
