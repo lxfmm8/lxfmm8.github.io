@@ -1,6 +1,6 @@
 
 $theme-sub: #e37560;
-$theme: #6b6a70;
+$theme: #000000;
 $logo-color: #f9f9fc;
 $float-nav-color: #f9f9fc;
 $header: #e37560;
@@ -250,12 +250,12 @@ section.home_page > h2 {
   font-family: $project_title_font;
   font-size: 2em;
   font-weight: 300;
-  line-height: 135%;
+  line-height: 125%;
   width: 100%;
   max-width: 1100px;
   margin: auto;
   padding: 40px 5px 40px 5px;
-  color: #6b6a70;  // warm gray
+  color: $theme;  // warm gray
   // color: #457fbc; // light blue
 }
 
