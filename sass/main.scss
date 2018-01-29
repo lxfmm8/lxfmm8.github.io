@@ -526,12 +526,19 @@ h3 {
   width: 95%;
   max-width: 1100px;
 }
+.table-bordered {
+  margin-top: 50px;
+  border: none;
+}
 .table-bordered > tbody > tr > td {
   border: .5px solid $theme-sub;
+  border-left: none;
+  border-right: none;
 }
 
 .table-bordered > tbody > tr > td:first-child {
   color: $subtitle_font_color;
+  width: 145px;
 }
 
 .hints {
