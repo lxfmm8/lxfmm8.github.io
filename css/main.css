@@ -395,12 +395,12 @@ button.nav-button:focus {
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 5em;
 }
 
 div.columnsContainer > div > div#resume > div#resume_main {
-  font-size: 12px;
+  font-size: 14px;
 }
 div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th {
   border-top: 1px solid #e37560;
