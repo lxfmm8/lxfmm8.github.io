@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   background: #f9f9fc;
-  color: #353430;
+  color: #353450;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -22,7 +22,7 @@ img {
 button.btn:focus {
   outline: none;
   background-color: #fff;
-  border: 1pt solid #353430;
+  border: 1pt solid #353450;
 }
 
 main.allWrapper {
@@ -30,13 +30,13 @@ main.allWrapper {
   line-height: 22pt;
   width: 90%;
   margin: 0 auto 40px auto;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.2em;
 }
 main.allWrapper a {
   text-decoration: none;
-  color: #353430;
+  color: #353450;
 }
 main.allWrapper .col-md-8 {
   margin: auto;
@@ -56,24 +56,23 @@ main.allWrapper div.columnsContainer > div.info > div.project-header {
   margin: auto;
 }
 main.allWrapper div.columnsContainer > div.info > div.project-header > h1 {
-  font-size: 3em;
-  font-family: "Cormorant Garamond", Helvetica, sans-serif;
+  font-size: 2.75em;
+  font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 400;
-  letter-spacing: -1px;
-  line-height: 90%;
 }
 main.allWrapper div.columnsContainer > div.info > div.project-header > p.project-sub-title {
   margin-top: 10px;
   margin-bottom: 40px;
   max-width: 1400px;
-  font-family: "Cormorant Garamond", Helvetica, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-size: .9em;
-  line-height: 135%;
+  line-height: 1.2;
   font-style: italic;
   color: #e37560;
 }
 main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav {
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -87,18 +86,18 @@ main.allWrapper div.columnsContainer > div.info > div.project-header > div.proje
   opacity: .5;
 }
 main.allWrapper div.columnsContainer > div.info > h3 {
-  font-family: "Cormorant Garamond", Helvetica, sans-serif;
+  font-family: "Oswald", Helvetica, sans-serif;
   margin: 1em auto -5px auto;
   width: 95%;
   max-width: 800px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 main.allWrapper div.columnsContainer > div.info > p.proj-sm-col {
-  margin: 1em auto 3em auto;
+  margin: 1em auto 1em auto;
   width: 95%;
   max-width: 800px;
-  font-size: 16px;
-  line-height: 175%;
+  font-size: 18px;
+  line-height: 1.6;
 }
 main.allWrapper div.columnsContainer > div.info > ul.proj-sm-col {
   margin: 1.5em auto 3em auto;
@@ -150,12 +149,12 @@ header > div.header-wrapper > a#main-logo:hover img {
 }
 
 header > div.header-wrapper > a > h1#logo-type {
-  font-family: "Spectral", Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   color: #f9f9fc;
-  margin-top: 20px;
+  margin-top: 16px;
   margin-bottom: 3px;
   letter-spacing: 3px;
   font-kern: normal;
@@ -166,7 +165,7 @@ header > div.header-wrapper > a > h1:hover {
 }
 
 header > div.header-wrapper > a > p {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 10px;
   color: #2b9cb6;
@@ -179,10 +178,10 @@ header > div.header-wrapper > div#float-nav {
   top: 6px;
   position: relative;
   text-transform: uppercase;
-  font-family: "Montserrat", Helvetica, sans-serif;
-  font-size: .8em;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-size: .9em;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 header > div.header-wrapper > div#float-nav a {
   margin-left: 20px;
@@ -204,15 +203,15 @@ section.home_page {
 }
 
 section.home_page > h2 {
-  font-family: "Cormorant Garamond", Helvetica, sans-serif;
-  font-size: 1.6em;
-  font-weight: 300;
-  line-height: 125%;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.2;
   width: 100%;
   max-width: 1100px;
   margin: auto;
   padding: 40px 5px 40px 5px;
-  color: #353430;
+  color: #353450;
 }
 
 section.home_page > div.col-md-4 {
@@ -251,32 +250,30 @@ section.home_page > div.col-md-4 > div.list_group:hover div.thumb_info {
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
-  font-family: "Cormorant Garamond", Helvetica, sans-serif;
+  font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 1.45em;
+  font-size: 1.5em;
   margin-top: 5px;
-  margin-bottom: 0;
+  margin-bottom: 4px;
   font-kerning: normal;
-  font-style: italic;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
-  font-size: .6em;
+  font-size: 1em;
   font-weight: 500;
   font-kerning: normal;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   margin-bottom: 10px;
   color: #e37560;
+  font-style: italic;
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
-  background-color: #353430;
+  background-color: #353450;
   position: absolute;
   top: 25px;
   color: white;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-size: .6em;
   font-weight: 500;
   letter-spacing: .25em;
@@ -301,30 +298,30 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
 button.nav-button {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353430;
-  background-color: #353430;
+  border: 1pt solid #353450;
+  background-color: #353450;
   color: #fff;
 }
 
 button.nav-button:hover {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353430;
-  background-color: #353430;
+  border: 1pt solid #353450;
+  background-color: #353450;
   color: #999;
 }
 
 button.nav-button:focus {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353430;
-  background-color: #353430;
+  border: 1pt solid #353450;
+  background-color: #353450;
   color: #fff;
 }
 
@@ -397,7 +394,7 @@ button.nav-button:focus {
 }
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin-bottom: 5em;
 }
@@ -420,7 +417,7 @@ div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 p {
 }
 
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: "Cormorant Garamond", Helvetica, sans-serif;
+  font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 200;
   font-size: 3em;
   text-transform: none;
@@ -433,7 +430,7 @@ div#resume a {
 
 /*---- Project Page CSS----*/
 h3 {
-  font-family: "Cormorant Garamond", Helvetica, sans-serif;
+  font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 500;
 }
 
@@ -458,6 +455,11 @@ h3 {
 .table-bordered > tbody > tr > td:first-child {
   color: #e37560;
   width: 145px;
+  font-family: "Lato", sans-serif;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 11px;
 }
 
 .hints {
@@ -474,13 +476,13 @@ button.launch {
   background-color: #fff;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353430;
+  border: 1pt solid #353450;
 }
 
 button.launch:hover {
-  background-color: #353430;
+  background-color: #353450;
   color: #fff;
 }
 
@@ -496,7 +498,7 @@ div.design-purpose > div.col-md-4 div.thumbnail > img {
 }
 div.design-purpose > div.col-md-4 div.thumbnail h4 {
   text-align: center;
-  font-family: "Cormorant Garamond", Helvetica, sans-serif;
+  font-family: "Oswald", Helvetica, sans-serif;
   font-size: 2em;
   font-weight: 300;
   margin-top: -5px;
