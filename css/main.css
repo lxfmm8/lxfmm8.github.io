@@ -269,9 +269,9 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
 }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
-  background-color: #353450;
   position: absolute;
-  top: 25px;
+  top: 5px;
+  right: 5px;
   color: white;
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-size: .6em;
