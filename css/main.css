@@ -7,8 +7,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: #e5e5e6;
-}
+  background-color: #e5e5e6; }
 
 img {
   user-drag: none;
@@ -16,14 +15,12 @@ img {
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
-}
+  -ms-user-select: none; }
 
 button.btn:focus {
   outline: none;
   background-color: #fff;
-  border: 1pt solid #353450;
-}
+  border: 1pt solid #353450; }
 
 main.allWrapper {
   z-index: -10;
@@ -32,90 +29,73 @@ main.allWrapper {
   margin: 0 auto 40px auto;
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 1.2em;
-}
-main.allWrapper a {
-  text-decoration: none;
-  color: #353450;
-}
-main.allWrapper .col-md-8 {
-  margin: auto;
-  float: none;
-}
-main.allWrapper div.columnsContainer {
-  margin: auto;
-  float: none;
-  display: block;
-}
-main.allWrapper div.columnsContainer > div.info {
-  font-size: 1.15em;
-  margin-top: 130px;
-}
-main.allWrapper div.columnsContainer > div.info > div.project-header {
-  max-width: 1100px;
-  margin: auto;
-}
-main.allWrapper div.columnsContainer > div.info > div.project-header > h1 {
-  font-size: 2.75em;
-  font-family: "Oswald", Helvetica, sans-serif;
-  font-weight: 400;
-}
-main.allWrapper div.columnsContainer > div.info > div.project-header > p.project-sub-title {
-  margin-top: 10px;
-  margin-bottom: 40px;
-  max-width: 1400px;
-  font-family: "Crimson Text", Helvetica, Arial, sans-serif;
-  font-size: .9em;
-  line-height: 1.2;
-  font-style: italic;
-  color: #e37560;
-}
-main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  font-size: 12px;
-  float: right;
-}
-main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav > a {
-  opacity: 1;
-}
-main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav > a:hover {
-  opacity: .5;
-}
-main.allWrapper div.columnsContainer > div.info > h3 {
-  font-family: "Oswald", Helvetica, sans-serif;
-  margin: 1em auto -5px auto;
-  width: 95%;
-  max-width: 800px;
-  font-size: 1.5em;
-}
-main.allWrapper div.columnsContainer > div.info > p.proj-sm-col {
-  margin: 1em auto 1em auto;
-  width: 95%;
-  max-width: 800px;
-  font-size: 18px;
-  line-height: 1.6;
-}
-main.allWrapper div.columnsContainer > div.info > ul.proj-sm-col {
-  margin: 1.5em auto 3em auto;
-  width: 95%;
-  max-width: 800px;
-  font-size: 16px;
-  line-height: 175%;
-}
-main.allWrapper div.columnsContainer > div.info > p.prototype-button {
-  margin: 1em auto 3em auto;
-  text-align: center;
-}
-main.allWrapper div.columnsContainer > div.info > table {
-  font-size: 16px;
-}
-main.allWrapper div.columnsContainer > div.info > ul.p-list {
-  margin-top: -35px;
-}
+  font-size: 1.2em; }
+  main.allWrapper a {
+    text-decoration: none;
+    color: #353450; }
+  main.allWrapper .col-md-8 {
+    margin: auto;
+    float: none; }
+  main.allWrapper div.columnsContainer {
+    margin: auto;
+    float: none;
+    display: block; }
+  main.allWrapper div.columnsContainer > div.info {
+    font-size: 1.15em;
+    margin-top: 130px; }
+  main.allWrapper div.columnsContainer > div.info > div.project-header {
+    max-width: 1100px;
+    margin: auto; }
+  main.allWrapper div.columnsContainer > div.info > div.project-header > h1 {
+    font-size: 2.75em;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-weight: 400; }
+  main.allWrapper div.columnsContainer > div.info > div.project-header > p.project-sub-title {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    max-width: 1400px;
+    font-family: "Crimson Text", Helvetica, Arial, sans-serif;
+    font-size: .9em;
+    line-height: 1.2;
+    font-style: italic;
+    color: #e37560; }
+  main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 12px;
+    float: right; }
+  main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav > a {
+    opacity: 1; }
+  main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav > a:hover {
+    opacity: .5; }
+  main.allWrapper div.columnsContainer > div.info > h3 {
+    font-family: "Oswald", Helvetica, sans-serif;
+    margin: 1em auto -5px auto;
+    width: 95%;
+    max-width: 800px;
+    font-size: 1.5em; }
+  main.allWrapper div.columnsContainer > div.info > p.proj-sm-col {
+    margin: 1em auto 1em auto;
+    width: 95%;
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.6; }
+  main.allWrapper div.columnsContainer > div.info > ul.proj-sm-col {
+    margin: 1.5em auto 3em auto;
+    width: 95%;
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 175%; }
+  main.allWrapper div.columnsContainer > div.info > p.prototype-button {
+    margin: 1em auto 3em auto;
+    text-align: center; }
+  main.allWrapper div.columnsContainer > div.info > table {
+    font-size: 16px; }
+  main.allWrapper div.columnsContainer > div.info > ul.p-list {
+    margin-top: -35px; }
 
 header {
   top: 0;
@@ -125,28 +105,23 @@ header {
   background-color: #e37560;
   height: 80px;
   z-index: 1;
-  position: fixed;
-}
-header .header-wrapper {
-  margin: auto;
-  width: 90%;
-  max-width: 1100px;
-  padding: 10px;
-}
+  position: fixed; }
+  header .header-wrapper {
+    margin: auto;
+    width: 90%;
+    max-width: 1100px;
+    padding: 10px; }
 
 /*----- Home Page CSS -----*/
 header > div.header-wrapper > a#main-logo {
   text-decoration: none;
   float: left;
-  position: relative;
-}
+  position: relative; }
 
 header > div.header-wrapper > a#main-logo:hover p.update-time {
-  opacity: .25;
-}
+  opacity: .25; }
 header > div.header-wrapper > a#main-logo:hover img {
-  opacity: .75;
-}
+  opacity: .75; }
 
 header > div.header-wrapper > a > h1#logo-type {
   font-family: "Oswald", Helvetica, Arial, sans-serif;
@@ -157,12 +132,10 @@ header > div.header-wrapper > a > h1#logo-type {
   margin-top: 16px;
   margin-bottom: 3px;
   letter-spacing: 3px;
-  font-kern: normal;
-}
+  font-kern: normal; }
 
 header > div.header-wrapper > a > h1:hover {
-  opacity: .85;
-}
+  opacity: .85; }
 
 header > div.header-wrapper > a > p {
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
@@ -170,8 +143,7 @@ header > div.header-wrapper > a > p {
   font-size: 10px;
   color: #2b9cb6;
   text-transform: uppercase;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
 
 header > div.header-wrapper > div#float-nav {
   float: right;
@@ -181,26 +153,22 @@ header > div.header-wrapper > div#float-nav {
   font-family: "Lato", sans-serif;
   font-size: .9em;
   font-weight: 400;
-  letter-spacing: 2px;
-}
-header > div.header-wrapper > div#float-nav a {
-  margin-left: 20px;
-  padding-right: 0;
-  color: #f9f9fc;
-  background-color: transparent;
-}
-header > div.header-wrapper > div#float-nav div.navbar-collapse {
-  padding: 0;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
+  letter-spacing: 2px; }
+  header > div.header-wrapper > div#float-nav a {
+    margin-left: 20px;
+    padding-right: 0;
+    color: #f9f9fc;
+    background-color: transparent; }
+  header > div.header-wrapper > div#float-nav div.navbar-collapse {
+    padding: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none; }
 
 section.home_page {
   padding: 0;
   margin: auto;
   margin-top: 100px;
-  max-width: 90%;
-}
+  max-width: 90%; }
 
 section.home_page > h2 {
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
@@ -211,43 +179,35 @@ section.home_page > h2 {
   max-width: 1100px;
   margin: auto;
   padding: 40px 5px 40px 5px;
-  color: #353450;
-}
+  color: #353450; }
 
 section.home_page > div.col-md-4 {
   padding-left: 0;
   padding-top: 0;
   margin-top: 0;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 section.home_page > div.col-md-4 > div.list_group {
   display: inline-block;
   margin: .5em .5em .5em .5em;
   width: 100%;
-  line-height: 28pt;
-}
+  line-height: 28pt; }
 
 section.home_page > div.col-md-4 > div {
-  transition: all .1s;
-}
+  transition: all .1s; }
 
 section.home_page > div.col-md-4 > div > a > img {
-  border-bottom: 5pt solid transparent;
-}
+  border-bottom: 5pt solid transparent; }
 
 section.home_page > div.col-md-4 > div > a > img:hover {
-  border-bottom: 5pt solid #ffec00;
-}
+  border-bottom: 5pt solid #ffec00; }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
   height: 80px;
-  width: 352px;
-}
+  width: 352px; }
 
 section.home_page > div.col-md-4 > div.list_group:hover div.thumb_info {
-  opacity: 1;
-}
+  opacity: 1; }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   font-family: "Oswald", Helvetica, sans-serif;
@@ -255,8 +215,7 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   font-size: 1.5em;
   margin-top: 5px;
   margin-bottom: 4px;
-  font-kerning: normal;
-}
+  font-kerning: normal; }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
@@ -265,8 +224,7 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   font-kerning: normal;
   margin-bottom: 10px;
   color: #e37560;
-  font-style: italic;
-}
+  font-style: italic; }
 
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
   position: absolute;
@@ -277,23 +235,17 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
   font-size: .6em;
   font-weight: 500;
   letter-spacing: .25em;
-  padding: 0 10px;
-}
+  padding: 0 10px; }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_info {
-  background-color: #FFCE1A;
-}
+  background-color: #FFCE1A; }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_app {
-  background-color: #0EB89C;
-}
+  background-color: #0EB89C; }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_web {
-  background-color: #9322FF;
-}
+  background-color: #9322FF; }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_toy {
-  background-color: #E271FF;
-}
+  background-color: #E271FF; }
 section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
-  background-color: #E86E49;
-}
+  background-color: #E86E49; }
 
 button.nav-button {
   border-radius: 0px;
@@ -302,8 +254,7 @@ button.nav-button {
   font-weight: 400;
   border: 1pt solid #353450;
   background-color: #353450;
-  color: #fff;
-}
+  color: #fff; }
 
 button.nav-button:hover {
   border-radius: 0px;
@@ -312,8 +263,7 @@ button.nav-button:hover {
   font-weight: 400;
   border: 1pt solid #353450;
   background-color: #353450;
-  color: #999;
-}
+  color: #999; }
 
 button.nav-button:focus {
   border-radius: 0px;
@@ -322,27 +272,23 @@ button.nav-button:focus {
   font-weight: 400;
   border: 1pt solid #353450;
   background-color: #353450;
-  color: #fff;
-}
+  color: #fff; }
 
 @media (max-width: 767px) {
   header {
     position: relative;
-    height: 250px;
-  }
+    height: 250px; }
 
   header > div.header-wrapper > a#main-logo {
     display: block;
     width: 100%;
     text-decoration: none;
     float: none;
-    text-align: center;
-  }
+    text-align: center; }
 
   header > div.header-wrapper > a#main-logo > {
     text-decoration: none;
-    float: none;
-  }
+    float: none; }
 
   header > div.header-wrapper > div#float-nav {
     float: none;
@@ -353,104 +299,83 @@ button.nav-button:focus {
     padding: 0 1.25em;
     display: block;
     top: 0;
-    border-top: 1pt solid #f9f9fc;
-  }
+    border-top: 1pt solid #f9f9fc; }
 
   header > div.header-wrapper > div#float-nav a {
     margin-left: 0;
     font-size: 1.25em;
-    padding-right: 15px;
-  }
+    padding-right: 15px; }
 
   header > div.header-wrapper > div#float-nav > div.collapse {
-    display: block;
-  }
+    display: block; }
 
   header > div.header-wrapper > div#float-nav > div.collapse > ul > li {
-    text-align: center;
-  }
+    text-align: center; }
 
   header > div.header-wrapper > div#float-nav > button.navbar-toggle {
     float: none;
-    height: 0;
-  }
+    height: 0; }
 
   section.home_page {
-    margin-top: 5px;
-  }
-  section.home_page h2 {
-    text-align: center;
-    font-size: 1.25em;
-  }
+    margin-top: 5px; }
+    section.home_page h2 {
+      text-align: center;
+      font-size: 1.25em; }
 
   main.allWrapper > div.columnsContainer > div.info {
-    margin-top: 0;
-  }
-  main.allWrapper > div.columnsContainer > div.info div.project-header div.project-nav {
-    float: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
+    margin-top: 0; }
+    main.allWrapper > div.columnsContainer > div.info div.project-header div.project-nav {
+      float: none;
+      margin-top: 10px;
+      margin-bottom: 10px; } }
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  margin-bottom: 5em;
-}
+  margin-bottom: 5em; }
 
 div.columnsContainer > div > div#resume > div#resume_main {
-  font-size: 14px;
-}
-div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th {
-  border-top: 1px solid #e37560;
-  border-bottom: 1px solid #e37560;
-  background-color: transparent;
-  color: #e37560;
-}
+  font-size: 14px; }
+  div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th {
+    border-top: 1px solid #e37560;
+    border-bottom: 1px solid #e37560;
+    background-color: transparent;
+    color: #e37560; }
 
 div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  padding: 10px 40px 40px 7px;
-}
-div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 p {
-  line-height: 200%;
-}
+  padding: 10px 40px 40px 7px; }
+  div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 p {
+    line-height: 200%; }
 
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
   font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 200;
   font-size: 3em;
-  text-transform: none;
-}
+  text-transform: none; }
 
 div#resume a {
   font-size: 35px;
-  letter-spacing: .3em;
-}
+  letter-spacing: .3em; }
 
 /*---- Project Page CSS----*/
 h3 {
   font-family: "Oswald", Helvetica, sans-serif;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 .table {
   margin: auto;
   margin-top: 20px;
   width: 95%;
-  max-width: 1100px;
-}
+  max-width: 1100px; }
 
 .table-bordered {
   margin-top: 50px;
-  border: none;
-}
+  border: none; }
 
 .table-bordered > tbody > tr > td {
   border: 0.5px solid #e37560;
   border-left: none;
-  border-right: none;
-}
+  border-right: none; }
 
 .table-bordered > tbody > tr > td:first-child {
   color: #e37560;
@@ -459,18 +384,15 @@ h3 {
   font-size: .8em;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding-top: 11px;
-}
+  padding-top: 11px; }
 
 .hints {
-  color: orangered;
-}
+  color: orangered; }
 
 .light-slash {
   font-family: Helvetica, Arial，sans-serif;
   font-weight: 100;
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
 button.launch {
   background-color: #fff;
@@ -478,57 +400,46 @@ button.launch {
   transition: background-color, .25s;
   font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353450;
-}
+  border: 1pt solid #353450; }
 
 button.launch:hover {
   background-color: #353450;
-  color: #fff;
-}
+  color: #fff; }
 
 div.design-purpose > div.col-md-4 {
-  margin: 50px 0 30px 0;
-}
-div.design-purpose > div.col-md-4 div.thumbnail {
-  background-color: transparent;
-  border: none;
-}
-div.design-purpose > div.col-md-4 div.thumbnail > img {
-  max-width: 700px;
-}
-div.design-purpose > div.col-md-4 div.thumbnail h4 {
-  text-align: center;
-  font-family: "Oswald", Helvetica, sans-serif;
-  font-size: 2em;
-  font-weight: 300;
-  margin-top: -5px;
-}
-div.design-purpose > div.col-md-4 div.thumbnail p {
-  margin-bottom: 0;
-}
-div.design-purpose > div.col-md-4 div.thumbnail div.caption {
-  margin-left: 20px;
-}
-div.design-purpose > div.col-md-4 div.thumbnail div.modal-body p {
-  text-align: center;
-  margin-bottom: 5px;
-}
-div.design-purpose > div.col-md-4 div.thumbnail div.modal-body img {
-  display: block;
-  margin: auto;
-  width: 75%;
-  border: 1pt solid #333333;
-}
+  margin: 50px 0 30px 0; }
+  div.design-purpose > div.col-md-4 div.thumbnail {
+    background-color: transparent;
+    border: none; }
+    div.design-purpose > div.col-md-4 div.thumbnail > img {
+      max-width: 700px; }
+    div.design-purpose > div.col-md-4 div.thumbnail h4 {
+      text-align: center;
+      font-family: "Oswald", Helvetica, sans-serif;
+      font-size: 2em;
+      font-weight: 300;
+      margin-top: -5px; }
+    div.design-purpose > div.col-md-4 div.thumbnail p {
+      margin-bottom: 0; }
+    div.design-purpose > div.col-md-4 div.thumbnail div.caption {
+      margin-left: 20px; }
+    div.design-purpose > div.col-md-4 div.thumbnail div.modal-body p {
+      text-align: center;
+      margin-bottom: 5px; }
+    div.design-purpose > div.col-md-4 div.thumbnail div.modal-body img {
+      display: block;
+      margin: auto;
+      width: 75%;
+      border: 1pt solid #333333; }
 
 div.columnsContainer .collection {
-  text-align: center;
-}
+  text-align: center; }
 div.columnsContainer h3 {
   font-size: 2em;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 div.columnsContainer p.collection {
   line-height: 1.25em;
   margin-bottom: 20px;
-  opacity: .75;
-}
+  opacity: .75; }
+
+/*# sourceMappingURL=main.css.map */
