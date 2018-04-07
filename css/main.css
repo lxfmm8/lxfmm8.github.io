@@ -8,6 +8,12 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   background-color: #e5e5e6; }
+  body ::selection {
+    background: #ffec00;
+    /* WebKit/Blink Browsers */ }
+  body ::-moz-selection {
+    background: #ffec00;
+    /* Gecko Browsers */ }
 
 img {
   user-drag: none;
@@ -112,6 +118,24 @@ header {
     max-width: 1100px;
     padding: 10px; }
 
+footer {
+  width: 100%;
+  background-color: #ddd;
+  bottom: 0;
+  margin: 0;
+  padding: 30px 0 30px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 14px; }
+  footer div {
+    width: 81%;
+    max-width: 1100px;
+    margin: auto; }
+    footer div p {
+      margin: 10px 0; }
+      footer div p a {
+        color: #e37560;
+        font-style: italic; }
+
 /*----- Home Page CSS -----*/
 header > div.header-wrapper > a#main-logo {
   text-decoration: none;
@@ -164,13 +188,15 @@ header > div.header-wrapper > div#float-nav {
     box-shadow: none;
     -webkit-box-shadow: none; }
 
-section.home_page {
+div.home_page {
   padding: 0;
-  margin: auto;
-  margin-top: 100px;
-  max-width: 90%; }
+  margin: 100px auto 0 auto;
+  width: 90%;
+  display: block;
+  float: none;
+  overflow: hidden; }
 
-section.home_page > h2 {
+div.home_page > h2 {
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 400;
@@ -181,35 +207,35 @@ section.home_page > h2 {
   padding: 40px 5px 40px 5px;
   color: #353450; }
 
-section.home_page > div.col-md-4 {
+div.home_page > div.col-md-4 {
   padding-left: 0;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0; }
 
-section.home_page > div.col-md-4 > div.list_group {
+div.home_page > div.col-md-4 > div.list_group {
   display: inline-block;
   margin: .5em .5em .5em .5em;
   width: 100%;
   line-height: 28pt; }
 
-section.home_page > div.col-md-4 > div {
+div.home_page > div.col-md-4 > div {
   transition: all .1s; }
 
-section.home_page > div.col-md-4 > div > a > img {
+div.home_page > div.col-md-4 > div > a > img {
   border-bottom: 5pt solid transparent; }
 
-section.home_page > div.col-md-4 > div > a > img:hover {
+div.home_page > div.col-md-4 > div > a > img:hover {
   border-bottom: 5pt solid #ffec00; }
 
-section.home_page > div.col-md-4 > div.list_group > div.thumb_info {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_info {
   height: 80px;
   width: 352px; }
 
-section.home_page > div.col-md-4 > div.list_group:hover div.thumb_info {
+div.home_page > div.col-md-4 > div.list_group:hover div.thumb_info {
   opacity: 1; }
 
-section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
@@ -217,7 +243,7 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   margin-bottom: 4px;
   font-kerning: normal; }
 
-section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
   font-size: 1em;
   font-weight: 500;
@@ -226,7 +252,7 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   color: #e37560;
   font-style: italic; }
 
-section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
   position: absolute;
   top: 5px;
   right: 5px;
@@ -236,15 +262,15 @@ section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
   font-weight: 500;
   letter-spacing: .25em;
   padding: 0 10px; }
-section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_info {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_info {
   background-color: #FFCE1A; }
-section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_app {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_app {
   background-color: #0EB89C; }
-section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_web {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_web {
   background-color: #9322FF; }
-section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_toy {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_toy {
   background-color: #E271FF; }
-section.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
+div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
   background-color: #E86E49; }
 
 button.nav-button {
@@ -316,9 +342,9 @@ button.nav-button:focus {
     float: none;
     height: 0; }
 
-  section.home_page {
+  div.home_page {
     margin-top: 5px; }
-    section.home_page h2 {
+    div.home_page h2 {
       text-align: center;
       font-size: 1.25em; }
 
