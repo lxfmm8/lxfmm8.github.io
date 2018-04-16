@@ -318,6 +318,7 @@ div.home_page > div.col-md-4 > div > a > img {
   box-shadow: 0 26px 24px -16px rgba(0,0,0,0.4);
   box-sizing: border-box;
   transition: .2s border;
+  transition: .2s box-shadow;
 }
 
 div.home_page > div.col-md-4 > div > a > img:hover {
