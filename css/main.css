@@ -220,10 +220,14 @@ div.home_page > div.col-md-4 > div {
   transition: all .1s; }
 
 div.home_page > div.col-md-4 > div > a > img {
-  border-bottom: 5pt solid transparent; }
+  border-top: 3pt solid transparent;
+  box-shadow: 0 26px 24px -16px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  transition: .2s border; }
 
 div.home_page > div.col-md-4 > div > a > img:hover {
-  border-bottom: 5pt solid #ffec00; }
+  border-top: 3pt solid #ffec00;
+  box-shadow: 0 26px 24px -16px rgba(0, 0, 0, 0.6); }
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info {
   height: 80px;
@@ -236,7 +240,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 4px;
   font-kerning: normal; }
 
