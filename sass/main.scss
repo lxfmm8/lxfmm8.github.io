@@ -315,7 +315,7 @@ div.home_page > div.col-md-4 > div {
 
 div.home_page > div.col-md-4 > div > a > img {
   border-top: 3pt solid transparent;
-  box-shadow: 0 26px 24px -16px rgba(0,0,0,0.4);
+  box-shadow: 0 26px 24px -16px rgba(0,0,0,0.3);
   box-sizing: border-box;
   transition: .2s border;
   transition: .2s box-shadow;
@@ -323,7 +323,7 @@ div.home_page > div.col-md-4 > div > a > img {
 
 div.home_page > div.col-md-4 > div > a > img:hover {
   border-top: 3pt solid $thumbnail-highlight-color;
-  box-shadow: 0 26px 24px -16px rgba(0,0,0,0.6);
+  box-shadow: 0 26px 24px -16px rgba(0,0,0,0.5);
 }
 
 // div.home_page > div.col-md-4 > div > a > img.thumb:hover {
