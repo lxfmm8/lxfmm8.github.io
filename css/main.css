@@ -220,15 +220,13 @@ div.home_page > div.col-md-4 > div {
   transition: all .1s; }
 
 div.home_page > div.col-md-4 > div > a > img {
-  border-top: 3pt solid transparent;
-  box-shadow: 0 26px 24px -16px rgba(0, 0, 0, 0.3);
+  border-top: 2pt solid #e37560;
   box-sizing: border-box;
   transition: .2s border;
   transition: .2s box-shadow; }
 
 div.home_page > div.col-md-4 > div > a > img:hover {
-  border-top: 3pt solid #ffec00;
-  box-shadow: 0 26px 24px -16px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 26px 24px -16px rgba(0, 0, 0, 0.4); }
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info {
   height: 80px;
