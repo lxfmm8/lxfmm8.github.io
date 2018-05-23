@@ -238,7 +238,7 @@ header > div.header-wrapper > a > h1#logo-type {
 }
 
 header > div.header-wrapper > a > h1:hover {
-  opacity: .85;
+  opacity: .8;
 }
 
 header > div.header-wrapper > a > p {
@@ -263,7 +263,7 @@ header > div.header-wrapper > div#float-nav {
   a {
     margin-left: 20px;
     padding-right: 0;
-    color: $float-nav-color;
+    // color: #333;
     background-color: transparent;
   }
   div.navbar-collapse {
@@ -284,9 +284,9 @@ div.home_page {
 
 div.home_page > h2 {
   font-family: $sans_serif_font;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.35;
   width: 100%;
   max-width: 1100px;
   margin: auto;
