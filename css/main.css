@@ -194,7 +194,7 @@ div.home_page {
 
 div.home_page > h2 {
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
-  font-size: 1.7em;
+  font-size: 1.4em;
   font-weight: 400;
   line-height: 1.35;
   width: 100%;
@@ -219,8 +219,8 @@ div.home_page > div.col-md-4 > div {
   transition: all .1s; }
 
 div.home_page > div.col-md-4 > div > a > img {
-  border-top: 2pt solid #e37560;
   box-sizing: border-box;
+  border-radius: 3px;
   transition: .2s border;
   transition: .2s box-shadow; }
 

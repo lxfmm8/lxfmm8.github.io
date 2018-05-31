@@ -284,7 +284,7 @@ div.home_page {
 
 div.home_page > h2 {
   font-family: $sans_serif_font;
-  font-size: 1.7em;
+  font-size: 1.4em;
   font-weight: 400;
   line-height: 1.35;
   width: 100%;
@@ -314,9 +314,10 @@ div.home_page > div.col-md-4 > div {
 }
 
 div.home_page > div.col-md-4 > div > a > img {
-  border-top: 2pt solid $theme-sub;
+  // border-top: 2pt solid $theme-sub;
   // box-shadow: 0 26px 24px -16px rgba(0,0,0,0.3);
   box-sizing: border-box;
+  border-radius: 3px;
   transition: .2s border;
   transition: .2s box-shadow;
 }
