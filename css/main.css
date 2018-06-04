@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   background: #f9f9fc;
-  color: #353450;
+  color: #16395e;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -26,7 +26,7 @@ img {
 button.btn:focus {
   outline: none;
   background-color: #fff;
-  border: 1pt solid #353450; }
+  border: 1pt solid #16395e; }
 
 main.allWrapper {
   z-index: -10;
@@ -38,7 +38,7 @@ main.allWrapper {
   font-size: 1.2em; }
   main.allWrapper a {
     text-decoration: none;
-    color: #353450; }
+    color: #16395e; }
   main.allWrapper .col-md-8 {
     margin: auto;
     float: none; }
@@ -201,7 +201,7 @@ div.home_page > h2 {
   max-width: 1100px;
   margin: auto;
   padding: 40px 5px 40px 5px;
-  color: #353450; }
+  color: #16395e; }
 
 div.home_page > div.col-md-4 {
   padding-left: 0;
@@ -277,8 +277,8 @@ button.nav-button {
   transition: background-color, .25s;
   font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353450;
-  background-color: #353450;
+  border: 1pt solid #16395e;
+  background-color: #16395e;
   color: #fff; }
 
 button.nav-button:hover {
@@ -286,8 +286,8 @@ button.nav-button:hover {
   transition: background-color, .25s;
   font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353450;
-  background-color: #353450;
+  border: 1pt solid #16395e;
+  background-color: #16395e;
   color: #999; }
 
 button.nav-button:focus {
@@ -295,8 +295,8 @@ button.nav-button:focus {
   transition: background-color, .25s;
   font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353450;
-  background-color: #353450;
+  border: 1pt solid #16395e;
+  background-color: #16395e;
   color: #fff; }
 
 @media (max-width: 767px) {
@@ -423,10 +423,10 @@ button.launch {
   transition: background-color, .25s;
   font-family: "Crimson Text", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #353450; }
+  border: 1pt solid #16395e; }
 
 button.launch:hover {
-  background-color: #353450;
+  background-color: #16395e;
   color: #fff; }
 
 div.design-purpose > div.col-md-4 {
