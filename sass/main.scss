@@ -559,10 +559,11 @@ div.columnsContainer > div > div#resume > div#resume_main {
   font-size: 14px;
 
   .table>tbody>tr>th {
-    border-top: 1px solid $header;
-    border-bottom: 1px solid $header;
+    border-top: 1px solid rgba(0,0,0,.3);
+    border-bottom: 1px solid rgba(0,0,0,.1);
     background-color: transparent;
-    color: $header;
+    color: $theme;
+    padding-top: 10px;
   }
 }
 div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
