@@ -1,19 +1,36 @@
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file+'.eot');
+    src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+    url($font-file+'.woff') format('woff'),
+    url($font-file+'.ttf') format('truetype'),
+    url($font-file+'.svg#aller') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
 
+@include font('Eksell', '/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large');
+
+// $theme-sub: #e37560;
 $theme-sub: #e37560; // orange red
 $theme: #16395e; // blue gray
 $logo-color: #f9f9fc;
 $float-nav-color: #f9f9fc;
-$header: #e37560;
+$header: transparent;
 $title_font_color: #16395e;
 $subtitle_font_color: #e37560;
 $thumbnail-highlight-color: #ffec00; // bright yellow
 $background-color: #f9f9fc;
 $background-color-2: #b5b5b6; // fixed
+$display_font: 'Eksell', sans-serif;
 $sans_serif_font: 'Crimson Text', Helvetica, Arial, sans-serif;
-$project_title_font: 'Oswald', Helvetica, sans-serif;
+$project_title_font: 'Eksell', 'Oswald', Helvetica, sans-serif;
 $project_title_font_light: 'Crimson Text', Helvetica, sans-serif;
 $logo_type: 'Oswald', Helvetica, Arial, sans-serif;
 $nav_font: 'Lato', sans-serif;
+
 
 body {
   background: $background-color;
@@ -99,7 +116,7 @@ main.allWrapper {
   }
 
   div.columnsContainer > div.info > div.project-header > h1 {
-    font-size: 2.75em;
+    font-size: 3em;
     font-family: $project_title_font;
     font-weight: 400;
     // letter-spacing: -1px;
@@ -214,7 +231,7 @@ header > div.header-wrapper > a#main-logo {
   text-decoration: none;
   float: left;
   position: relative;
-  // margin-left: -5px;
+  margin-left: 4px;
 }
 
 header > div.header-wrapper > a#main-logo:hover {
@@ -226,14 +243,14 @@ header > div.header-wrapper > a#main-logo:hover {
   }
 }
 header > div.header-wrapper > a > h1#logo-type {
-  font-family: $logo_type;
+  font-family: $display_font;
   font-weight: 400;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   font-size: 2.5rem;
-  color: $logo-color;
+  color: $theme;
   margin-top: 16px;
   margin-bottom: 3px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-kern: normal;
 }
 
@@ -245,7 +262,7 @@ header > div.header-wrapper > a > p {
   font-family: $sans_serif_font;
   font-weight: 400;
   font-size: 10px;
-  color: #2b9cb6;
+  color: $theme;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -283,14 +300,14 @@ div.home_page {
 }
 
 div.home_page > h2 {
-  font-family: $sans_serif_font;
-  font-size: 1.4em;
+  font-family: $display_font;
+  font-size: 3em;
   font-weight: 400;
   line-height: 1.35;
   width: 100%;
-  max-width: 1100px;
+  // max-width: 1100px;
   margin: auto;
-  padding: 40px 5px 10px 5px;
+  padding: 35px 5px 55px 5px;
   color: $theme;  // warm gray
   // color: #457fbc; // light blue
 }

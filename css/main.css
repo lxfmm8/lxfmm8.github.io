@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Eksell";
+  src: url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.eot");
+  src: url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.eot?#iefix") format("embedded-opentype"), url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.woff") format("woff"), url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.ttf") format("truetype"), url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.svg#aller") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 body {
   background: #f9f9fc;
   color: #16395e;
@@ -53,8 +59,8 @@ main.allWrapper {
     width: 90%;
     margin: auto; }
   main.allWrapper div.columnsContainer > div.info > div.project-header > h1 {
-    font-size: 2.75em;
-    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 3em;
+    font-family: "Eksell", "Oswald", Helvetica, sans-serif;
     font-weight: 400; }
   main.allWrapper div.columnsContainer > div.info > div.project-header > p.project-sub-title {
     margin-top: 10px;
@@ -78,7 +84,7 @@ main.allWrapper {
   main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav > a:hover {
     opacity: .5; }
   main.allWrapper div.columnsContainer > div.info > h3 {
-    font-family: "Oswald", Helvetica, sans-serif;
+    font-family: "Eksell", "Oswald", Helvetica, sans-serif;
     margin: 1em auto -5px auto;
     width: 95%;
     max-width: 800px;
@@ -108,7 +114,7 @@ header {
   z-index: 1000;
   width: 100%;
   margin: auto;
-  background-color: #e37560;
+  background-color: transparent;
   height: 80px;
   z-index: 1;
   position: fixed; }
@@ -137,7 +143,8 @@ footer {
 header > div.header-wrapper > a#main-logo {
   text-decoration: none;
   float: left;
-  position: relative; }
+  position: relative;
+  margin-left: 4px; }
 
 header > div.header-wrapper > a#main-logo:hover p.update-time {
   opacity: .25; }
@@ -145,14 +152,13 @@ header > div.header-wrapper > a#main-logo:hover img {
   opacity: .75; }
 
 header > div.header-wrapper > a > h1#logo-type {
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-family: "Eksell", sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
   font-size: 2.5rem;
-  color: #f9f9fc;
+  color: #16395e;
   margin-top: 16px;
   margin-bottom: 3px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-kern: normal; }
 
 header > div.header-wrapper > a > h1:hover {
@@ -162,7 +168,7 @@ header > div.header-wrapper > a > p {
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 10px;
-  color: #2b9cb6;
+  color: #16395e;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
@@ -193,14 +199,13 @@ div.home_page {
   overflow: hidden; }
 
 div.home_page > h2 {
-  font-family: "Crimson Text", Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
+  font-family: "Eksell", sans-serif;
+  font-size: 3em;
   font-weight: 400;
   line-height: 1.35;
   width: 100%;
-  max-width: 1100px;
   margin: auto;
-  padding: 40px 5px 10px 5px;
+  padding: 35px 5px 55px 5px;
   color: #16395e; }
 
 div.home_page > p {
@@ -243,7 +248,7 @@ div.home_page > div.col-md-4 > div.list_group:hover div.thumb_info {
   opacity: 1; }
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: "Eksell", "Oswald", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
   margin-top: 15px;
@@ -372,10 +377,10 @@ div.columnsContainer > div > div#resume {
 div.columnsContainer > div > div#resume > div#resume_main {
   font-size: 14px; }
   div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th {
-    border-top: 1px solid #e37560;
-    border-bottom: 1px solid #e37560;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
     background-color: transparent;
-    color: #e37560; }
+    color: transparent; }
 
 div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
   padding: 10px 40px 40px 7px; }
@@ -383,7 +388,7 @@ div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
     line-height: 200%; }
 
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: "Eksell", "Oswald", Helvetica, sans-serif;
   font-weight: 200;
   font-size: 3em;
   text-transform: none; }
@@ -394,7 +399,7 @@ div#resume a {
 
 /*---- Project Page CSS----*/
 h3 {
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: "Eksell", "Oswald", Helvetica, sans-serif;
   font-weight: 500; }
 
 .table {
@@ -448,7 +453,7 @@ div.design-purpose > div.col-md-4 {
       max-width: 700px; }
     div.design-purpose > div.col-md-4 div.thumbnail h4 {
       text-align: center;
-      font-family: "Oswald", Helvetica, sans-serif;
+      font-family: "Eksell", "Oswald", Helvetica, sans-serif;
       font-size: 2em;
       font-weight: 300;
       margin-top: -5px; }
