@@ -25,11 +25,11 @@ $thumbnail-highlight-color: #ffec00; // bright yellow
 $background-color: #f9f9fc;
 $background-color-2: #b5b5b6; // fixed
 $display_font: 'Eksell', sans-serif;
-$sans_serif_font: 'Crimson Text', Helvetica, Arial, sans-serif;
+$sans_serif_font: 'Roboto', Helvetica, Arial, sans-serif;
 $project_title_font: 'Eksell', 'Oswald', Helvetica, sans-serif;
-$project_title_font_light: 'Crimson Text', Helvetica, sans-serif;
+$project_title_font_light: 'Roboto', Helvetica, sans-serif;
 $logo_type: 'Oswald', Helvetica, Arial, sans-serif;
-$nav_font: 'Lato', sans-serif;
+$nav_font: 'Roboto', sans-serif;
 
 
 body {
@@ -131,7 +131,7 @@ main.allWrapper {
     font-family: $sans_serif_font;
     font-size: .9em;
     line-height: 1.2;
-    font-style: italic;
+    // font-style: italic;
     color: $subtitle_font_color;
   }
   div.columnsContainer > div.info > div.project-header > div.project-nav {
@@ -372,7 +372,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 
   // color: $theme-sub;
   font-family: $project_title_font;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.5em;
   margin-top: 15px;
   margin-bottom: 4px;
@@ -386,13 +386,14 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   // color: #f9f9fc;
   margin-top: -10px;
-  font-size: 1em;
-  font-weight: 500;
+  font-size: .6em;
+  font-weight: 400;
   font-kerning: normal;
-  // text-transform: uppercase;
+  text-transform: uppercase;
   margin-bottom: 10px;
   color: $subtitle_font_color;
-  font-style: italic;
+  letter-spacing: 1px;
+  // font-style: italic;
 }
 
 // Project Thumbnail Tags
