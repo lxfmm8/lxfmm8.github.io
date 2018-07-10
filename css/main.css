@@ -211,9 +211,8 @@ div.home_page > h2 {
 div.home_page > p {
   font-family: "Crimson Text", Helvetica, Arial, sans-serif;
   width: 100%;
-  max-width: 1100px;
   margin: auto;
-  padding: 0 5px 40px 5px;
+  padding: 0 5px 30px 5px;
   color: #16395e; }
 
 div.home_page > div.col-md-4 {
@@ -315,34 +314,26 @@ button.nav-button:focus {
 @media (max-width: 767px) {
   header {
     position: relative;
-    height: 250px; }
+    height: 250px;
+    width: 100%;
+    text-align: center; }
 
   header > div.header-wrapper > a#main-logo {
     display: block;
-    width: 100%;
-    text-decoration: none;
-    float: none;
-    text-align: center; }
-
-  header > div.header-wrapper > a#main-logo > {
     text-decoration: none;
     float: none; }
 
   header > div.header-wrapper > div#float-nav {
     float: none;
     text-align: center;
-    width: 100%;
-    margin: auto;
-    margin-top: 20px;
-    padding: 0 1.25em;
+    margin: 5px auto 0 -10px;
+    padding: 0;
     display: block;
-    top: 0;
-    border-top: 1pt solid #f9f9fc; }
+    top: 0; }
 
   header > div.header-wrapper > div#float-nav a {
     margin-left: 0;
-    font-size: 1.25em;
-    padding-right: 15px; }
+    font-size: 1em; }
 
   header > div.header-wrapper > div#float-nav > div.collapse {
     display: block; }
@@ -358,9 +349,16 @@ button.nav-button:focus {
     margin-top: 5px; }
     div.home_page h2 {
       text-align: center;
-      font-size: 1.25em; }
+      font-size: 1.5em;
+      margin: -10px auto -20px auto; }
+    div.home_page h4 {
+      text-align: center; }
     div.home_page p {
       text-align: center; }
+
+  div.home_page > div.col-md-4 > div.list_group > div.thumb_info {
+    height: 80px;
+    width: 100%; }
 
   main.allWrapper > div.columnsContainer > div.info {
     margin-top: 0; }
@@ -386,6 +384,9 @@ div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
   padding: 10px 40px 40px 7px; }
   div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 p {
     line-height: 200%; }
+
+main.allWrapper > div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
+  overflow: hidden; }
 
 div.columnsContainer > div > div#resume > div.about-header > div > h3 {
   font-family: "Eksell", "Oswald", Helvetica, sans-serif;
