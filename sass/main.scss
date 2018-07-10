@@ -110,7 +110,7 @@ main.allWrapper {
     margin-top: 130px;
   }
   div.columnsContainer > div.info > div.project-header {
-    width: 90%;
+    width: 89%;
     // max-width: 1100px;
     margin: auto;
   }
@@ -301,13 +301,13 @@ div.home_page {
 
 div.home_page > h2 {
   font-family: $display_font;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 400;
   line-height: 1.35;
   width: 100%;
   // max-width: 1100px;
   margin: auto;
-  padding: 35px 5px 55px 5px;
+  padding: 35px 5px 45px 5px;
   color: $theme;  // warm gray
   // color: #457fbc; // light blue
 }
