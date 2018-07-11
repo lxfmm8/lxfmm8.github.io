@@ -14,13 +14,13 @@
 @include font('Eksell', '/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large');
 
 // $theme-sub: #e37560;
-$theme-sub: #e37560; // orange red
+$theme-sub: #16395e;
 $theme: #16395e; // blue gray
 $logo-color: #f9f9fc;
 $float-nav-color: #f9f9fc;
 $header: transparent;
 $title_font_color: #16395e;
-$subtitle_font_color: #e37560;
+$subtitle_font_color: #16395e;
 $thumbnail-highlight-color: #ffec00; // bright yellow
 $background-color: #f9f9fc;
 $background-color-2: #b5b5b6; // fixed
@@ -645,6 +645,7 @@ h3 {
   // width: 145px;
   font-family: $nav_font;
   font-size: .8em;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding-top: 11px;

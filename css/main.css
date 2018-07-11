@@ -72,7 +72,7 @@ main.allWrapper {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: .9em;
     line-height: 1.2;
-    color: #e37560; }
+    color: #16395e; }
   main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -139,7 +139,7 @@ footer {
     footer div p {
       margin: 10px 0; }
       footer div p a {
-        color: #e37560; }
+        color: #16395e; }
 
 /*----- Home Page CSS -----*/
 header > div.header-wrapper > a#main-logo {
@@ -264,7 +264,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   font-kerning: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #e37560;
+  color: #16395e;
   letter-spacing: 1px; }
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
@@ -432,14 +432,15 @@ h3 {
   border: none; }
 
 .table-bordered > tbody > tr > td {
-  border: 0.5px solid #e37560;
+  border: 0.5px solid #16395e;
   border-left: none;
   border-right: none; }
 
 .table-bordered > tbody > tr > td:first-child {
-  color: #e37560;
+  color: #16395e;
   font-family: "Roboto", sans-serif;
   font-size: .8em;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding-top: 11px; }
