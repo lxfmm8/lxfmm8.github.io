@@ -383,7 +383,14 @@ button.nav-button:focus {
 
   main.allWrapper > div.columnsContainer > div.info > div.project-header > p.project-sub-title {
     font-size: .75em;
-    text-align: center; } }
+    text-align: center; }
+
+  main.allWrapper > div.columnsContainer > div.info > p.proj-sm-col {
+    font-size: 14px;
+    line-height: 1.6; }
+
+  main.allWrapper > div.columnsContainer > div.info > table {
+    font-size: 14px; } }
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
