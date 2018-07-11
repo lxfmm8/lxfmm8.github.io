@@ -316,6 +316,42 @@ button.nav-button:focus {
   background-color: #16395e;
   color: #fff; }
 
+/*---- Resume Page CSS ----*/
+div.columnsContainer > div > div#resume {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 5em; }
+
+div.columnsContainer > div > div#resume > div.about-header {
+  margin-top: 120px; }
+
+div.columnsContainer > div > div#resume > div#resume_main {
+  font-size: 14px; }
+  div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    color: #16395e;
+    padding-top: 5px; }
+  div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th > span.desk-hidden {
+    display: none; }
+
+div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
+  padding-bottom: 40px; }
+
+main.allWrapper > div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
+  overflow: hidden; }
+
+div.columnsContainer > div > div#resume > div.about-header > div > h3 {
+  font-family: "Eksell", "Oswald", Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+  text-transform: none; }
+
+div#resume a {
+  font-size: 35px;
+  letter-spacing: .3em; }
+
 @media (max-width: 767px) {
   header {
     position: relative;
@@ -391,40 +427,17 @@ button.nav-button:focus {
     line-height: 1.6; }
 
   main.allWrapper > div.columnsContainer > div.info > table {
-    font-size: 14px; } }
-/*---- Resume Page CSS ----*/
-div.columnsContainer > div > div#resume {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  margin-bottom: 5em; }
+    font-size: 14px; }
 
-div.columnsContainer > div > div#resume > div#resume_main {
-  font-size: 14px; }
-  div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th {
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: transparent;
-    color: #16395e;
-    padding-top: 10px; }
+  div.columnsContainer > div > div#resume > div.about-header {
+    margin-top: 40px; }
 
-div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  padding: 10px 40px 40px 7px; }
-  div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 p {
-    line-height: 200%; }
-
-main.allWrapper > div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  overflow: hidden; }
-
-div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: "Eksell", "Oswald", Helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 3em;
-  text-transform: none; }
-
-div#resume a {
-  font-size: 35px;
-  letter-spacing: .3em; }
-
+  div.columnsContainer > div > div#resume > div#resume_main {
+    font-size: 12px; }
+    div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > .mobile-hidden {
+      display: none; }
+    div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th > span.desk-hidden {
+      display: normal; } }
 /*---- Project Page CSS----*/
 h3 {
   font-family: "Eksell", "Oswald", Helvetica, sans-serif;

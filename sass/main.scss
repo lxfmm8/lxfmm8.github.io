@@ -472,6 +472,60 @@ button.nav-button:focus {
 
 
 
+
+
+/*---- Resume Page CSS ----*/
+div.columnsContainer > div > div#resume {
+  font-family: $sans_serif_font;
+  font-size: 18px;
+  margin-bottom: 5em;
+}
+div.columnsContainer > div > div#resume > div.about-header {
+  margin-top: 120px;
+}
+div.columnsContainer > div > div#resume > div#resume_main {
+  font-size: 14px;
+
+  .table>tbody>tr>th {
+    border-top: 1px solid rgba(0,0,0,.3);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background-color: transparent;
+    color: $theme;
+    padding-top: 5px;
+  }
+  .table > tbody > tr > th > span.desk-hidden {
+      display: none;
+    }
+}
+div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
+  padding-bottom: 40px;
+}
+
+main.allWrapper > div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
+  overflow: hidden;
+}
+
+div.columnsContainer > div > div#resume > div.about-header > div > h3 {
+  font-family: $project_title_font;
+  font-weight: 200;
+  font-size: 3em;
+  text-transform: none;
+}
+div#resume a {
+  font-size: 35px;
+  letter-spacing: .3em;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
   header {
     position: relative;
@@ -570,52 +624,21 @@ button.nav-button:focus {
   main.allWrapper > div.columnsContainer > div.info > table {
     font-size: 14px;
   }
-
-}
-
-
-
-
-
-
-
-/*---- Resume Page CSS ----*/
-div.columnsContainer > div > div#resume {
-  font-family: $sans_serif_font;
-  font-size: 18px;
-  margin-bottom: 5em;
-}
-div.columnsContainer > div > div#resume > div#resume_main {
-  font-size: 14px;
-
-  .table>tbody>tr>th {
-    border-top: 1px solid rgba(0,0,0,.3);
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    background-color: transparent;
-    color: $theme;
-    padding-top: 10px;
+  div.columnsContainer > div > div#resume > div.about-header {
+    margin-top: 40px;
   }
-}
-div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  padding: 10px 40px 40px 7px;
-  p {
-    line-height: 200%;
-  }
+
+  div.columnsContainer > div > div#resume > div#resume_main {
+    font-size: 12px;
+
+    .table > tbody > tr > .mobile-hidden {
+      display: none;
+    }
+    .table > tbody > tr > th > span.desk-hidden {
+      display: normal;
+    }
 }
 
-main.allWrapper > div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  overflow: hidden;
-}
-
-div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: $project_title_font;
-  font-weight: 200;
-  font-size: 3em;
-  text-transform: none;
-}
-div#resume a {
-  font-size: 35px;
-  letter-spacing: .3em;
 }
 
 
