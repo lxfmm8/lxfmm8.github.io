@@ -213,6 +213,7 @@ div.home_page > h2 {
 div.home_page > p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: .85em;
+  font-weight: 400;
   width: 100%;
   margin: auto;
   padding: 0 5px 40px 5px;
