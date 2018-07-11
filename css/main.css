@@ -9,6 +9,9 @@ body {
   background: #f9f9fc;
   color: #16395e;
   font-kerning: normal;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -151,8 +154,8 @@ header > div.header-wrapper > a#main-logo:hover img {
   opacity: .75; }
 
 header > div.header-wrapper > a > h1#logo-type {
-  font-family: "Eksell", sans-serif;
-  font-weight: 400;
+  font-family: "Eksell", "Oswald", sans-serif;
+  font-weight: 500;
   font-size: 2.5rem;
   color: #16395e;
   margin-top: 16px;
@@ -198,20 +201,21 @@ div.home_page {
   overflow: hidden; }
 
 div.home_page > h2 {
-  font-family: "Eksell", sans-serif;
+  font-family: "Eksell", "Oswald", sans-serif;
   font-size: 2.5em;
   font-weight: 400;
   line-height: 1.35;
   width: 100%;
   margin: auto;
-  padding: 35px 5px 45px 5px;
+  padding: 25px 5px 0px 5px;
   color: #16395e; }
 
 div.home_page > p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: .85em;
   width: 100%;
   margin: auto;
-  padding: 0 5px 30px 5px;
+  padding: 0 5px 40px 5px;
   color: #16395e; }
 
 div.home_page > div.col-md-4 {
@@ -247,7 +251,7 @@ div.home_page > div.col-md-4 > div.list_group:hover div.thumb_info {
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   font-family: "Eksell", "Oswald", Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.5em;
   margin-top: 15px;
   margin-bottom: 4px;
@@ -350,11 +354,13 @@ button.nav-button:focus {
     div.home_page h2 {
       text-align: center;
       font-size: 1.5em;
-      margin: -10px auto -20px auto; }
+      margin: 10px auto 0px auto; }
     div.home_page h4 {
       text-align: center; }
     div.home_page p {
-      text-align: center; }
+      text-align: center;
+      line-height: 1.5em;
+      padding-top: 10px; }
 
   div.home_page > div.col-md-4 > div.list_group > div.thumb_info {
     height: 80px;
@@ -365,7 +371,19 @@ button.nav-button:focus {
     main.allWrapper > div.columnsContainer > div.info div.project-header div.project-nav {
       float: none;
       margin-top: 10px;
-      margin-bottom: 10px; } }
+      margin-bottom: 10px; }
+
+  div.home_page > div.col-md-4 > div.list_group > div.thumb_tag > p {
+    top: 15px; }
+
+  main.allWrapper > div.columnsContainer > div.info > div.project-header > h1 {
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center; }
+
+  main.allWrapper > div.columnsContainer > div.info > div.project-header > p.project-sub-title {
+    font-size: .75em;
+    text-align: center; } }
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
