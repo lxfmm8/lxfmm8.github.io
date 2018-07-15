@@ -70,6 +70,7 @@ main.allWrapper {
     margin-bottom: 40px;
     max-width: 1400px;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 400;
     font-size: .9em;
     line-height: 1.2;
     color: #16395e; }
@@ -103,9 +104,21 @@ main.allWrapper {
     max-width: 800px;
     font-size: 16px;
     line-height: 175%; }
-  main.allWrapper div.columnsContainer > div.info > p.prototype-button {
+  main.allWrapper div.columnsContainer > div.info > div.prototype-button {
     margin: 1em auto 3em auto;
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    max-width: 800px; }
+    main.allWrapper div.columnsContainer > div.info > div.prototype-button div.button-side-line {
+      height: 1px;
+      background-color: #16395e;
+      margin-top: 22px;
+      margin-bottom: 20px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1; }
+    main.allWrapper div.columnsContainer > div.info > div.prototype-button a > button {
+      flex: 1; }
   main.allWrapper div.columnsContainer > div.info > table {
     font-size: 16px; }
   main.allWrapper div.columnsContainer > div.info > ul.p-list {
@@ -213,7 +226,7 @@ div.home_page > h2 {
 div.home_page > p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: .85em;
-  font-weight: 400;
+  font-weight: 500;
   width: 100%;
   margin: auto;
   padding: 0 5px 40px 5px;
@@ -261,7 +274,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
   font-size: .6em;
-  font-weight: 400;
+  font-weight: 500;
   font-kerning: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -479,8 +492,9 @@ button.launch {
   border-radius: 0px;
   transition: background-color, .25s;
   font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
-  font-weight: 400;
-  border: 1pt solid #16395e; }
+  font-weight: 500;
+  border: 1pt solid #16395e;
+  color: #16395e; }
 
 button.launch:hover {
   background-color: #16395e;
