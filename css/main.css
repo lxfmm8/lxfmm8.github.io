@@ -23,6 +23,8 @@ body {
   body ::-moz-selection {
     background: #ffec00;
     /* Gecko Browsers */ }
+  body a:focus {
+    outline: none; }
 
 img {
   user-drag: none;

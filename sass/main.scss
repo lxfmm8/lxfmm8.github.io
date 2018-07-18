@@ -59,6 +59,9 @@ body {
   ::-moz-selection {
     background: $thumbnail-highlight-color; /* Gecko Browsers */
   }
+  a:focus { 
+    outline: none; 
+  } 
 
 
 }
