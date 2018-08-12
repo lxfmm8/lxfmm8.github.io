@@ -3,9 +3,16 @@
 	label {
 		display: inline-block;
 		cursor: pointer;
-		padding: 2px 20px;
-		border: 1px solid #ccc;
+		padding: 0 20px 0 8px;
 		color: #aaa;
+		font-family: 'Roboto', Helvetica, sans-serif;
+		font-weight: 500;
+		font-size: 14px;
+		transition: color .25s;
+	}
+
+	label:hover {
+		color: #16395e;
 	}
 
 	input {
@@ -13,20 +20,59 @@
 	}
 
 	input#all:checked ~ label[for="all"],
-	input#design:checked ~ label[for="design"],
-	input#css:checked ~ label[for="css"],
-	input#js:checked ~ label[for="js"]
+	input#interaction:checked ~ label[for="interaction"],
+	input#branding:checked ~ label[for="branding"],
+	input#information:checked ~ label[for="information"],
+	input#illustration:checked ~ label[for="illustration"],
+	input#other:checked ~ label[for="other"]
 	{
 		color: #16395e;
-		background-color: #eee;
 		border-color: #16395e;
 	}
 
-	input#design:checked ~ section a[data-skill~="design"] {
+	input#interaction:checked ~ div[data-skill~="interaction"] {
 		display: block;
 	}
-	
-	input#design:checked ~ section a:not([data-skill~="design"]) {
+
+	input#interaction:checked ~ div:not([data-skill~="interaction"]) {
+		display: none;
+	}
+
+
+
+	input#branding:checked ~ div[data-skill~="branding"] {
+		display: block;
+	}
+
+	input#branding:checked ~ div:not([data-skill~="branding"]) {
+		display: none;
+	}
+
+
+
+	input#information:checked ~ div[data-skill~="information"] {
+		display: block;
+	}
+
+	input#information:checked ~ div:not([data-skill~="information"]) {
+		display: none;
+	}
+
+
+	input#illustration:checked ~ div[data-skill~="illustration"] {
+		display: block;
+	}
+
+	input#illustration:checked ~ div:not([data-skill~="illustration"]) {
+		display: none;
+	}
+
+
+	input#other:checked ~ div[data-skill~="other"] {
+		display: block;
+	}
+
+	input#other:checked ~ div:not([data-skill~="other"]) {
 		display: none;
 	}
 
@@ -39,23 +85,29 @@
 	<h2>Visual & Interaction Designer &middot; Illustrator &middot; Developer<!--  He creates comprehensive websites, brand identities, visualizations, and illustrations with a systematic and humanistic approach. --></h2>
 	<p>This site is being updated daily. Stay tuned. Be happy.</p>
 
-	<p>
+
 
 		<input id="all" type="radio" name="skill" checked>
-		<input id="design" type="radio" name="skill">
-		<input id="css" type="radio" name="skill">
-		<input id="js" type="radio" name="skill">
+		<input id="interaction" type="radio" name="skill">
+		<input id="branding" type="radio" name="skill">
+		<input id="information" type="radio" name="skill">
+		<input id="illustration" type="radio" name="skill">
+		<input id="other" type="radio" name="skill">
 
 		<label for="all">All</label>
-		<label for="design">Design</label>
-		<label for="css">CSS</label>
-		<label for="js">JS</label>
-	</p>
+		<label for="interaction">Interaction</label>
+		<label for="branding">Branding</label>
+		<label for="information">Information</label>
+		<label for="illustration">Illustration</label>
+		<label for="other">Other</label>
+
+		<br>
+
 
 <!-- 	<div style="display: block; overflow: hidden"> -->
 
 	<!-- PROJECT 0 -->
-	<div data-skill="design" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="interaction" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view21"><img class="thumb" id="marvel_thumb" ng-src='img/square_photos/marvel_thumb.jpg' width='100%' height="100%" alt="marvel"/></a>
 			<div class="thumb_tag"><p>17-18</p></div>
@@ -70,7 +122,7 @@
 
 
 	<!-- PROJECT 7 -->
-	<div data-skill="design" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="interaction branding" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view16"><img class="thumb" id="insider_thumb" ng-src='img/square_photos/insider_thumb_1.jpg' width='100%' alt="yuhua stone"/></a>
 			<div class="thumb_tag"><p>18</p></div>
@@ -87,7 +139,7 @@
 
 
 	<!-- PROJECT 1 -->
-	<div data-skill="css" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="interaction" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view19"><img class="thumb" id="bpds_thumb" ng-src='img/square_photos/BPDS_thumb_2.png' width='100%' alt="brookfield presentation"/></a>
 			<div class="thumb_tag"><p>16-17</p></div>
@@ -102,7 +154,7 @@
 
 
 	<!-- PROJECT 3 -->
-	<div data-skill="design" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="interaction information" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view20"><img class="thumb" id="maps_thumb" ng-src='img/square_photos/charts_thumb_1.jpg' width='100%' alt="shift"/></a>
 			<div class="thumb_tag"><p>15-17</p></div>
@@ -116,7 +168,7 @@
 
 
 	<!-- PROJECT 4 -->
-	<div data-skill="js" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="branding other" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view3"><img class="thumb" id="type_timeline_thumb" ng-src='img/square_photos/box-type-thumb.jpg' width='100%' alt="typeface timeline"/></a>
 			<div class="thumb_tag"><p>16</p></div>
@@ -129,7 +181,7 @@
 
 
 	<!-- PROJECT 5 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="interaction information illustration" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view14"><img class="thumb" id="stats_viz_thumb" ng-src='img/square_photos/stats_thumb_phone.png' width='100%' height="100%" alt="stats viz"/></a>
 			<div class="thumb_tag"><p>16-17</p></div>
@@ -145,7 +197,7 @@
 
 
 		<!-- PROJECT 10 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="branding illustration" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view17"><img class="thumb" id="corp_thumb" ng-src='img/square_photos/corp-1.png' width='100%' alt="coporate"/></a>
 			<div class="thumb_tag"><p style="color: gray;">14-18</p></div>
@@ -159,7 +211,7 @@
 
 
 	<!-- PROJECT 10 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="interaction branding illustration other" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view7"><img class="thumb" id="paperthingy_thumb" ng-src='img/square_photos/paper_thingy_thumb_1.jpg' width='100%' alt="paper thingy"/></a>
 			<div class="thumb_tag"><p>15</p></div>
@@ -172,7 +224,7 @@
 
 
 	<!-- PROJECT 8 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="interaction" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view9"><img class="thumb" id="markers_ui_thumb" ng-src='img/square_photos/markers_thumb_1.png' width='100%' alt="markers ui"/></a>
 			<div class="thumb_tag"><p>14</p></div>
@@ -186,7 +238,7 @@
 
 
 	<!-- PROJECT 9 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="other" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view8"><img class="thumb" id="type_and_code_thumb" ng-src='img/square_photos/type_code_thumb.png' width='100%' alt="type and code"/></a>
 			<div class="thumb_tag"><p>13</p></div>
@@ -199,7 +251,7 @@
 
 
 	<!-- PROJECT 6 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="illustration" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view12"><img class="thumb" id="chain_thumb" ng-src='img/square_photos/chain-of-thought-th-3.png' width='100%' alt="shift"/></a>
 			<div class="thumb_tag"><p style="color: gray;">16</p></div>
@@ -217,7 +269,7 @@
 
 
 	<!-- PROJECT 12 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="branding other" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view15"><img class="thumb" id="layout_thumb" ng-src='img/square_photos/layout-1.png' width='100%' alt="print collection"/></a>
 			<!-- <div class="thumb_tag"><p>13</p></div> -->
