@@ -1,14 +1,148 @@
+<style type="text/css">
+	section {
+		margin: 30px 0 0 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		border-top: 1px solid #bbb;
+		padding: 20px;
+		background-color: #ddd;
+	}
+	section > a {
+		display: block;
+		text-decoration: none;
+		font-size: 1em;
+		color: #999;
+		width: 26%;
+		margin: 0 10px 20px 10px;
+		line-height: 1.2em;
+		border: 1px solid #eee;
+		padding: 0 5px 5px 5px;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+		overflow: hidden;
+		background-color: #fff;
+		transition: background-color .5s, color .5s, border-color .5s;
+	}
+
+
+
+
+
+	label {
+		display: inline-block;
+		cursor: pointer;
+		padding: 2px 20px;
+		border: 1px solid #ccc;
+		color: #aaa;
+	}
+
+	input {
+		display: none;
+	}
+
+	input#all:checked ~ label[for="all"],
+	input#design:checked ~ label[for="design"],
+	input#css:checked ~ label[for="css"],
+	input#js:checked ~ label[for="js"]
+	{
+		color: #16395e;
+		background-color: #eee;
+		border-color: #16395e;
+	}
+
+	input#design:checked ~ section a[data-skill~="design"] {
+		display: block;
+	}
+	input#design:checked ~ section a:not([data-skill~="design"]) {
+		display: none;
+	}
+</style>
+
+      <section>
+
+        <a data-skill="design" href="https://www.linkedin.com/learning/sketch-essential-training-the-basics-2/introduction?u=2125562">
+          <img src="images/sketch.jpg">
+          Sketch Essential Training: The Basics
+        </a>
+
+        <a data-skill="js" href="https://www.linkedin.com/learning/creating-a-calculation-tool-with-angularjs-1?u=2125562">
+          <img src="images/calculation_tool.jpg">
+          Creating a Calculation Tool with AngularJS 1
+        </a>
+
+        <a data-skill="css" href="https://www.linkedin.com/learning/css-shorts-weekly/let-s-focus-on-the-focus?u=2125562">
+          <img src="images/css_shorts.jpg">
+          CSS Shorts Weekly
+        </a>
+
+        <a data-skill="design css" href="https://www.linkedin.com/learning/creating-a-responsive-web-design?u=2125562">
+          <img src="images/rwd.jpg">
+          Creating a Responsive Web Design
+        </a>
+
+        <a data-skill="js" href="https://www.linkedin.com/learning/creating-an-html5-banner-ad-with-greensock-gsap?u=2125562">
+          <img src="images/gsap.jpg">
+
+          
+          Creating an HTML5 Banner Ad with GreenSock (GSAP)
+        </a>
+
+        <a data-skill="js" href="https://www.linkedin.com/learning/design-the-web-creating-an-event-countdown?u=2125562">
+          <img src="images/countdown.jpg">
+          Design the Web: Creating an Event Countdown
+        </a>
+
+        <a data-skill="css" href="https://www.linkedin.com/learning/design-the-web-css-animated-rollovers?u=2125562">
+          <img src="images/animated_rollovers.jpg">
+          Design the Web: CSS Animated Rollovers
+        </a>
+
+        <a data-skill="design" href="https://www.linkedin.com/learning/design-the-web-control-colors-in-photoshop-with-smartobjects?u=2125562">
+          <img src="images/color_with_smartobjects.jpg">
+          Design the Web: Control Colors in Photoshop with SmartObjects
+        </a>
+
+        <a data-skill="design" href="https://www.linkedin.com/learning/design-the-web-creating-a-repeating-background-in-photoshop?u=2125562">
+          <img src="images/seamless_backgrounds.jpg">
+          Design the Web: Creating a Repeating Background in Photoshop
+        </a>
+
+        <a data-skill="css" href="https://www.linkedin.com/learning/design-the-web-using-counters-and-resets-in-css?u=2125562">
+          <img src="images/counters_resets.jpg">
+          Design the Web: Using Counters and Resets in CSS
+        </a>
+
+        <a data-skill="js css" href="https://www.linkedin.com/learning/creating-expandable-panels-with-jquery?u=2125562">
+          <img src="images/expandable_panels.jpg">
+          Creating Expandable Panels with jQuery
+        </a>
+
+      </section>
+
+      
 
 <div class="home_page">
 
 	<h2>Visual & Interaction Designer &middot; Illustrator &middot; Developer<!--  He creates comprehensive websites, brand identities, visualizations, and illustrations with a systematic and humanistic approach. --></h2>
 	<p>This site is being updated daily. Stay tuned. Be happy.</p>
 
+	<p>
+
+		<input id="all" type="radio" name="skill" checked>
+		<input id="design" type="radio" name="skill">
+		<input id="css" type="radio" name="skill">
+		<input id="js" type="radio" name="skill">
+
+		<label for="all">All</label>
+		<label for="design">Design</label>
+		<label for="css">CSS</label>
+		<label for="js">JS</label>
+	</p>
 
 <!-- 	<div style="display: block; overflow: hidden"> -->
 
 	<!-- PROJECT 0 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="design" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view21"><img class="thumb" id="marvel_thumb" ng-src='img/square_photos/marvel_thumb.jpg' width='100%' height="100%" alt="marvel"/></a>
 			<div class="thumb_tag"><p>17-18</p></div>
@@ -23,7 +157,7 @@
 
 
 	<!-- PROJECT 7 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="design" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view16"><img class="thumb" id="insider_thumb" ng-src='img/square_photos/insider_thumb_1.jpg' width='100%' alt="yuhua stone"/></a>
 			<div class="thumb_tag"><p>18</p></div>
@@ -40,7 +174,7 @@
 
 
 	<!-- PROJECT 1 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="css" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view19"><img class="thumb" id="bpds_thumb" ng-src='img/square_photos/BPDS_thumb_2.png' width='100%' alt="brookfield presentation"/></a>
 			<div class="thumb_tag"><p>16-17</p></div>
@@ -55,7 +189,7 @@
 
 
 	<!-- PROJECT 3 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="design" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view20"><img class="thumb" id="maps_thumb" ng-src='img/square_photos/charts_thumb_1.jpg' width='100%' alt="shift"/></a>
 			<div class="thumb_tag"><p>15-17</p></div>
@@ -69,7 +203,7 @@
 
 
 	<!-- PROJECT 4 -->
-	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	<div data-skill="js" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="list_group">
 			<a href="#/view3"><img class="thumb" id="type_timeline_thumb" ng-src='img/square_photos/box-type-thumb.jpg' width='100%' alt="typeface timeline"/></a>
 			<div class="thumb_tag"><p>16</p></div>
