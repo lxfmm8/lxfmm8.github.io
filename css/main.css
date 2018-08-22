@@ -243,7 +243,7 @@ div.home_page > div.col-md-4 {
 
 div.home_page > div.col-md-4 > div.list_group {
   display: inline-block;
-  margin: .5em .5em .5em .5em;
+  margin: .5em .5em -.3em .5em;
   width: 100%;
   line-height: 28pt; }
 
