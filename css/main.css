@@ -370,6 +370,9 @@ div#resume a {
   font-size: 35px;
   letter-spacing: .3em; }
 
+@media (max-width: 1000px) {
+  div.dsk-only {
+    display: none; } }
 @media (max-width: 767px) {
   header {
     position: relative;

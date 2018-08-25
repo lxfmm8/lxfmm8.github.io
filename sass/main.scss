@@ -545,11 +545,15 @@ div#resume a {
 
 
 
-
-
+@media (max-width: 1000px) {
+  div.dsk-only {
+    display: none;
+  }
+}
 
 
 @media (max-width: 767px) {
+
   header {
     position: relative;
     height: 250px;
