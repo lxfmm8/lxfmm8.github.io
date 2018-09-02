@@ -7,7 +7,7 @@
   font-style: normal; }
 body {
   background: #f9f9fc;
-  color: #16395e;
+  color: #938985;
   font-kerning: normal;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
@@ -16,7 +16,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: #e5e5e6; }
+  background-color: #f9f9fc; }
   body ::selection {
     background: #ffec00;
     /* WebKit/Blink Browsers */ }
@@ -37,7 +37,7 @@ img {
 button.btn:focus {
   outline: none;
   background-color: #fff;
-  border: 1pt solid #16395e; }
+  border: 1pt solid #938985; }
 
 main.allWrapper {
   z-index: -10;
@@ -49,7 +49,7 @@ main.allWrapper {
   font-size: 1.2em; }
   main.allWrapper a {
     text-decoration: none;
-    color: #16395e; }
+    color: #938985; }
   main.allWrapper .col-md-8 {
     margin: auto;
     float: none; }
@@ -75,7 +75,7 @@ main.allWrapper {
     font-weight: 400;
     font-size: .9em;
     line-height: 1.2;
-    color: #16395e; }
+    color: #938985; }
   main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -113,7 +113,7 @@ main.allWrapper {
     max-width: 800px; }
     main.allWrapper div.columnsContainer > div.info > div.prototype-button div.button-side-line {
       height: 1px;
-      background-color: #16395e;
+      background-color: #938985;
       margin-top: 22px;
       margin-bottom: 20px;
       -webkit-box-flex: 1;
@@ -142,7 +142,7 @@ header {
 
 footer {
   width: 100%;
-  background-color: #ddd;
+  background-color: #ededed;
   bottom: 0;
   margin: 0;
   padding: 30px 0 30px 0;
@@ -154,7 +154,7 @@ footer {
     footer div p {
       margin: 10px 0; }
       footer div p a {
-        color: #16395e; }
+        color: #dba87c; }
 
 /*----- Home Page CSS -----*/
 header > div.header-wrapper > a#main-logo {
@@ -172,7 +172,7 @@ header > div.header-wrapper > a > h1#logo-type {
   font-family: "Eksell", "Oswald", sans-serif;
   font-weight: 500;
   font-size: 2.5rem;
-  color: #16395e;
+  color: #938985;
   margin-top: 16px;
   margin-bottom: 3px;
   letter-spacing: 1px;
@@ -185,7 +185,7 @@ header > div.header-wrapper > a > p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 10px;
-  color: #16395e;
+  color: #938985;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
@@ -219,11 +219,11 @@ div.home_page > h2 {
   font-family: "Eksell", "Oswald", sans-serif;
   font-size: 2.5em;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.2;
   width: 100%;
   margin: auto;
-  padding: 25px 5px 0px 5px;
-  color: #16395e; }
+  padding: 25px 5px 10px 5px;
+  color: #938985; }
 
 div.home_page > p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -232,8 +232,8 @@ div.home_page > p {
   width: 100%;
   margin: auto;
   padding: 0 5px 40px 5px;
-  color: #16395e;
-  line-height: 1.4; }
+  color: #938985;
+  line-height: 1.5; }
 
 div.home_page > div.col-md-4 {
   padding-left: 0;
@@ -281,7 +281,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   font-kerning: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #16395e;
+  color: #dba87c;
   letter-spacing: 1px; }
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
@@ -310,8 +310,8 @@ button.nav-button {
   transition: background-color, .25s;
   font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #16395e;
-  background-color: #16395e;
+  border: 1pt solid #938985;
+  background-color: #938985;
   color: #fff; }
 
 button.nav-button:hover {
@@ -319,8 +319,8 @@ button.nav-button:hover {
   transition: background-color, .25s;
   font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #16395e;
-  background-color: #16395e;
+  border: 1pt solid #938985;
+  background-color: #938985;
   color: #999; }
 
 button.nav-button:focus {
@@ -328,8 +328,8 @@ button.nav-button:focus {
   transition: background-color, .25s;
   font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
-  border: 1pt solid #16395e;
-  background-color: #16395e;
+  border: 1pt solid #938985;
+  background-color: #938985;
   color: #fff; }
 
 /*---- Resume Page CSS ----*/
@@ -349,7 +349,7 @@ div.columnsContainer > div > div#resume > div#resume_main {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
-    color: #16395e;
+    color: #938985;
     padding-top: 5px; }
   div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th > span.desk-hidden {
     display: none; }
@@ -367,8 +367,11 @@ div.columnsContainer > div > div#resume > div.about-header > div > h3 {
   text-transform: none; }
 
 div#resume a {
-  font-size: 35px;
-  letter-spacing: .3em; }
+  font-weight: 400;
+  border-bottom: 1pt solid #938985; }
+
+div#resume a:hover {
+  border: none; }
 
 @media (max-width: 1000px) {
   div.dsk-only {
@@ -474,12 +477,12 @@ h3 {
   border: none; }
 
 .table-bordered > tbody > tr > td {
-  border: 0.5px solid #16395e;
+  border: 0.5px solid #dba87c;
   border-left: none;
   border-right: none; }
 
 .table-bordered > tbody > tr > td:first-child {
-  color: #16395e;
+  color: #dba87c;
   font-family: "Roboto", sans-serif;
   font-size: .8em;
   font-weight: 500;
@@ -496,16 +499,16 @@ h3 {
   font-size: 1.2em; }
 
 button.launch {
-  background-color: #fff;
+  background-color: #dba87c;
   border-radius: 0px;
   transition: background-color, .25s;
   font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
-  font-weight: 500;
-  border: 1pt solid #16395e;
-  color: #16395e; }
+  font-weight: 400;
+  border: 1pt solid #938985;
+  color: white; }
 
 button.launch:hover {
-  background-color: #16395e;
+  background-color: #938985;
   color: #fff; }
 
 div.design-purpose > div.col-md-4 {
