@@ -3,16 +3,17 @@
 	label {
 		display: inline-block;
 		cursor: pointer;
-		padding: 0 20px 0 8px;
-		color: #938985;
+		margin: 0 15px 3px 8px;
+		color: lightgray;
 		font-family: 'Roboto', Helvetica, sans-serif;
 		font-weight: 500;
 		font-size: 14px;
 		transition: color .25s;
+		color: #16395e;
 	}
 
 	label:hover {
-		color: #dba87c;
+		border-bottom: 2pt solid #dba87c;
 	}
 
 	input {
@@ -26,8 +27,8 @@
 	input#illustration:checked ~ label[for="illustration"],
 	input#other:checked ~ label[for="other"]
 	{
-		color: #dba87c;
-		border-color: #dba87c;
+		color: #16395e;
+		border-bottom: 2pt solid #dba87c;
 	}
 
 	input#interaction:checked ~ div[data-skill~="interaction"] {
@@ -82,10 +83,9 @@
 
 <div class="home_page">
 
-	<h2 style="color: #dba87c;">Visual & Interaction Designer <span style="color: #dba87c;">&middot;</span> Illustrator <span style="color: #dba87c;">&middot;</span> Front-End Developer<!--  He creates comprehensive websites, brand identities, visualizations, and illustrations with a systematic and humanistic approach. --></h2>
-	<p>I focus on originality and ways to creatively communicate through different medium.
-	This site is being updated daily. Stay tuned. Be happy.</p>
+	<h2>Visual & Interaction Designer <span style="color: #dba87c;">&middot;</span> Illustrator <span style="color: #dba87c;">&middot;</span> Front-End Developer</h2>
 
+	<p>I focus on originality and ways to creatively communicate through different medium. This site is being updated daily. Stay tuned. Be happy.</p>
 
 
 		<input id="all" type="radio" name="skill" checked>
