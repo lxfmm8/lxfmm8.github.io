@@ -25,12 +25,12 @@ $thumbnail-highlight-color: #e5e5e6;
 $background-color: #f9f9fc;
 $background-color-2: #b5b5b6; // fixed
 $display_font: 'Eksell', 'Oswald', serif;
-$sans_serif_font: 'Roboto', Helvetica, sans-serif;
+$sans_serif_font: 'Montserrat', 'Roboto', Helvetica, sans-serif;
 $serif_font: 'Vollkorn', serif;
 $project_title_font:  'Eksell', 'Oswald', Helvetica, sans-serif;
 $project_title_font_light: 'Roboto', Helvetica, sans-serif;
 $logo_type: 'Eksell', 'Oswald', Helvetica, Arial, sans-serif;
-$nav_font: 'Roboto', sans-serif;
+$nav_font: 'Montserrat', 'Roboto', sans-serif;
 
 
 body {
@@ -107,41 +107,51 @@ main.allWrapper {
     margin: auto;
     float: none;
   }
+
   div.columnsContainer {
     margin: auto;
     float: none;
     display: block;
-  }
-  div.columnsContainer > div.info {
-    font-size: 1.15em;
-    margin-top: 130px;
-  }
-  div.columnsContainer > div.info > div.project-header {
-    width: 89%;
-    // max-width: 1100px;
-    margin: auto;
+
+    div.info {
+      font-size: 1.15em;
+      margin-top: 130px;
+
+      div.project-header {
+        width: 89%;
+        margin: auto;
+
+        h1 {
+          font-size: 3em;
+          font-family: $project_title_font;
+          font-weight: 400;
+          margin-bottom: 0;
+          letter-spacing: 1px;
+        }
+        p.project-category {
+          font-family: $sans_serif_font;
+          font-weight: 700;
+          font-size: .7em;
+          color: $theme-sub;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+        p.project-sub-title {
+          margin-top: 20px;
+          margin-bottom: 30px;
+          max-width: 1400px;
+          font-family: $serif_font;
+          font-weight: 300;
+          font-size: 1.2em;
+          line-height: 1.2;
+          // font-style: italic;
+          color: $theme;
+        }
+      }
+    }
   }
 
-  div.columnsContainer > div.info > div.project-header > h1 {
-    font-size: 3em;
-    font-family: $project_title_font;
-    font-weight: 400;
-    // letter-spacing: -1px;
-    // line-height: 90%;
-    // color: #6b6a70;
-  }
 
-  div.columnsContainer > div.info > div.project-header > p.project-sub-title {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    max-width: 1400px;
-    font-family: $sans_serif_font;
-    font-weight: 400;
-    font-size: .9em;
-    line-height: 1.2;
-    // font-style: italic;
-    color: $theme;
-  }
   div.columnsContainer > div.info > div.project-header > div.project-nav {
     font-family: $nav_font;
     font-weight: 400;
@@ -150,35 +160,34 @@ main.allWrapper {
     text-align: center;
     font-size: 12px;
     float: right;
+
+    a:hover {
+      opacity: .5;
+    }
   }
-  div.columnsContainer > div.info > div.project-header > div.project-nav > a {
-    opacity: 1;
-    // color: #0d0103;
+
+  div.columnsContainer > div.info {
+    h3 {
+      font-family: $project_title_font;
+      margin: 1em auto -5px auto;
+      width: 95%;
+      max-width: 800px;
+      font-size: 1.5em;
+    }
+    p.proj-sm-col {
+      margin: 1em auto 1em auto;
+      width: 95%;
+      max-width: 800px;
+      font-size: 18px;
+      line-height: 1.6;
+      em {
+        font-family: $serif_font;
+        font-size: 1.1em;
+      }
+    }
   }
-  div.columnsContainer > div.info > div.project-header > div.project-nav > a:hover {
-    opacity: .5;
-  }
-  div.columnsContainer > div.info > h3 {
-    font-family: $project_title_font;
-    margin: 1em auto -5px auto;
-    width: 95%;
-    max-width: 800px;
-    font-size: 1.5em;
-  }
-  div.columnsContainer > div.info > p.proj-sm-col {
-    margin: 1em auto 1em auto;
-    width: 95%;
-    max-width: 800px;
-    font-size: 18px;
-    line-height: 1.6;
-  }
-  div.columnsContainer > div.info > ul.proj-sm-col {
-    margin: 1.5em auto 3em auto;
-    width: 95%;
-    max-width: 800px;
-    font-size: 16px;
-    line-height: 175%;
-  }
+
+
   div.columnsContainer > div.info > div.prototype-button {
     margin: 1em auto 3em auto;
     text-align: center;
@@ -216,11 +225,10 @@ header {
     height: 80px;
     z-index: 1;
     position: fixed;
-    // border-bottom: 1pt solid lightgray;
+
     .header-wrapper {
       margin: auto;
       width: 80.5%;
-      // max-width: 1100px;
       padding: 10px 0 10px 0;
     }
 }
@@ -235,13 +243,19 @@ footer {
   font-size: 14px;
   div {
     width: 80.5%;
-    // max-width: 1100px;
     margin: auto;
     p {
       margin: 10px 0;
       a {
+        color: $theme;
+        font-family: $serif_font;
+        font-size: 1.1em;
+        border-bottom: 1pt solid $theme-sub;
+      }
+      a:hover {
         color: $theme-sub;
-        // font-style: italic;
+        text-decoration: none;
+        border: none;
       }
     }
   }
@@ -298,13 +312,12 @@ header > div.header-wrapper > div#float-nav {
   text-transform: uppercase;
   font-family: $nav_font;
   font-size: .9em;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-weight: 500;
+  letter-spacing: 1px;
 
   a {
     margin-left: 20px;
     padding-right: 0;
-    // color: #333;
     background-color: transparent;
   }
   div.navbar-collapse {
@@ -397,30 +410,22 @@ div.home_page > div.col-md-4 > div.list_group:hover {
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 
-  // color: $theme-sub;
   font-family: $project_title_font;
   font-weight: 400;
   font-size: 1.5em;
   margin-top: 15px;
   margin-bottom: 4px;
   font-kerning: normal;
-  // letter-spacing: 1px;
-  // text-transform: uppercase;
-  // font-style: italic;
-
-
 }
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
-  // color: #f9f9fc;
   margin-top: -10px;
   font-size: .6em;
-  font-weight: 500;
+  font-weight: 600;
   font-kerning: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: $theme-sub;
   letter-spacing: 1px;
-  // font-style: italic;
 }
 
 // Project Thumbnail Tags
@@ -512,7 +517,11 @@ div.columnsContainer > div > div#resume {
       overflow: hidden;
 
       h4 {
-        font-weight: 600;
+        font-weight: 700;
+        font-size: .7em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $theme-sub;
       }
       p {
           line-height: 1.6;
@@ -743,49 +752,6 @@ button.launch:hover {
   // border-radius: 25px;
   background-color: $theme;
   color: #fff;
-}
-
-div.design-purpose > div.col-md-4 {
-  margin: 50px 0 30px 0;
-
-
-  div.thumbnail {
-    background-color: transparent;
-    border: none;
-
-    > img {
-      max-width: 700px;
-    }
-
-    h4 {
-    text-align: center;
-    font-family: $project_title_font;
-    font-size: 2em;
-    font-weight: 300;
-    margin-top: -5px;
-    }
-
-    p {
-      margin-bottom: 0;
-    }
-
-    div.caption {
-      margin-left: 20px;
-    }
-
-    div.modal-body {
-      p {
-        text-align: center;
-        margin-bottom: 5px;
-      }
-      img {
-        display: block;
-        margin: auto;
-        width: 75%;
-        border: 1pt solid #333333;
-      }
-    }
-  }
 }
 
 

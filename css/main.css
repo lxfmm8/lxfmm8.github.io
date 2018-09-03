@@ -44,7 +44,7 @@ main.allWrapper {
   line-height: 22pt;
   width: 90%;
   margin: 0 auto 40px auto;
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: "Montserrat", "Roboto", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.2em; }
   main.allWrapper a {
@@ -57,55 +57,59 @@ main.allWrapper {
     margin: auto;
     float: none;
     display: block; }
-  main.allWrapper div.columnsContainer > div.info {
-    font-size: 1.15em;
-    margin-top: 130px; }
-  main.allWrapper div.columnsContainer > div.info > div.project-header {
-    width: 89%;
-    margin: auto; }
-  main.allWrapper div.columnsContainer > div.info > div.project-header > h1 {
-    font-size: 3em;
-    font-family: "Eksell", "Oswald", Helvetica, sans-serif;
-    font-weight: 400; }
-  main.allWrapper div.columnsContainer > div.info > div.project-header > p.project-sub-title {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    max-width: 1400px;
-    font-family: "Roboto", Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: .9em;
-    line-height: 1.2;
-    color: #16395e; }
+    main.allWrapper div.columnsContainer div.info {
+      font-size: 1.15em;
+      margin-top: 130px; }
+      main.allWrapper div.columnsContainer div.info div.project-header {
+        width: 89%;
+        margin: auto; }
+        main.allWrapper div.columnsContainer div.info div.project-header h1 {
+          font-size: 3em;
+          font-family: "Eksell", "Oswald", Helvetica, sans-serif;
+          font-weight: 400;
+          margin-bottom: 0;
+          letter-spacing: 1px; }
+        main.allWrapper div.columnsContainer div.info div.project-header p.project-category {
+          font-family: "Montserrat", "Roboto", Helvetica, sans-serif;
+          font-weight: 700;
+          font-size: .7em;
+          color: #dba87c;
+          text-transform: uppercase;
+          letter-spacing: 1px; }
+        main.allWrapper div.columnsContainer div.info div.project-header p.project-sub-title {
+          margin-top: 20px;
+          margin-bottom: 30px;
+          max-width: 1400px;
+          font-family: "Vollkorn", serif;
+          font-weight: 300;
+          font-size: 1.2em;
+          line-height: 1.2;
+          color: #16395e; }
   main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", "Roboto", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     font-size: 12px;
     float: right; }
-  main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav > a {
-    opacity: 1; }
-  main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav > a:hover {
-    opacity: .5; }
-  main.allWrapper div.columnsContainer > div.info > h3 {
+    main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav a:hover {
+      opacity: .5; }
+  main.allWrapper div.columnsContainer > div.info h3 {
     font-family: "Eksell", "Oswald", Helvetica, sans-serif;
     margin: 1em auto -5px auto;
     width: 95%;
     max-width: 800px;
     font-size: 1.5em; }
-  main.allWrapper div.columnsContainer > div.info > p.proj-sm-col {
+  main.allWrapper div.columnsContainer > div.info p.proj-sm-col {
     margin: 1em auto 1em auto;
     width: 95%;
     max-width: 800px;
     font-size: 18px;
     line-height: 1.6; }
-  main.allWrapper div.columnsContainer > div.info > ul.proj-sm-col {
-    margin: 1.5em auto 3em auto;
-    width: 95%;
-    max-width: 800px;
-    font-size: 16px;
-    line-height: 175%; }
+    main.allWrapper div.columnsContainer > div.info p.proj-sm-col em {
+      font-family: "Vollkorn", serif;
+      font-size: 1.1em; }
   main.allWrapper div.columnsContainer > div.info > div.prototype-button {
     margin: 1em auto 3em auto;
     text-align: center;
@@ -146,7 +150,7 @@ footer {
   bottom: 0;
   margin: 0;
   padding: 30px 0 30px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", "Roboto", sans-serif;
   font-size: 14px; }
   footer div {
     width: 80.5%;
@@ -154,7 +158,14 @@ footer {
     footer div p {
       margin: 10px 0; }
       footer div p a {
-        color: #dba87c; }
+        color: #16395e;
+        font-family: "Vollkorn", serif;
+        font-size: 1.1em;
+        border-bottom: 1pt solid #dba87c; }
+      footer div p a:hover {
+        color: #dba87c;
+        text-decoration: none;
+        border: none; }
 
 /*----- Home Page CSS -----*/
 header > div.header-wrapper > a#main-logo {
@@ -182,7 +193,7 @@ header > div.header-wrapper > a > h1:hover {
   opacity: .8; }
 
 header > div.header-wrapper > a > p {
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: "Montserrat", "Roboto", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 10px;
   color: #16395e;
@@ -194,10 +205,10 @@ header > div.header-wrapper > div#float-nav {
   top: 6px;
   position: relative;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", "Roboto", sans-serif;
   font-size: .9em;
-  font-weight: 400;
-  letter-spacing: 2px; }
+  font-weight: 500;
+  letter-spacing: 1px; }
   header > div.header-wrapper > div#float-nav a {
     margin-left: 20px;
     padding-right: 0;
@@ -277,7 +288,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
   font-size: .6em;
-  font-weight: 500;
+  font-weight: 600;
   font-kerning: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -289,7 +300,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
   top: 5px;
   right: 5px;
   color: white;
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: "Montserrat", "Roboto", Helvetica, sans-serif;
   font-size: .6em;
   font-weight: 500;
   letter-spacing: .25em;
@@ -308,7 +319,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
 button.nav-button {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Roboto", Helvetica, sans-serif, sans-serif;
+  font-family: "Montserrat", "Roboto", Helvetica, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #16395e;
   background-color: #16395e;
@@ -317,7 +328,7 @@ button.nav-button {
 button.nav-button:hover {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Roboto", Helvetica, sans-serif, sans-serif;
+  font-family: "Montserrat", "Roboto", Helvetica, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #16395e;
   background-color: #16395e;
@@ -326,7 +337,7 @@ button.nav-button:hover {
 button.nav-button:focus {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Roboto", Helvetica, sans-serif, sans-serif;
+  font-family: "Montserrat", "Roboto", Helvetica, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #16395e;
   background-color: #16395e;
@@ -334,7 +345,7 @@ button.nav-button:focus {
 
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: "Montserrat", "Roboto", Helvetica, sans-serif;
   font-size: 18px;
   margin-bottom: 5em; }
   div.columnsContainer > div > div#resume div.about-header {
@@ -345,7 +356,11 @@ div.columnsContainer > div > div#resume {
       padding-bottom: 40px;
       overflow: hidden; }
       div.columnsContainer > div > div#resume div.about-header div.col-md-6 h4 {
-        font-weight: 600; }
+        font-weight: 700;
+        font-size: .7em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #dba87c; }
       div.columnsContainer > div > div#resume div.about-header div.col-md-6 p {
         line-height: 1.6; }
         div.columnsContainer > div > div#resume div.about-header div.col-md-6 p a {
@@ -477,7 +492,7 @@ h3 {
 
 .table-bordered > tbody > tr > td:first-child {
   color: #dba87c;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", "Roboto", sans-serif;
   font-size: .8em;
   font-weight: 500;
   text-transform: uppercase;
@@ -496,7 +511,7 @@ button.launch {
   background-color: #dba87c;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Roboto", Helvetica, sans-serif, sans-serif;
+  font-family: "Montserrat", "Roboto", Helvetica, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #16395e;
   color: white; }
@@ -504,32 +519,6 @@ button.launch {
 button.launch:hover {
   background-color: #16395e;
   color: #fff; }
-
-div.design-purpose > div.col-md-4 {
-  margin: 50px 0 30px 0; }
-  div.design-purpose > div.col-md-4 div.thumbnail {
-    background-color: transparent;
-    border: none; }
-    div.design-purpose > div.col-md-4 div.thumbnail > img {
-      max-width: 700px; }
-    div.design-purpose > div.col-md-4 div.thumbnail h4 {
-      text-align: center;
-      font-family: "Eksell", "Oswald", Helvetica, sans-serif;
-      font-size: 2em;
-      font-weight: 300;
-      margin-top: -5px; }
-    div.design-purpose > div.col-md-4 div.thumbnail p {
-      margin-bottom: 0; }
-    div.design-purpose > div.col-md-4 div.thumbnail div.caption {
-      margin-left: 20px; }
-    div.design-purpose > div.col-md-4 div.thumbnail div.modal-body p {
-      text-align: center;
-      margin-bottom: 5px; }
-    div.design-purpose > div.col-md-4 div.thumbnail div.modal-body img {
-      display: block;
-      margin: auto;
-      width: 75%;
-      border: 1pt solid #333333; }
 
 div.columnsContainer .collection {
   text-align: center; }
