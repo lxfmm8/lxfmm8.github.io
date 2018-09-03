@@ -222,12 +222,13 @@ div.home_page > h2 {
   line-height: 1.2;
   width: 100%;
   margin: auto;
-  padding: 25px 5px 10px 5px;
+  padding: 25px 5px 0px 5px;
   color: #16395e; }
 
 div.home_page > p {
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: "Vollkorn", serif;
   font-weight: 400;
+  font-size: 1.2em;
   width: 100%;
   margin: auto;
   padding: 0 5px 40px 5px;
