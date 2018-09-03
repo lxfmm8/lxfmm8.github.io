@@ -351,7 +351,7 @@ div.columnsContainer > div > div#resume {
         div.columnsContainer > div > div#resume div.about-header div.col-md-6 p a {
           font-family: 'Vollkorn', serif;
           font-weight: 400;
-          border-bottom: 2pt solid #dba87c;
+          border-bottom: 1pt solid #dba87c;
           font-size: 1.1em; }
         div.columnsContainer > div > div#resume div.about-header div.col-md-6 p a:hover {
           border: none;
