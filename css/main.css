@@ -18,10 +18,10 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
   background-color: #f9f9fc; }
   body ::selection {
-    background: #ffec00;
+    background: #e5e5e6;
     /* WebKit/Blink Browsers */ }
   body ::-moz-selection {
-    background: #ffec00;
+    background: #e5e5e6;
     /* Gecko Browsers */ }
   body a:focus {
     outline: none; }
