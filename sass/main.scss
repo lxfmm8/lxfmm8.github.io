@@ -24,8 +24,9 @@ $subtitle_font_color: #16395e;
 $thumbnail-highlight-color: #ffec00; // bright yellow
 $background-color: #f9f9fc;
 $background-color-2: #b5b5b6; // fixed
-$display_font: 'Eksell', 'Oswald', sans-serif;
-$sans_serif_font: 'Roboto', Helvetica, Arial, sans-serif;
+$display_font: 'Eksell', 'Oswald', serif;
+$sans_serif_font: 'Roboto', Helvetica, sans-serif;
+$serif_font: 'Vollkorn', serif;
 $project_title_font:  'Eksell', 'Oswald', Helvetica, sans-serif;
 $project_title_font_light: 'Roboto', Helvetica, sans-serif;
 $logo_type: 'Eksell', 'Oswald', Helvetica, Arial, sans-serif;
@@ -267,7 +268,7 @@ header > div.header-wrapper > a#main-logo:hover {
 }
 header > div.header-wrapper > a > h1#logo-type {
   font-family: $display_font;
-  font-weight: 500;
+  font-weight: 600;
   // text-transform: uppercase;
   font-size: 2.5rem;
   color: $theme;
@@ -324,7 +325,7 @@ div.home_page {
 
 div.home_page > h2 {
   font-family: $display_font;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 400;
   line-height: 1.2;
   width: 100%;
@@ -337,7 +338,6 @@ div.home_page > h2 {
 
 div.home_page > p {
   font-family: $sans_serif_font;
-  font-size: .85em;
   font-weight: 400;
   width: 100%;
   margin: auto;
@@ -500,46 +500,49 @@ div.columnsContainer > div > div#resume {
   font-family: $sans_serif_font;
   font-size: 18px;
   margin-bottom: 5em;
-}
-div.columnsContainer > div > div#resume > div.about-header {
-  margin: 120px auto 0 auto;
-  width: 92%;
-  max-width: 1560px;
-}
-div.columnsContainer > div > div#resume > div#resume_main {
-  font-size: 14px;
 
-  .table>tbody>tr>th {
-    border-top: 1px solid rgba(0,0,0,.3);
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    background-color: transparent;
-    color: $theme;
-    padding-top: 5px;
-  }
-  .table > tbody > tr > th > span.desk-hidden {
-      display: none;
+  div.about-header {
+    margin: 120px auto 0 auto;
+    width: 92%;
+    max-width: 1560px;
+
+    div.col-md-6 {
+      padding-bottom: 40px;
+      overflow: hidden;
+
+      h4 {
+        font-weight: 600;
+      }
+      p {
+          line-height: 1.6;
+        a {
+          font-family: 'Vollkorn', serif;
+          font-weight: 400;
+          border-bottom: 2pt solid $theme-sub;
+          font-size: 1.1em;
+        }
+        a:hover {
+          border: none;
+          color: $theme-sub;
+        }
+      }
     }
-}
-div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  padding-bottom: 40px;
-}
+  }
 
-main.allWrapper > div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  overflow: hidden;
-}
+  div#resume_main {
+    font-size: 14px;
 
-div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: $project_title_font;
-  font-weight: 200;
-  font-size: 3em;
-  text-transform: none;
-}
-div#resume a {
-  font-weight: 400;
-  border-bottom: 1pt solid $theme;
-}
-div#resume a:hover {
-  border: none;
+    .table>tbody>tr>th {
+      border-top: 1px solid rgba(0,0,0,.3);
+      border-bottom: 1px solid rgba(0,0,0,.1);
+      background-color: transparent;
+      color: $theme;
+      padding-top: 5px;
+    }
+    .table > tbody > tr > th > span.desk-hidden {
+        display: none;
+      }
+  }
 }
 
 

@@ -12,8 +12,17 @@
 		color: #16395e;
 	}
 
-	label:hover {
-		border-bottom: 2pt solid #dba87c;
+	label::after {
+		content: '';
+	    display: block;
+	    width: 0;
+	    height: 2px;
+	    background: #000;
+	    transition: width .3s;
+	}
+
+	label:hover::after {
+		width: 100%;
 	}
 
 	input {
@@ -27,8 +36,7 @@
 	input#illustration:checked ~ label[for="illustration"],
 	input#other:checked ~ label[for="other"]
 	{
-		color: #16395e;
-		border-bottom: 2pt solid #dba87c;
+		color: #dba87c;
 	}
 
 	input#interaction:checked ~ div[data-skill~="interaction"] {
@@ -83,12 +91,12 @@
 
 <div class="home_page">
 
-	<h2>Visual & Interaction Designer <span style="color: #dba87c;">&middot;</span> Illustrator <span style="color: #dba87c;">&middot;</span> Front-End Developer</h2>
+	<h2>Art Director <span style="color: #dba87c;">&middot;</span> Illustrator <span style="color: #dba87c;">&middot;</span> Front-End</h2>
 
-	<p>I focus on originality and ways to creatively communicate through different medium. This site is being updated daily. Stay tuned. Be happy.</p>
+	<p>I strive for originality, precision, and humanness. This site is being updated daily. Stay tuned. Be happy.</p>
 
 
-		<input id="all" type="radio" name="skill" checked>
+<!-- 		<input id="all" type="radio" name="skill" checked>
 		<input id="interaction" type="radio" name="skill">
 		<input id="branding" type="radio" name="skill">
 		<input id="information" type="radio" name="skill">
@@ -102,7 +110,7 @@
 		<label for="illustration">Illustration</label>
 		<label for="other">Other</label>
 
-		<br>
+		<br> -->
 
 
 <!-- 	<div style="display: block; overflow: hidden"> -->

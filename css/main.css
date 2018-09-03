@@ -44,7 +44,7 @@ main.allWrapper {
   line-height: 22pt;
   width: 90%;
   margin: 0 auto 40px auto;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.2em; }
   main.allWrapper a {
@@ -71,7 +71,7 @@ main.allWrapper {
     margin-top: 10px;
     margin-bottom: 40px;
     max-width: 1400px;
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
     font-weight: 400;
     font-size: .9em;
     line-height: 1.2;
@@ -169,8 +169,8 @@ header > div.header-wrapper > a#main-logo:hover img {
   opacity: .75; }
 
 header > div.header-wrapper > a > h1#logo-type {
-  font-family: "Eksell", "Oswald", sans-serif;
-  font-weight: 500;
+  font-family: "Eksell", "Oswald", serif;
+  font-weight: 600;
   font-size: 2.5rem;
   color: #16395e;
   margin-top: 16px;
@@ -182,7 +182,7 @@ header > div.header-wrapper > a > h1:hover {
   opacity: .8; }
 
 header > div.header-wrapper > a > p {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 10px;
   color: #16395e;
@@ -216,8 +216,8 @@ div.home_page {
   overflow: hidden; }
 
 div.home_page > h2 {
-  font-family: "Eksell", "Oswald", sans-serif;
-  font-size: 2.5em;
+  font-family: "Eksell", "Oswald", serif;
+  font-size: 3em;
   font-weight: 400;
   line-height: 1.2;
   width: 100%;
@@ -226,8 +226,7 @@ div.home_page > h2 {
   color: #16395e; }
 
 div.home_page > p {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: .85em;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 400;
   width: 100%;
   margin: auto;
@@ -289,7 +288,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
   top: 5px;
   right: 5px;
   color: white;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-size: .6em;
   font-weight: 500;
   letter-spacing: .25em;
@@ -308,7 +307,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p.tag_brand {
 button.nav-button {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #16395e;
   background-color: #16395e;
@@ -317,7 +316,7 @@ button.nav-button {
 button.nav-button:hover {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #16395e;
   background-color: #16395e;
@@ -326,7 +325,7 @@ button.nav-button:hover {
 button.nav-button:focus {
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #16395e;
   background-color: #16395e;
@@ -334,44 +333,38 @@ button.nav-button:focus {
 
 /*---- Resume Page CSS ----*/
 div.columnsContainer > div > div#resume {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-size: 18px;
   margin-bottom: 5em; }
-
-div.columnsContainer > div > div#resume > div.about-header {
-  margin: 120px auto 0 auto;
-  width: 92%;
-  max-width: 1560px; }
-
-div.columnsContainer > div > div#resume > div#resume_main {
-  font-size: 14px; }
-  div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th {
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: transparent;
-    color: #16395e;
-    padding-top: 5px; }
-  div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th > span.desk-hidden {
-    display: none; }
-
-div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  padding-bottom: 40px; }
-
-main.allWrapper > div.columnsContainer > div > div#resume > div.about-header > div.col-md-6 {
-  overflow: hidden; }
-
-div.columnsContainer > div > div#resume > div.about-header > div > h3 {
-  font-family: "Eksell", "Oswald", Helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 3em;
-  text-transform: none; }
-
-div#resume a {
-  font-weight: 400;
-  border-bottom: 1pt solid #16395e; }
-
-div#resume a:hover {
-  border: none; }
+  div.columnsContainer > div > div#resume div.about-header {
+    margin: 120px auto 0 auto;
+    width: 92%;
+    max-width: 1560px; }
+    div.columnsContainer > div > div#resume div.about-header div.col-md-6 {
+      padding-bottom: 40px;
+      overflow: hidden; }
+      div.columnsContainer > div > div#resume div.about-header div.col-md-6 h4 {
+        font-weight: 600; }
+      div.columnsContainer > div > div#resume div.about-header div.col-md-6 p {
+        line-height: 1.6; }
+        div.columnsContainer > div > div#resume div.about-header div.col-md-6 p a {
+          font-family: 'Vollkorn', serif;
+          font-weight: 400;
+          border-bottom: 2pt solid #dba87c;
+          font-size: 1.1em; }
+        div.columnsContainer > div > div#resume div.about-header div.col-md-6 p a:hover {
+          border: none;
+          color: #dba87c; }
+  div.columnsContainer > div > div#resume div#resume_main {
+    font-size: 14px; }
+    div.columnsContainer > div > div#resume div#resume_main .table > tbody > tr > th {
+      border-top: 1px solid rgba(0, 0, 0, 0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: transparent;
+      color: #16395e;
+      padding-top: 5px; }
+    div.columnsContainer > div > div#resume div#resume_main .table > tbody > tr > th > span.desk-hidden {
+      display: none; }
 
 @media (max-width: 1000px) {
   div.dsk-only {
@@ -502,7 +495,7 @@ button.launch {
   background-color: #dba87c;
   border-radius: 0px;
   transition: background-color, .25s;
-  font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif, sans-serif;
   font-weight: 400;
   border: 1pt solid #16395e;
   color: white; }
