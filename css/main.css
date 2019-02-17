@@ -95,7 +95,7 @@ main.allWrapper div.columnsContainer div.info div.project-header p.project-sub-t
   margin-top: 20px;
   margin-bottom: 30px;
   max-width: 1400px;
-  font-family: "Vollkorn", serif;
+  font-family: "Noto Serif TC", serif;
   font-weight: 300;
   font-size: 1.2em;
   line-height: 1.2;
@@ -130,7 +130,7 @@ main.allWrapper div.columnsContainer > div.info p.proj-sm-col {
   letter-spacing: -.2px;
 }
 main.allWrapper div.columnsContainer > div.info p.proj-sm-col em {
-  font-family: "Vollkorn", serif;
+  font-family: "Noto Serif TC", serif;
   font-size: 1.1em;
 }
 main.allWrapper div.columnsContainer > div.info > div.prototype-button {
@@ -176,9 +176,9 @@ header .header-wrapper {
 
 footer {
   width: 100%;
-  background-color: #ededed;
+  border-top: 1pt solid #ededed;
   bottom: 0;
-  margin: 0;
+  margin-bottom: 0px;
   padding: 30px 0 30px 0;
   font-family: "Work Sans", "Roboto", sans-serif;
   font-size: 14px;
@@ -192,7 +192,7 @@ footer div p {
 }
 footer div p a {
   color: #16395e;
-  font-family: "Vollkorn", serif;
+  font-family: "Noto Serif TC", serif;
   font-size: 1.1em;
   border-bottom: 1pt solid #dba87c;
 }
@@ -273,19 +273,19 @@ div.home_page {
 
 div.home_page > h2 {
   font-family: "Eksell", "Oswald", serif;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 400;
   line-height: 1.2;
   width: 100%;
-  margin: auto;
+  margin: 15px auto 5px auto;
   padding: 25px 5px 0px 5px;
   color: #16395e;
 }
 
 div.home_page > p {
-  font-family: "Vollkorn", serif;
+  font-family: "Noto Serif TC", serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.2em;
   width: 100%;
   margin: auto;
   padding: 0 5px 40px 5px;
@@ -417,50 +417,52 @@ div.columnsContainer > div > div#resume div.about-header {
   width: 91%;
   max-width: 1560px;
 }
-div.columnsContainer > div > div#resume div.about-header div.col-md-6 {
-  padding-bottom: 0;
+div.columnsContainer > div > div#resume div.about-header div.col-md-9 {
+  margin: 0;
+  margin-top: -12px;
+  max-width: 1000px;
+}
+div.columnsContainer > div > div#resume div.about-header div.col-md-9 p {
+  font-family: "Noto Serif TC", serif, serif;
+  font-size: 1.9em;
+  font-weight: 200;
+  line-height: 1.5;
+  padding-right: 30px;
+}
+div.columnsContainer > div > div#resume div.about-header div.col-md-9 p strong {
+  font-weight: 500;
+}
+div.columnsContainer > div > div#resume div.about-header div.col-md-3 {
+  padding-right: 10px;
   overflow: hidden;
 }
-div.columnsContainer > div > div#resume div.about-header div.col-md-6 h4 {
+div.columnsContainer > div > div#resume div.about-header div.col-md-3 h5 {
   font-weight: 600;
+  font-size: 1.15em;
+  line-height: 1.5;
+  color: #16395e;
+}
+div.columnsContainer > div > div#resume div.about-header div.col-md-3 h4 {
+  font-weight: 400;
   font-size: .7em;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #dba87c;
   margin-bottom: 3px;
 }
-div.columnsContainer > div > div#resume div.about-header div.col-md-6 h5 {
-  font-weight: 600;
-  font-size: 1.3em;
-  line-height: 1.5;
-  color: #16395e;
-}
-div.columnsContainer > div > div#resume div.about-header div.col-md-6 p {
-  line-height: 1.6;
+div.columnsContainer > div > div#resume div.about-header div.col-md-3 p {
+  line-height: 1.4;
   margin-bottom: 20px;
-}
-div.columnsContainer > div > div#resume div.about-header div.col-md-6 p a {
-  font-family: 'Vollkorn', serif;
+  font-family: "Work Sans", "Roboto", Helvetica, sans-serif, serif;
   font-weight: 400;
-  border-bottom: 1pt solid #dba87c;
-  font-size: 1.1em;
+  font-size: .8em;
 }
-div.columnsContainer > div > div#resume div.about-header div.col-md-6 p a:hover {
+div.columnsContainer > div > div#resume div.about-header div.col-md-3 p a {
+  border-bottom: 1pt solid #dba87c;
+}
+div.columnsContainer > div > div#resume div.about-header div.col-md-3 p a:hover {
   border: none;
   color: #dba87c;
-}
-div.columnsContainer > div > div#resume div#resume_main {
-  font-size: 14px;
-}
-div.columnsContainer > div > div#resume div#resume_main .table > tbody > tr > th {
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: transparent;
-  color: #16395e;
-  padding-top: 5px;
-}
-div.columnsContainer > div > div#resume div#resume_main .table > tbody > tr > th > span.desk-hidden {
-  display: none;
 }
 
 @media (max-width: 1000px) {
@@ -575,14 +577,10 @@ div.columnsContainer > div > div#resume div#resume_main .table > tbody > tr > th
     margin-top: 40px;
   }
 
-  div.columnsContainer > div > div#resume > div#resume_main {
-    font-size: 12px;
-  }
-  div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > .mobile-hidden {
-    display: none;
-  }
-  div.columnsContainer > div > div#resume > div#resume_main .table > tbody > tr > th > span.desk-hidden {
-    display: normal;
+  div.columnsContainer > div > div#resume > div.about-header > div.col-md-9 p {
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 0;
   }
 }
 /*---- Project Page CSS----*/

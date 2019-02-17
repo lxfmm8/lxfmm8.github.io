@@ -1,17 +1,16 @@
 <style type="text/css">
-
 	label {
 		display: inline-block;
 		cursor: pointer;
 		margin: 0 10px 3px 8px;
+		line-height: 16px;
 		color: lightgray;
 		font-family: 'Work Sans', Helvetica, sans-serif;
-		font-weight: 500;
-		font-size: 12px;
+		font-weight: 400;
+		font-size: 13px;
 		transition: color .25s;
 		color: #16395e;
 	}
-
 	label::after {
 		content: '';
 	    display: block;
@@ -20,15 +19,12 @@
 	    background: #000;
 	    transition: width .3s;
 	}
-
 	label:hover::after {
 		width: 100%;
 	}
-
 	input {
 		display: none;
 	}
-
 	input#all:checked ~ label[for="all"],
 	input#interaction:checked ~ label[for="interaction"],
 	input#branding:checked ~ label[for="branding"],
@@ -38,53 +34,36 @@
 	{
 		color: #dba87c;
 	}
-
 	input#interaction:checked ~ div[data-skill~="interaction"] {
 		display: block;
 	}
-
 	input#interaction:checked ~ div:not([data-skill~="interaction"]) {
 		display: none;
 	}
-
-
-
 	input#branding:checked ~ div[data-skill~="branding"] {
 		display: block;
 	}
-
 	input#branding:checked ~ div:not([data-skill~="branding"]) {
 		display: none;
 	}
-
-
-
 	input#information:checked ~ div[data-skill~="information"] {
 		display: block;
 	}
-
 	input#information:checked ~ div:not([data-skill~="information"]) {
 		display: none;
 	}
-
-
 	input#illustration:checked ~ div[data-skill~="illustration"] {
 		display: block;
 	}
-
 	input#illustration:checked ~ div:not([data-skill~="illustration"]) {
 		display: none;
 	}
-
-
 	input#other:checked ~ div[data-skill~="other"] {
 		display: block;
 	}
-
 	input#other:checked ~ div:not([data-skill~="other"]) {
 		display: none;
 	}
-
 </style>
 
 
@@ -92,11 +71,7 @@
 <div class="home_page">
 	
 	<h2>Art Director <span style="color: #dba87c;">+</span> Design Generalist</h2>
-    <p>I strive for <em>originality</em>, <em>precision</em>, and <em>humanness</em> in my work. Stay tuned. Be happy.</p>
-
-<!-- 	<p style="padding: 0px 0 15px 5px; font-size: .6em; font-weight: 600; color: #dba87c; font-family: 'Montserrat', 'Roboto', sans-serif; text-transform: uppercase; letter-spacing: 1px;">— currently a senior AD in healthcare, creating branding, concepting, illustration, and digital products</p> -->
-
-
+    <p>Welcome. Stay tuned. Be happy.</p>
 
 		<input id="all" type="radio" name="skill" checked>
 		<input id="interaction" type="radio" name="skill">
@@ -113,7 +88,6 @@
 <!-- 		<label for="other">Other</label> -->
 
 		<br>
-
 
 <!-- 	<div data-skill="interaction" class="col-lg-3 col-md-4 col-sm-6 col-xs-12" onClick="passWord()">
 		<div class="list_group">
