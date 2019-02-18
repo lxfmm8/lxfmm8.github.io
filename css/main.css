@@ -313,7 +313,6 @@ div.home_page > div.col-md-4 > div {
 
 div.home_page > div.col-md-4 > div > a > img {
   box-sizing: border-box;
-  border-radius: 3px;
   transition: .2s border;
   transition: .2s box-shadow;
 }
@@ -647,6 +646,7 @@ button.launch:hover {
 
 div.columnsContainer .collection {
   text-align: center;
+  font-family: "Noto Serif TC", serif;
 }
 div.columnsContainer h3 {
   font-size: 2em;
