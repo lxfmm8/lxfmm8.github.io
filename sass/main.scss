@@ -27,7 +27,7 @@ $background-color-2: #b5b5b6; // fixed
 $display_font: 'Eksell', 'Oswald', serif;
 $sans_serif_font: 'Work Sans', 'Roboto', Helvetica, sans-serif;
 $serif_font: 'Noto Serif TC', serif;
-$project_title_font:  'Eksell', 'Oswald', Helvetica, sans-serif;
+$project_title_font: 'Eksell', 'Oswald', Helvetica, sans-serif;
 $project_title_font_light: 'Roboto', Helvetica, sans-serif;
 $logo_type: 'Eksell', 'Oswald', Helvetica, Arial, sans-serif;
 $nav_font: 'Work Sans', 'Roboto', sans-serif;
@@ -122,7 +122,7 @@ main.allWrapper {
         margin: auto;
 
         h1 {
-          font-size: 3em;
+          font-size: 2.6em;
           font-family: $project_title_font;
           font-weight: 400;
           margin-bottom: 0;
@@ -284,7 +284,7 @@ header > div.header-wrapper > a#main-logo:hover {
   }
 }
 header > div.header-wrapper > a > h1#logo-type {
-  font-family: $display_font;
+  font-family: $logo-type;
   font-weight: 600;
   // text-transform: uppercase;
   font-size: 2.5rem;
@@ -342,14 +342,12 @@ div.home_page {
 div.home_page > h2 {
   font-family: $display_font;
   font-size: 3em;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
   width: 100%;
-  // max-width: 1100px;
   margin: 15px auto 5px auto;
   padding: 25px 5px 0px 5px;
   color: $theme;
-  // color: #457fbc; // light blue
 }
 
 div.home_page > p {
@@ -412,12 +410,11 @@ div.home_page > div.col-md-4 > div.list_group:hover {
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 
-  font-family: $project_title_font;
+  font-family: $serif_font;
   font-weight: 400;
   font-size: 1.3em;
   margin-top: 15px;
-  margin-bottom: 1px;
-  letter-spacing: .5px;
+  margin-bottom: 3px;
 }
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
