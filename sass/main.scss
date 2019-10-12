@@ -16,13 +16,13 @@
 // $theme-sub: #e37560;
 $theme-sub: #dba87c;
 $theme: #16395e; // blue gray
-$logo-color: #f9f9fc;
-$float-nav-color: #f9f9fc;
+$logo-color: #f6f6f6;
+$float-nav-color: #f6f6f6;
 $header: transparent;
 $title_font_color: #16395e;
 $subtitle_font_color: #16395e;
 $thumbnail-highlight-color: #e5e5e6;
-$background-color: #f9f9fc;
+$background-color: #f6f6f6;
 $background-color-2: #b5b5b6; // fixed
 $display_font: 'Eksell', 'Oswald', serif;
 $sans_serif_font: 'Work Sans', 'Roboto', Helvetica, sans-serif;
@@ -90,7 +90,7 @@ main.allWrapper {
     z-index: -10;
     line-height: 22pt;
     width: 90%;
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto 40px auto;
     // padding: 0 5% 0 5%;
 
