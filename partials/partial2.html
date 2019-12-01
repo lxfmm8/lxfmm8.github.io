@@ -31,6 +31,20 @@
 		letter-spacing: 1px;
 		opacity: .85;
 	}
+	h3:before {
+		content: "";
+		display: block;
+		height: 100px;
+		margin: -100px 0 0;
+	}
+	button {
+		margin: 5px 10px 5px 0;
+		border-radius: 3px;
+		padding: 5px 10px;
+	}
+	button:hover {
+		opacity: .7;
+	}
 </style>
 
 <div class="columnsContainer">
@@ -60,14 +74,16 @@
 			    <td>Tools</td>
 			    <td>Affinity Designer, Affinity Photo, Affinity Publisher</td> 
 			</tr>
+			<tr>
+				<td>Clients</td>
+				<td><strong>(Quick links) </strong><a href="#/view2#case6">Global Village Project</a>, <a href="#/view2#case5">UC Berkeley Underground Scholars</a>, <a href="#/view2#case4">Venice Heritage Museum</a>, <a href="#/view2#case3">Lori's Hands</a>, <a href="#/view2#case2">Waikiki Health</a>, <a href="#/view2#case1">Community Service For Every1</a></td>
+			</tr>
 		</table>
 
-		<br>
 
+<br>
 
-
-
-		<h3 class="proj-sm-col"><span>CASE 6 —</span>Global Village Project</h3>
+		<h3 class="proj-sm-col" id="case6"><span>CASE 6 —</span>Global Village Project Infographic</h3>
 		<p class="proj-sm-col">What the clinet needs - An easily understood and visually impactful visual aid that communicates data and programs of the girls refugee middle school.</p>
 
 		<p class="full-width-image"><img style="background-color: rgba(117, 190, 218, 0.08);" ng-src='img/catchafire/GVP_Infographic_2.png' width='100%' /></p>
@@ -76,7 +92,7 @@
 <hr style="border: 1pt solid lightgray;">
 <br>
 
-		<h3 class="proj-sm-col"><span>CASE 5 —</span>UC Berkeley Underground Scholars Branding</h3>
+		<h3 class="proj-sm-col" id="case5"><span>CASE 5 —</span>UC Berkeley Underground Scholars Branding</h3>
 		<p class="proj-sm-col">What the clinet needs - Visual branding guidelines / style guide that include specific colors, fonts, and other graphic design elements to use in print and digital communications materials. I added my recommendations for the color palette, typography, and icons, based upon the UC Berkeley global branding.</p>
 
 		<p class='col-md-4'><img ng-src='img/catchafire/BUS_brandguidelines_1.png' width='100%' /></p>
@@ -97,7 +113,7 @@
 <hr style="border: 1pt solid lightgray;">
 <br>
 
-		<h3 class="proj-sm-col"><span>CASE 4 —</span>Venice Heritage Museum Site Plan</h3>
+		<h3 class="proj-sm-col" id="case4"><span>CASE 4 —</span>Venice Heritage Museum Site Plan</h3>
 		<p class="proj-sm-col">What the client needs - A high-resolution digital version of an illustration / site plan that can be used across multiple channels (web, print, and/or merchandising). The old brochure that contains all these plans are in different visual styles, which is one of the main issues of the client.</p>
 
 		<p class="full-width-image"><img ng-src='img/catchafire/Heritage_Museum_Plan_2.png' width='100%' /></p>
@@ -107,7 +123,7 @@
 <hr style="border: 1pt solid lightgray;">
 <br>
 
-		<h3 class="proj-sm-col"><span>CASE 3 —</span>Lori's Hands Brand Illustration</h3>
+		<h3 class="proj-sm-col" id="case3"><span>CASE 3 —</span>Lori's Hands Brand Illustration</h3>
 		<p class="proj-sm-col">What the client needs - A high-resolution digital version of an illustration that can be used across multiple channels (web, print, and/or merchandising).</p>
 		<p class="full-width-image"><img ng-src='img/catchafire/LorisHands_illustration_painted2.png' width='100%' /></p>
 
@@ -128,7 +144,7 @@
 <hr style="border: 1pt solid lightgray;">
 <br>
 
-		<h3 class="proj-sm-col"><span>CASE 2 —</span>Waikiki Health Infographic</h3>
+		<h3 class="proj-sm-col" id="case2"><span>CASE 2 —</span>Waikiki Health Infographic</h3>
 		<p class="proj-sm-col">What the clinet needs - An easily understood visual aid that communicates complex information about the youth health program. Other than explaining what the program is, I also tried to add visual elements associated with Hawaiian local culture.</p>
 
 		<div class='col-md-6'>
@@ -148,7 +164,7 @@
 <hr style="border: 1pt solid lightgray;">
 <br>
 
-		<h3 class="proj-sm-col"><span>CASE 1 —</span>Community Service For Every1</h3>
+		<h3 class="proj-sm-col" id="case1"><span>CASE 1 —</span>Community Service For Every1 Infographic</h3>
 		<p class="proj-sm-col">What the clinet needs - An easily understood visual aid that communicates complex information about their internal communication practice.</p>
 
 		<div class='col-md-6'>
