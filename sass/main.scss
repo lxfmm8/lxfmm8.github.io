@@ -364,8 +364,13 @@ div.home_page > p {
   color: $theme;
   line-height: 1.5;
   a {
-    text-decoration: underline;
-    text-decoration-color: $theme-sub;
+    // text-decoration: underline;
+    // text-decoration-color: $theme-sub;
+    border-bottom: 1pt solid $theme-sub;
+  }
+  a:hover {
+    border: none;
+    color: $theme-sub;
   }
 }
 

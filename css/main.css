@@ -297,8 +297,11 @@ div.home_page > p {
   line-height: 1.5;
 }
 div.home_page > p a {
-  text-decoration: underline;
-  text-decoration-color: #fba88c;
+  border-bottom: 1pt solid #fba88c;
+}
+div.home_page > p a:hover {
+  border: none;
+  color: #fba88c;
 }
 
 div.home_page > div.col-md-4 {
