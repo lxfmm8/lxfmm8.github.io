@@ -298,15 +298,6 @@ header > div.header-wrapper > a > h1:hover {
   opacity: .8;
 }
 
-header > div.header-wrapper > a > p {
-  font-family: $sans_serif_font;
-  font-weight: 400;
-  font-size: 10px;
-  color: $theme;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
 header > div.header-wrapper > div#float-nav {
   float: right;
   top: 6px;
@@ -360,7 +351,7 @@ div.home_page > p {
   font-size: 1.1em;
   width: 100%;
   margin: auto;
-  padding: 0 5px 40px 5px;
+  padding: 30px 5px 40px 5px;
   color: $theme;
   line-height: 1.5;
   a {
