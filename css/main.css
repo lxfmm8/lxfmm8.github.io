@@ -227,7 +227,7 @@ div.home_page > h2 {
   font-weight: 300;
   line-height: 1.2;
   width: 100%;
-  margin: 15px auto 5px auto;
+  margin: 10px auto 5px auto;
   padding: 25px 5px 0px 5px;
   color: #16395e; }
   div.home_page > h2 span {
@@ -355,7 +355,7 @@ div.columnsContainer > div > div#resume {
       max-width: 1000px; }
       div.columnsContainer > div > div#resume div.about-header div.col-md-9 p {
         font-family: "Noto Serif TC", serif, serif;
-        font-size: 1.9em;
+        font-size: 1.7em;
         font-weight: 200;
         line-height: 1.4;
         padding-right: 30px; }
