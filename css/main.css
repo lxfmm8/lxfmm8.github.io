@@ -5,6 +5,12 @@
   src: url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.eot?#iefix") format("embedded-opentype"), url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.woff") format("woff"), url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.ttf") format("truetype"), url("/fonts/EksellDisplayCompleteWeb/EksellDisplayWeb-Large.svg#aller") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: "Banto";
+  src: url("/fonts/BantoWeb/Banto1.7-Medium.eot");
+  src: url("/fonts/BantoWeb/Banto1.7-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BantoWeb/Banto1.7-Medium.woff") format("woff"), url("/fonts/BantoWeb/Banto1.7-Medium.ttf") format("truetype"), url("/fonts/BantoWeb/Banto1.7-Medium.svg#aller") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 body {
   background: #fafafa;
   color: #16395e;
@@ -66,7 +72,7 @@ main.allWrapper {
         margin: auto; }
         main.allWrapper div.columnsContainer div.info div.project-header h1 {
           font-size: 2.6em;
-          font-family: "Eksell", "Oswald", Helvetica, sans-serif;
+          font-family: "Eksell", Helvetica, sans-serif;
           font-weight: 400;
           margin-bottom: 0;
           letter-spacing: 1px; }
@@ -97,7 +103,7 @@ main.allWrapper {
     main.allWrapper div.columnsContainer > div.info > div.project-header > div.project-nav a:hover {
       opacity: .5; }
   main.allWrapper div.columnsContainer > div.info h3 {
-    font-family: "Eksell", "Oswald", Helvetica, sans-serif;
+    font-family: "Eksell", Helvetica, sans-serif;
     margin: 1em auto -5px auto;
     width: 95%;
     max-width: 600px;
@@ -145,6 +151,7 @@ header {
   header .header-wrapper {
     margin: auto;
     width: 80.5%;
+    max-width: 1160px;
     padding: 10px 0 10px 0; }
 
 footer {
@@ -157,6 +164,7 @@ footer {
   font-size: 14px; }
   footer div {
     width: 80.5%;
+    max-width: 1160px;
     margin: auto; }
     footer div p {
       margin: 10px 0; }
@@ -183,11 +191,11 @@ header > div.header-wrapper > a#main-logo:hover img {
   opacity: .75; }
 
 header > div.header-wrapper > a > h1#logo-type {
-  font-family: "Eksell", "Oswald", Helvetica, Arial, sans-serif;
+  font-family: "Eksell", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: 2.2rem;
-  color: #fba88c;
-  margin-top: 16px;
+  font-size: 1.8em;
+  color: #16395e;
+  margin-top: 14px;
   margin-bottom: 3px;
   letter-spacing: 1px;
   font-kern: normal; }
@@ -222,8 +230,8 @@ div.home_page {
   overflow: hidden; }
 
 div.home_page > h2 {
-  font-family: "Eksell", "Oswald", serif;
-  font-size: 2.5em;
+  font-family: "Eksell", serif;
+  font-size: 3.5em;
   font-weight: 300;
   line-height: 1.2;
   width: 100%;
@@ -236,14 +244,16 @@ div.home_page > h2 {
 div.home_page > p {
   font-family: "Noto Serif TC", serif;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1.5em;
+  letter-spacing: -0.5px;
   width: 100%;
   margin: auto;
   padding: 30px 5px 40px 5px;
   color: #16395e;
-  line-height: 1.5; }
+  opacity: .9;
+  line-height: 1.4; }
   div.home_page > p a {
-    border-bottom: 1pt solid #fba88c; }
+    border-bottom: 2pt solid #fba88c; }
   div.home_page > p a:hover {
     border: none;
     color: #fba88c; }
@@ -280,16 +290,17 @@ div.home_page > div.col-md-4 > div.list_group:hover div.thumb_info {
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   font-family: "Noto Serif TC", serif;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-top: 15px;
-  margin-bottom: 3px; }
+  margin-bottom: 5px; }
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
-  font-size: .6em;
-  font-weight: 400;
+  font-size: .65em;
+  font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-left: 1px;
   color: #fba88c;
   letter-spacing: 1px; }
 
@@ -482,15 +493,14 @@ div.columnsContainer > div > div#resume {
     padding: 0; } }
 /*---- Project Page CSS----*/
 h3 {
-  font-family: "Eksell", "Oswald", Helvetica, sans-serif;
+  font-family: "Eksell", Helvetica, sans-serif;
   font-weight: 500; }
 
 h4 {
   font-family: "Work Sans", "Roboto", Helvetica, sans-serif;
   font-size: 1.3em;
   font-weight: 400;
-  margin-bottom: 20px;
-  letter-spacing: -.5px; }
+  margin-bottom: 20px; }
 
 .table {
   margin: auto;
