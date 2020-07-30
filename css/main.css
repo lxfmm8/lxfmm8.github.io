@@ -253,7 +253,11 @@ div.home_page > p {
   opacity: .9;
   line-height: 1.4; }
   div.home_page > p a {
-    border-bottom: 2pt solid #fba88c; }
+    border-bottom: 1pt solid #fba88c;
+    font-variant: small-caps;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    font-size: 0.9em; }
   div.home_page > p a:hover {
     border: none;
     color: #fba88c; }

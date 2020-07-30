@@ -360,9 +360,11 @@ div.home_page > p {
   opacity: .9;
   line-height: 1.4;
   a {
-    // text-decoration: underline;
-    // text-decoration-color: $theme-sub;
-    border-bottom: 2pt solid $theme-sub;
+    border-bottom: 1pt solid $theme-sub;
+    font-variant: small-caps;
+		letter-spacing: 0.3px;
+    font-weight: 500;
+    font-size: 0.9em;
   }
   a:hover {
     border: none;
