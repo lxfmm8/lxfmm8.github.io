@@ -536,6 +536,7 @@ div.columnsContainer > div > div#resume {
       }
     }
     div.col-md-3 {
+      margin-top: -12px;
       padding-right: 10px;
       overflow: hidden;
       h5 {
@@ -572,11 +573,6 @@ div.columnsContainer > div > div#resume {
 
 
 
-
-
-
-
-
 @media (max-width: 1000px) {
   div.dsk-only {
     display: none;
@@ -588,7 +584,7 @@ div.columnsContainer > div > div#resume {
 
   header {
     position: relative;
-    height: 170px;
+    height: 125px;
     width: 100%;
     text-align: center;
   }

@@ -377,6 +377,7 @@ div.columnsContainer > div > div#resume {
         div.columnsContainer > div > div#resume div.about-header div.col-md-9 p strong {
           font-weight: 500; }
     div.columnsContainer > div > div#resume div.about-header div.col-md-3 {
+      margin-top: -12px;
       padding-right: 10px;
       overflow: hidden; }
       div.columnsContainer > div > div#resume div.about-header div.col-md-3 h5 {
@@ -409,7 +410,7 @@ div.columnsContainer > div > div#resume {
 @media (max-width: 767px) {
   header {
     position: relative;
-    height: 170px;
+    height: 125px;
     width: 100%;
     text-align: center; }
 
