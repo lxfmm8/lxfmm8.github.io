@@ -301,6 +301,23 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   color: #fba88c;
   letter-spacing: 1px; }
 
+div.home_page > div.col-md-4 > div.list_group > div.new {
+  height: 30px;
+  position: absolute;
+  top: 8.5px;
+  left: 8.5px; }
+  div.home_page > div.col-md-4 > div.list_group > div.new p {
+    background-color: rgba(24, 219, 83, 0.877);
+    color: white;
+    font-family: "Work Sans", "Roboto", Helvetica, sans-serif;
+    font-size: .6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    padding: 0 10px;
+    margin: 0;
+    line-height: 30px; }
+
 div.home_page > div.col-md-4 > div.list_group > div.thumb_tag p {
   position: absolute;
   top: 5px;
