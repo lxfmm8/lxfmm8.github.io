@@ -6,7 +6,7 @@
   font-weight: normal;
   font-style: normal; }
 body {
-  background: #fafafa;
+  background: #f7f7f7;
   color: #16395e;
   font-kerning: normal;
   font-smooth: always;
@@ -16,7 +16,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: #fafafa; }
+  background-color: #f7f7f7; }
   body ::selection {
     background: #e5e5e6;
     /* WebKit/Blink Browsers */ }
@@ -223,26 +223,13 @@ div.home_page {
   float: none;
   overflow: hidden; }
 
-div.home_page > h2 {
-  font-family: "Eksell", serif;
-  font-size: 3.5em;
-  font-weight: 300;
-  line-height: 1.2;
-  width: 100%;
-  margin: 10px auto 5px auto;
-  padding: 25px 5px 0px 5px;
-  color: #16395e; }
-  div.home_page > h2 span {
-    color: #fba88c; }
-
 div.home_page > p {
   font-family: "Noto Serif TC", serif;
   font-weight: 400;
-  font-size: 1.5em;
-  letter-spacing: -0.5px;
+  font-size: 1.1em;
   width: 100%;
   margin: auto;
-  padding: 30px 5px 40px 5px;
+  padding: 20px 5px 40px 5px;
   color: #16395e;
   opacity: .9;
   line-height: 1.4; }
@@ -293,7 +280,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
-  font-size: .65em;
+  font-size: .62em;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -307,7 +294,7 @@ div.home_page > div.col-md-4 > div.list_group > div.new {
   top: 16px;
   left: 16px; }
   div.home_page > div.col-md-4 > div.list_group > div.new p {
-    background-color: rgba(24, 219, 83, 0.7);
+    background-color: rgba(31, 199, 81, 0.7);
     border-radius: 10px;
     color: white;
     font-family: "Work Sans", "Roboto", Helvetica, sans-serif;

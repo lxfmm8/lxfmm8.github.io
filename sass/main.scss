@@ -21,7 +21,7 @@ $header: transparent;
 $title_font_color: #16395e;
 $subtitle_font_color: #16395e;
 $thumbnail-highlight-color: #e5e5e6;
-$background-color: #fafafa;
+$background-color: #f7f7f7;
 $background-color-2: #b5b5b6; // fixed
 $display_font: 'Eksell', serif;
 $sans_serif_font: 'Work Sans', 'Roboto', Helvetica, sans-serif;
@@ -331,30 +331,15 @@ div.home_page {
   overflow: hidden;
 }
 
-// Headline
-div.home_page > h2 {
-  font-family: $display_font;
-  font-size: 3.5em;
-  font-weight: 300;
-  line-height: 1.2;
-  width: 100%;
-  margin: 10px auto 5px auto;
-  padding: 25px 5px 0px 5px;
-  color: $theme;
-  span {
-    color: $theme-sub;
-  }
-}
 
-// Subhead
+// Home page intro copy
 div.home_page > p {
   font-family: $serif_font;
   font-weight: 400;
-  font-size: 1.5em;
-  letter-spacing: -0.5px;
+  font-size: 1.1em;
   width: 100%;
   margin: auto;
-  padding: 30px 5px 40px 5px;
+  padding: 20px 5px 40px 5px;
   color: $theme;
   opacity: .9;
   line-height: 1.4;
@@ -427,7 +412,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
 }
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
   margin-top: -10px;
-  font-size: .65em;
+  font-size: .62em;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -443,7 +428,7 @@ div.home_page > div.col-md-4 > div.list_group > div.new {
   top: 16px;
   left: 16px;
   p{
-    background-color: rgba(24, 219, 83, 0.7);
+    background-color: rgba(31, 199, 81, 0.7);
     border-radius: 10px;
     color: white;
     font-family: $sans_serif_font;
