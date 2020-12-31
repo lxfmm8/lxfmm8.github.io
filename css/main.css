@@ -229,7 +229,7 @@ div.home_page > p {
   font-size: 1.1em;
   width: 100%;
   margin: auto;
-  padding: 20px 5px 40px 5px;
+  padding: 5px 5px 40px 5px;
   color: #16395e;
   opacity: .9;
   line-height: 1.4; }
@@ -408,7 +408,7 @@ div.columnsContainer > div > div#resume {
 @media (max-width: 767px) {
   header {
     position: relative;
-    height: 125px;
+    height: 105px;
     width: 100%;
     text-align: center; }
 
@@ -440,7 +440,7 @@ div.columnsContainer > div > div#resume {
     height: 0; }
 
   div.home_page {
-    margin-top: 20px; }
+    margin-top: 10px; }
     div.home_page h2 {
       text-align: center;
       font-size: 1.5em;
@@ -450,7 +450,6 @@ div.columnsContainer > div > div#resume {
     div.home_page p {
       text-align: center;
       line-height: 1.4em;
-      padding-top: 15px;
       padding-bottom: 20px;
       font-size: 1em; }
 
