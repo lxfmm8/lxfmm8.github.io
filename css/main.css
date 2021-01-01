@@ -279,7 +279,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_info > h4 {
   margin-bottom: 5px; }
 
 div.home_page > div.col-md-4 > div.list_group > div.thumb_info > p {
-  margin-top: -10px;
+  margin-top: -12px;
   font-size: .62em;
   font-weight: 500;
   text-transform: uppercase;
@@ -450,6 +450,7 @@ div.columnsContainer > div > div#resume {
     div.home_page p {
       text-align: center;
       line-height: 1.4em;
+      padding-top: 10px;
       padding-bottom: 20px;
       font-size: 1em; }
 
