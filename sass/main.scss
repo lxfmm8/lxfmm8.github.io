@@ -336,13 +336,13 @@ div.home_page {
 div.home_page > p {
   font-family: $serif_font;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1.7em;
   width: 100%;
   margin: auto;
   padding: 5px 5px 40px 5px;
   color: $theme;
   opacity: .9;
-  line-height: 1.4;
+  line-height: 1.3;
   a {
     border-bottom: 1pt solid $theme-sub;
     font-variant: small-caps;
@@ -447,7 +447,7 @@ div.home_page > div.col-md-4 > div.list_group > div.thumb_tag {
       // background-color: $theme;
       position: absolute;
       top: 5px;
-      right: 5px;
+      left: 10px;
       color: white;
       font-family: $sans_serif_font;
       font-size: .6em;
