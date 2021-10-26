@@ -9,67 +9,10 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
         <!-- Main Sass/CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
         <!-- google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,300,400,500,600,700,900" rel="stylesheet">
-
-        <style>
-          .ng-enter{
-            transition: .5s;
-            linear all;
-            opacity: 0;
-          }
-          .ng-enter-stagger{
-            transition-delay: 1s;
-          }
-          .ng-enter-active{
-            opacity: 1;
-          }
-          .header {
-            transition: background, .5s;
-            /* border-bottom: 1pt solid rgba(0,0,0,.1); */
-            background-color:  #f7f7f7;
-          }
-          /* header.shadow > div.header-wrapper > a > h1#logo-type {
-            color: #f9f9fc;
-          }
-          .header.shadow {
-          box-shadow:0px 10px 10px rgba(0,0,0,.1);
-          background-color: #16395e;
-            opacity: 1;
-          } */
-
-          #float-nav {
-            height: 100px;
-          }
-
-          header > div.header-wrapper > div > div.navbar-collapse > ul > li > a {
-            color: #16395e;
-          }
-
-          /* header.shadow > div.header-wrapper > div > div.navbar-collapse > ul > li > a {
-            color: #f9f9fc;
-          } */
-
-          div.navbar-collapse > ul > li > a:hover {
-            opacity: .8;
-          }
-
-          #myBtn {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 30px;
-            z-index: 99;
-            cursor: pointer;
-            padding: 5px 15px;
-          }
-          #myBtn:hover {
-            background-color: #555;
-          }
-        </style>
-
     </head>
 
 
@@ -80,43 +23,37 @@
 
     	<header class="header">
         <div class="header-wrapper">
-  			<a id="main-logo" href="#/view1">
-        <h1 id="logo-type">Xiaofeng Lin</h1>
+  			 <a id="main-logo" href="#/view1">
+          <h1 id="logo-type">Xiaofeng Lin</h1>
         </a>
+        <p class="intro">Hi there, I&rsquo;m a New York based art director specializing in branding, interaction design, and illustration.</p>
 
-<!-- RIGHT NAV BUTTONS -->
-            <div id="float-nav">
-<!--           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar" style="font-size: 2em;"></span>
-          </button> -->
+        <p>Recent Projects</p>
+        <ol>
+          <li><a href="https://www.praluenthcp.com/" target="_blank">Organnon Fertility Journey</a></li>
+          <li><a href="#/view2">Design for Nonprofits</a></li>
+          <li><a href="#/view21">Marvel</a></li>
+          <li><a href="https://www.praluenthcp.com/" target="_blank">Praluent HCP Website</a></li>
+          <li><a href="https://www.praluenthcp.com/" target="_blank">Praluent HCC Website</a></li>
+          <li><a href="https://www.praluenthcp.com/" target="_blank">Merck MMRV Rebrand</a></li>
+        </ol>
 
-              <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                  <!-- <li><a style="text-decoration: none" href="#/view10">Play</a></li> -->
-                  <!-- <li><a style="text-decoration: none" href="#/view11">Photos</a></li> -->
-                  <!-- <li><a style="text-decoration: none" href="#/view6">Logos</a></li> -->
-                  <li><a style="text-decoration: none;" href="#/view13"><strong>About me</strong></a></li>
-                </ul>
-              </div>
-            
-            </div>
+        <p>Other Projects</p>
+        <ol>
+          <li><a href="#/view19">Brookfield</a></li>
+          <li><a href="#/view6">Logos and Marks</a></li>
+          <li><a href="#/view8">Type and Code</a></li>
+          <li><a href="#/view17">Illustrations</a></li>
+        </ol>
+
+        <p><a href="https://www.instagram.com/lxfmm8/"><img ng-src='img/icon_instagram.svg' width='22px' /></a> <a href="https://www.linkedin.com/in/xiaofeng-lin-526a08208/"><img ng-src='img/icon_linkedin.svg' width='22px' /></a></p>
+
+        <p class="copyright">©2021 Xiaofeng Lin</p>
         </div>
   		</header>
 
-
       <main class="allWrapper" ng-view autoscroll></main>
 
-
-      <footer>
-        <div>
-          <p>This site is built by Xiaofeng Lin with AngularJS.</p>
-          <p><strong>&copy; 2021 Xiaofeng Lin. All Rights Reserved.</strong></p>
-        </div>
-      </footer>
-
-  <script src="js/jquery-2.1.1.min.js"></script>
-
-  <script src="js/bootstrap.min.js"></script>
   <script src="bower_components/angular/angular.min.js"></script>
   <script src="bower_components/angular-route/angular-route.min.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
@@ -125,104 +62,6 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
-
-  <script>
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-            document.getElementById("myBtn").style.display = "block";
-        } else {
-            document.getElementById("myBtn").style.display = "none";
-        }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-
-
-
-    var header = $('.header');
-    $(window).scroll(function(e){
-        if(header.offset().top !== 0){
-            if(!header.hasClass('shadow')){
-                header.addClass('shadow');
-            }
-        }else{
-            header.removeClass('shadow');
-        }
-    });
-
-
-// Open the Modal
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
-}
-
-// Close the Modal
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-
-
-
-//-----------------------Password Page-------------------------------
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1)
-history.go(-0);
-if (pass1.toLowerCase() == "letmein") {
-alert('You Got it Right!');
-window.open('#/view2');
-break;
-}
-testV+=1;
-var pass1 =
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3)
-history.go(-0);
-return " ";
-} 
-</script>
 
 
 </body>
