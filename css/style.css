@@ -71,11 +71,11 @@ header > div.header-wrapper > p.intro {
   margin: 0 0 30px 0;
 }
 
-header > div.header-wrapper > p.copyright {
+/*header > div.header-wrapper > p.copyright {
   bottom: 0;
   position: absolute;
   margin: 0 0 30px 0;
-}
+}*/
 
 header > div.header-wrapper > ol {
   margin: 0 0 30px 0;
@@ -100,4 +100,16 @@ p.project-description {
 
 hr {
   margin: 20px 0 20px 0;
+}
+
+/*----- Responsive design -----*/
+@media screen and (max-width: 800px) {
+  header {
+    width: 100%;
+    position: static;
+  }
+  main {
+    width: 91%;
+    margin: 20px;
+  }
 }
