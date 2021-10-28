@@ -50,5 +50,5 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view24', {templateUrl: 'partials/partial24.html', controller: 'MyCtrl23', css: 'css/main.css'});
   $routeProvider.when('/view25', {templateUrl: 'partials/partial25.html', controller: 'MyCtrl24', css: 'css/main.css'});
   $routeProvider.when('/view_add', {templateUrl: 'partials/partial_add.html', controller: 'MyCtrl_add', css: 'css/main.css'});
-  $routeProvider.otherwise({redirectTo: '/view2'});
+  $routeProvider.otherwise({redirectTo: '/view3'});
 }]);
