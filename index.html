@@ -13,6 +13,40 @@
         <!-- google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,300,400,500,600,700,900" rel="stylesheet">
+
+        <style>
+          .resume {
+            -webkit-animation: rotation 8s infinite linear;
+            -moz-animation: rotation 8s infinite linear;
+            -o-animation: rotation 8s infinite linear;
+            animation: rotation 8s infinite linear;
+            transform-origin: 50% 50%;
+            -webkit-transform-origin: 50% 50%;
+            -moz-transform-origin: 50% 50%;
+
+            position: absolute;
+            top: 120px;
+            left: 67%;
+            z-index: 100;
+          }
+
+          @-webkit-keyframes rotation {
+              from {-webkit-transform: rotate(0deg);}
+              to   {-webkit-transform: rotate(-359deg);}
+          }
+          @-moz-keyframes rotation {
+              from {-moz-transform: rotate(0deg);}
+              to   {-moz-transform: rotate(-359deg);}
+          }
+          @-o-keyframes rotation {
+              from {-o-transform: rotate(0deg);}
+              to   {-o-transform: rotate(-359deg);}
+          }
+          @keyframes rotation {
+              from {transform: rotate(0deg);}
+              to   {transform: rotate(-359deg);}
+          }
+        </style>
     </head>
 
 
@@ -27,6 +61,8 @@
           <h1 id="logo-type">Xiaofeng Lin</h1>
         </a>
         <p class="intro">Hi there, I&rsquo;m a New York based art director specializing in branding, interaction design, and illustration.</p>
+
+        <a href="./files/Resume_xiaofeng_2021.pdf" target="_blank"><img ng-src="img/resume.svg" class="resume" width="200" height="200"/></a>
 
         <p>Recent Projects</p>
         <ol>
