@@ -7,6 +7,13 @@
   font-style: normal;
 }*/
 
+/* Beatrice Light */
+@font-face {
+    font-family: 'Beatrice-Light';
+    font-weight: light;
+    font-style: normal;
+    src: url('/fonts/BeatriceWeb/Beatrice-Light.woff') format('woff');
+}
 /* Beatrice Normal */
 @font-face {
     font-family: 'Beatrice';
@@ -20,6 +27,13 @@
     font-weight: bold;
     font-style: normal;
     src: url('/fonts/BeatriceWeb/Beatrice-Bold.woff') format('woff');
+}
+/* Beatrice Bold */
+@font-face {
+    font-family: 'Beatrice-Extrabold';
+    font-weight: extrabold;
+    font-style: normal;
+    src: url('/fonts/BeatriceWeb/Beatrice-Extrabold.woff') format('woff');
 }
 
 body {
@@ -56,9 +70,10 @@ header {
 header > div.header-wrapper > a > h1#logo-type {
   margin: 0 0 30px 0;
   color: #000000;
-  font-family: "Beatrice-Bold", Helvetica, sans-serif;
+  font-family: "Beatrice-Extrabold", Helvetica, sans-serif;
   font-weight: normal;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
 }
 
 header > div.header-wrapper > p {
@@ -76,6 +91,14 @@ header > div.header-wrapper > p.intro {
   position: absolute;
   margin: 0 0 30px 0;
 }*/
+
+header > div.header-wrapper > p.secondary {
+  font-family: Beatrice-Bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  opacity: .3;
+}
 
 header > div.header-wrapper > ol {
   margin: 0 0 30px 0;
@@ -103,7 +126,7 @@ hr {
 }
 
 div > p > a.liveLink {
-  color: #000000;
+  color: #0041FF;
   font-size: 1.4rem;
   font-weight: bold;
   letter-spacing: 1;
