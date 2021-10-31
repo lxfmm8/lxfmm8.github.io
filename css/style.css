@@ -88,7 +88,7 @@ header > div.header-wrapper > ol > li > a {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.4;
   font-weight: bold;
 }
@@ -100,6 +100,13 @@ p.project-description {
 
 hr {
   margin: 20px 0 20px 0;
+}
+
+div > p > a.liveLink {
+  color: #000000;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1;
 }
 
 /*----- Responsive design -----*/
