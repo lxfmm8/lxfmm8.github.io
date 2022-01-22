@@ -12,28 +12,32 @@
     font-family: 'Beatrice-Light';
     font-weight: light;
     font-style: normal;
-    src: url('/fonts/BeatriceWeb/Beatrice-Light.woff') format('woff');
+    src: url('../fonts/BeatriceWeb/Beatrice-Light.woff2') format('woff2');
+    src: url('../fonts/BeatriceWeb/Beatrice-Light.woff') format('woff');
 }
 /* Beatrice Normal */
 @font-face {
     font-family: 'Beatrice';
     font-weight: normal;
     font-style: normal;
-    src: url('/fonts/BeatriceWeb/Beatrice-Regular.woff') format('woff');
+    src: url('../fonts/BeatriceWeb/Beatrice-Regular.woff2') format('woff2');
+    src: url('../fonts/BeatriceWeb/Beatrice-Regular.woff') format('woff');
 }
 /* Beatrice Bold */
 @font-face {
     font-family: 'Beatrice-Bold';
     font-weight: bold;
     font-style: normal;
-    src: url('/fonts/BeatriceWeb/Beatrice-Bold.woff') format('woff');
+    src: url('../fonts/BeatriceWeb/Beatrice-Bold.woff2') format('woff2');
+    src: url('../fonts/BeatriceWeb/Beatrice-Bold.woff') format('woff');
 }
 /* Beatrice Bold */
 @font-face {
     font-family: 'Beatrice-Extrabold';
     font-weight: extrabold;
     font-style: normal;
-    src: url('/fonts/BeatriceWeb/Beatrice-Extrabold.woff') format('woff');
+    src: url('../fonts/BeatriceWeb/Beatrice-Extrabold.woff2') format('woff2');
+    src: url('../fonts/BeatriceWeb/Beatrice-Extrabold.woff') format('woff');
 }
 
 body {
