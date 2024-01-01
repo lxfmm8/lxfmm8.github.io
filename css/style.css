@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*@font-face {
+  font-family: "Beatrice";
+  src: url("/fonts/BeatriceWeb/EksellDisplayWeb-Large.eot");
+  src: url("/fonts/BeatriceWeb/EksellDisplayWeb-Large.eot?#iefix") format("embedded-opentype"), url("/fonts/BeatriceWeb/EksellDisplayWeb-Large.woff") format("woff"), url("/fonts/BeatriceWeb/EksellDisplayWeb-Large.ttf") format("truetype"), url("/fonts/BeatriceWeb/EksellDisplayWeb-Large.svg#aller") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+/* Beatrice Light */
+@font-face {
+    font-family: 'Beatrice-Light';
+    font-weight: light;
+    font-style: normal;
+    src: url('../fonts/BeatriceWeb/Beatrice-Light.woff2') format('woff2');
+    src: url('../fonts/BeatriceWeb/Beatrice-Light.woff') format('woff');
+}
+/* Beatrice Normal */
+@font-face {
+    font-family: 'Beatrice';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/BeatriceWeb/Beatrice-Regular.woff2') format('woff2');
+    src: url('../fonts/BeatriceWeb/Beatrice-Regular.woff') format('woff');
+}
+/* Beatrice Bold */
+@font-face {
+    font-family: 'Beatrice-Bold';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/BeatriceWeb/Beatrice-Bold.woff2') format('woff2');
+    src: url('../fonts/BeatriceWeb/Beatrice-Bold.woff') format('woff');
+}
+/* Beatrice Bold */
+@font-face {
+    font-family: 'Beatrice-Extrabold';
+    font-weight: extrabold;
+    font-style: normal;
+    src: url('../fonts/BeatriceWeb/Beatrice-Extrabold.woff2') format('woff2');
+    src: url('../fonts/BeatriceWeb/Beatrice-Extrabold.woff') format('woff');
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: "Beatrice", Helvetica, sans-serif;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+main {
+  line-height: 22pt;
+  width: 65%;
+  margin-left: 35%;
+  font-size: 1.2em;
+}
+
+header {
+  z-index: 1000;
+  width: 35%;
+  height: 100%;
+  z-index: 1;
+  position: fixed;
+  padding: 30px;
+}
+
+/*----- Home Page CSS -----*/
+
+header > div.header-wrapper > a > h1#logo-type {
+  margin: 0 0 30px 0;
+  color: #000000;
+  font-family: "Beatrice-Extrabold", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+header > div.header-wrapper > p {
+  color: #000000;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+
+header > div.header-wrapper > p.intro {
+  margin: 0 0 30px 0;
+}
+
+/*header > div.header-wrapper > p.copyright {
+  bottom: 0;
+  position: absolute;
+  margin: 0 0 30px 0;
+}*/
+
+
+header > div.header-wrapper > p.secondary {
+  font-family: Beatrice-Bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  opacity: .3;
+}
+
+header > div.header-wrapper > ol {
+  margin: 0 0 30px 0;
+}
+
+header > div.header-wrapper > ol > li > a {
+  color: #000000;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+p.project-description {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+hr {
+  margin: 20px 0 20px 0;
+}
+
+div > p > a.liveLink {
+  color: #0041FF;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1;
+}
+
+/*div#video-padding {
+  padding: 0 50px 0 0;
+}*/
+
+/*----- Responsive design -----*/
+@media screen and (max-width: 800px) {
+  header {
+    width: 100%;
+    position: static;
+  }
+  main {
+    width: 91%;
+    margin: 20px;
+  }
+  div#video-padding{
+    padding: 0;
+  }
+}
